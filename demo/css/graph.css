@@ -1,0 +1,94 @@
+/* ---------------------------------------------------------------------
+   Beneficial-ownership graph section
+   --------------------------------------------------------------------- */
+.graph-section {
+  border-top: 1px solid var(--hairline);
+  padding-block: var(--space-xl) 0;
+}
+
+.graph-section__intro {
+  max-width: 42rem;
+  margin-bottom: var(--space-lg);
+}
+
+.graph-section__heading {
+  font-size: var(--step-h2);
+  line-height: 1.1;
+  margin-top: var(--space-sm);
+}
+
+.graph-section__lede {
+  font-size: var(--step-lede);
+  color: var(--text-muted);
+  margin-top: var(--space-sm);
+  max-width: 36rem;
+}
+
+.graph-pin__inner {
+  width: 100%;
+  padding-bottom: var(--space-xl);
+}
+
+.graph-stage {
+  background: radial-gradient(circle at 50% 38%, var(--plum-raised) 0%, var(--plum) 70%, var(--void) 100%);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+}
+
+.graph-stage svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.graph-noise-dot {
+  fill: var(--text-faint);
+  opacity: 0.5;
+}
+
+.graph-edge {
+  stroke: var(--hairline);
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.graph-edge--ubo {
+  stroke: var(--violet-dim);
+}
+
+.graph-node circle {
+  stroke-width: 2;
+  stroke: var(--void);
+}
+
+.graph-node--originator circle {
+  fill: var(--violet);
+}
+
+.graph-node--shell circle {
+  fill: var(--tier-high);
+  filter: drop-shadow(0 0 8px var(--tier-high-glow));
+}
+
+.graph-node--ubo circle {
+  fill: var(--platinum);
+  filter: drop-shadow(0 0 14px rgba(201, 168, 118, 0.45));
+}
+
+.graph-node__label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  fill: var(--text-muted);
+  letter-spacing: 0.01em;
+}
+
+.graph-caption {
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--hairline);
+  font-size: var(--step-lede);
+  color: var(--text);
+  max-width: 40rem;
+}
+
