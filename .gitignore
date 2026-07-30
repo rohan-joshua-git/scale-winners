@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+.eggs/
+
+# Secrets / credentials
+.env
+*.env
+!.env.example
+team_07.env
+team_07_credentials.json
+*credentials*.json
+*.pem
+*.key
+
+# Data exports / model artifacts
+/data/*.csv
+/data/synthetic_kyc_docs/*.txt
+/models/*.pkl
+/models/champion/*
+/models/challenger/*
+!/models/champion/.gitkeep
+!/models/challenger/.gitkeep
+*.faiss
+*.index
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
