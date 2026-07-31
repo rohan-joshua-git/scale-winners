@@ -46,7 +46,9 @@ def _project_root(start):
     repo root or in src/, so moving files does not silently break paths."""
     p = Path(start).resolve()
     for cand in [p.parent] + list(p.parents):
-        if (cand / 'data' / 'TEAM_07').is_dir() or (cand / 'team_07_credentials.json').is_file():
+        if ((cand / 'data' / 'TEAM_07').is_dir()
+                or (cand / 'data' / 'cache').is_dir()
+                or (cand / 'team_07_credentials.json').is_file()):
             return cand
     return p.parent
 
@@ -97,7 +99,19 @@ class ExposureRanker:
 
     # -- data -------------------------------------------------------------
     def _load(self, name):
-        df = pd.read_csv(self.csv_dir / (name + '.csv'), low_memory=False)
+        """CSV extract if present, else the parquet cache written by
+        pipeline/ingestion/hana_source.py. Same frames either way - the cache is
+        just what the HANA read path already persists, so the ranker works in a
+        checkout that has data/cache/ but not the data/TEAM_07/ CSV extract."""
+        csv = self.csv_dir / (name + '.csv')
+        if csv.exists():
+            df = pd.read_csv(csv, low_memory=False)
+        else:
+            pq = ROOT / 'data' / 'cache' / (name.lower() + '.parquet')
+            if not pq.exists():
+                raise FileNotFoundError(
+                    'no source for %s: looked for %s and %s' % (name, csv, pq))
+            df = pd.read_parquet(pq)
         for c in df.columns:
             if df[c].dtype == object:
                 u = set(df[c].dropna().astype(str).unique()[:5])

@@ -19,28 +19,44 @@ from pydantic import BaseModel, Field
 from pipeline.ingestion.hana_source import get_connection
 from pipeline.rag import store
 from pipeline.rag.retrieve import retrieve
+from pipeline.stats import api as stats_api
 
 _graph_cache: dict[str, nx.MultiDiGraph] = {}
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    conn = get_connection()
+    # Stage 4 needs HANA; stage 5a (pipeline.stats) does not - it reads the
+    # parquet cache. Failing the whole process because the tenant is unreachable
+    # would take the backlog analytics down with it, so the graph load is
+    # allowed to fail and /health reports graph_loaded=false.
     try:
-        _graph_cache["graph"] = store.load_networkx_graph(conn)
-    finally:
-        conn.close()
+        conn = get_connection()
+        try:
+            _graph_cache["graph"] = store.load_networkx_graph(conn)
+        finally:
+            conn.close()
+    except Exception as exc:            # noqa: BLE001 - reported, not swallowed
+        _graph_cache["error"] = "%s: %s" % (type(exc).__name__, exc)
+    try:
+        stats_api.get_engine()          # warm the ranked backlog
+    except Exception as exc:            # noqa: BLE001
+        _graph_cache["stats_error"] = "%s: %s" % (type(exc).__name__, exc)
     yield
     _graph_cache.clear()
 
 
 app = FastAPI(
-    title="TrustSphere GraphRAG Grounding Service",
-    description="Stage 4 of the explainability pipeline: given a risk driver, "
-                "return regulatory vector matches + connected graph context.",
-    version="1.0.0",
+    title="TrustSphere Explainability Service",
+    description="Stage 4 (GraphRAG grounding: why did this alert fire) and "
+                "stage 5a (backlog analytics: which alerts, how many, how bad) "
+                "behind one base URL, with /chat routing between them.",
+    version="1.1.0",
     lifespan=lifespan,
 )
+
+# Stage 5a: /chat, /stats/query, /stats/summary, /stats/fields
+app.include_router(stats_api.router, tags=["stage5a-backlog-analytics"])
 
 
 class GroundRequest(BaseModel):
@@ -90,8 +106,13 @@ class GroundResponse(BaseModel):
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok", "graph_loaded": "graph" in _graph_cache,
-            "graph_nodes": _graph_cache["graph"].number_of_nodes() if "graph" in _graph_cache else 0}
+    out = {"status": "ok", "graph_loaded": "graph" in _graph_cache,
+           "graph_nodes": _graph_cache["graph"].number_of_nodes() if "graph" in _graph_cache else 0}
+    if "error" in _graph_cache:
+        out["graph_error"] = _graph_cache["error"]
+    if "stats_error" in _graph_cache:
+        out["stats_error"] = _graph_cache["stats_error"]
+    return out
 
 
 @app.post("/ground-risk-driver", response_model=GroundResponse)
