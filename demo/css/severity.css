@@ -1,0 +1,119 @@
+/* ---------------------------------------------------------------------
+   Severity matrix (Phase 4e)
+   --------------------------------------------------------------------- */
+.severity-section {
+  border-top: 1px solid var(--hairline);
+  padding-block: var(--space-xl) 0;
+}
+
+.severity-section__intro {
+  max-width: 42rem;
+  margin-bottom: var(--space-lg);
+}
+
+.severity-section__heading {
+  font-size: var(--step-h2);
+  line-height: 1.1;
+  margin-top: var(--space-sm);
+}
+
+.severity-section__lede {
+  font-size: var(--step-lede);
+  color: var(--text-muted);
+  margin-top: var(--space-sm);
+  max-width: 40rem;
+}
+
+.severity-stage { padding-bottom: var(--space-xl); }
+
+.severity-matrix {
+  background: radial-gradient(circle at 50% 30%, var(--plum-raised) 0%, var(--plum) 70%, var(--void) 100%);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  overflow-x: auto;
+}
+
+.severity-matrix__grid {
+  display: grid;
+  grid-template-columns: minmax(7rem, 9rem) repeat(3, minmax(6rem, 1fr));
+  gap: 0.5rem;
+  min-width: 32rem;
+}
+
+.severity-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 0.75rem;
+  min-height: 4.5rem;
+}
+
+.severity-cell--corner { background: transparent; }
+
+.severity-cell--col-head,
+.severity-cell--row-head {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: transparent;
+  letter-spacing: 0.02em;
+}
+
+.severity-cell--row-head {
+  justify-content: flex-end;
+  text-align: right;
+  padding-inline-end: var(--space-sm);
+}
+
+.severity-cell[data-cell] {
+  border: 1px solid var(--hairline);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.severity-cell.tier-low {
+  background: var(--tier-low-glow);
+  color: var(--tier-low);
+  border-color: color-mix(in srgb, var(--tier-low) 40%, var(--hairline));
+}
+.severity-cell.tier-medium {
+  background: var(--tier-medium-glow);
+  color: var(--tier-medium);
+  border-color: color-mix(in srgb, var(--tier-medium) 40%, var(--hairline));
+}
+.severity-cell.tier-high {
+  background: var(--tier-high-glow);
+  color: var(--tier-high);
+  border-color: color-mix(in srgb, var(--tier-high) 40%, var(--hairline));
+}
+.severity-cell.tier-critical {
+  background: var(--tier-critical-glow);
+  color: var(--tier-critical);
+  border-color: color-mix(in srgb, var(--tier-critical) 45%, var(--hairline));
+}
+
+.severity-cell[data-severity-highlight].is-final {
+  box-shadow: 0 0 0 2px var(--tier-critical), 0 0 28px -4px var(--tier-critical-glow);
+}
+
+.severity-caption {
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--hairline);
+  font-size: var(--step-lede);
+  color: var(--text);
+  max-width: 42rem;
+}
+
+.severity-caption strong { color: var(--tier-critical); }
+
+@media (max-width: 640px) {
+  .severity-cell--row-head { font-size: 0.72rem; padding-inline-end: 0.5rem; }
+}

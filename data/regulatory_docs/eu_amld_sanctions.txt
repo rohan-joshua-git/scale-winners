@@ -1,0 +1,401 @@
+EU Consolidated Sanctions List + AMLD5/AMLD6 Key Provisions
+Sources: https://financialregulations.eu/blog/eu-aml-package-amla-amlr-guide ; https://finance.ec.europa.eu/financial-crime/anti-money-laundering-and-countering-financing-terrorism-eu-level_en
+
+
+========== EU AML Package guide (AMLD6/AMLR/AMLA) ==========
+
+- - - - - EU AML Package Guide 2026: AMLR Applies 10 July 2027, AMLA Live, 25%-or-More UBO Threshold (AMLD6) | financialregulations.eu- - -
+FinancialRegulations.euLog inStart Free
+Cross-Regulation
+Guide
+EU AML Package Guide 2026: AMLR Applies 10 July 2027, AMLA Live, 25%-or-More UBO Threshold (AMLD6)
+23 March 2026·17 min read
+FR
+FinancialRegulations.EU Team
+Regulatory Intelligence
+AML
+AMLA
+compliance
+crypto-assets
+financial-services
+The EU's Anti-Money Laundering (AML) landscape is undergoing its most significant transformation in two decades. Three interlocking instruments — the Anti-Money Laundering Authority (AMLA), the Anti-Money Laundering Regulation (AMLR, Regulation (EU) 2024/1624), and the Sixth Anti-Money Laundering Directive (AMLD6, Directive (EU) 2024/1640) — together replace the patchwork of five previous directives with a single harmonised EU-wide rulebook and a central supervisory authority.
+AMLA became operational on 1 July 2025. The AMLR and AMLD6 fully apply from 10 July 2027. Between now and 2027, AMLA must publish 23 Level 2 and Level 3 measures — regulatory technical standards, implementing technical standards, and guidelines — most of them due by 10 July 2026. That makes 2026 the year compliance teams must act, not wait.
+Try asking this question on Financial Regulations EU
+Ask now — free →
+The Three Pillars of the EU AML Package
+1. AMLA — The New Central AML Supervisor
+The Authority for Anti-Money Laundering and Countering the Financing of Terrorism (AMLA) is headquartered in Frankfurt, Germany. Its mandate has two parts: direct supervision of the highest-risk obliged entities and coordination of national Financial Intelligence Units (FIUs) and competent authorities across the EU.
+Direct supervision: AMLA will directly supervise up to 40 selected obliged entities — primarily credit institutions and financial institutions with cross-border operations and the highest money laundering risk profiles. Selection criteria (to be published via regulatory technical standards) will focus on the number of member states in which an entity operates, transaction volumes, and assessed ML/TF risk. Direct supervision starts once AMLA assumes full operational supervisory powers.
+Coordination role: For all other obliged entities, AMLA coordinates national supervisors, sets binding standards through regulatory and implementing technical standards, conducts peer reviews of national supervisors, and builds the single EU AML/CFT supervisory culture.
+FIU coordination: AMLA will also coordinate Financial Intelligence Units across member states through a joint analysis mechanism, enabling cross-border suspicious transaction pattern detection that was previously fragmented across 27 national databases.
+Enforcement powers: AMLA can impose administrative sanctions of up to €10 million or 10% of annual group turnover, whichever is higher, for the most serious violations.
+2. AMLR — The Single AML Rulebook
+The AMLR (Regulation (EU) 2024/1624) creates directly applicable, uniform AML/CFT rules across all EU member states. Unlike previous directives, the AMLR does not require transposition — it applies automatically and identically in all 27 member states from 10 July 2027.
+The AMLR's primary goal is to eliminate the regulatory arbitrage that allowed obliged entities to "forum shop" for jurisdictions with lighter AML enforcement. The same Customer Due Diligence (CDD) rules, the same beneficial ownership thresholds, and the same suspicious transaction reporting requirements will apply from Frankfurt to Valletta.
+3. AMLD6 — The National Framework Directive
+The Sixth AML Directive (Directive (EU) 2024/1640) sits alongside the AMLR. Where the AMLR sets the substantive obligations for obliged entities, AMLD6 defines the institutional, supervisory, and enforcement frameworks at national level — the powers of national competent authorities, the structure of national FIUs, and cross-border supervisory cooperation. Member states must transpose AMLD6 by 10 July 2027.
+What Changes for Financial Institutions
+Expanded Scope: New Obliged Entities
+The AMLR significantly broadens the list of obliged entities compared to AMLD4 and AMLD5. New additions include:
+- Crypto-asset service providers (CASPs) — all CASPs authorised under MiCAR are now fully within AML scope. This closes the gap where some crypto businesses operated under national exemptions.
+- Crowdfunding platforms and intermediaries — platforms authorised under the EU Crowdfunding Regulation (Regulation (EU) 2020/1503)
+- Consumer credit providers that are not credit institutions
+- Mortgage credit intermediaries and creditors not regulated as banks
+- Professional football clubs and their agents — covering transfers involving significant funds
+- Traders of high-value goods — including luxury goods, precious metals, gemstones, and works of art where payments exceed €10,000
+For financial institutions already subject to AMLD4/5, the AMLR expands and harmonises existing obligations rather than creating entirely new ones.
+Customer Due Diligence: Uniform Standards
+The AMLR sets out uniform CDD requirements that replace the patchwork of national implementations. Key changes:
+Standard CDD elements (Articles 20-24):
+- Identity verification using reliable, independent sources
+- Verification of legal entity status, ownership structure, and representative authority
+- Understanding of the business relationship's purpose and nature
+- Ongoing monitoring calibrated to ML/TF risk profile
+Simplified CDD is available for lower-risk relationships (as identified in risk assessments) but cannot be applied in higher-risk third countries or where specific risk factors are present. The list of factors triggering enhanced CDD is harmonised.
+Enhanced CDD (Articles 29-34) is mandatory for:
+- Business relationships and transactions with natural or legal persons from high-risk third countries (as listed by the European Commission)
+- Politically Exposed Persons (PEPs) — the definition is harmonised EU-wide, ending member-state divergence on who counts as a PEP
+- Correspondent banking relationships — specific additional requirements apply
+- Complex, unusual, or large transactions with no apparent economic purpose
+Beneficial Ownership: The 25% Threshold Change
+The most operationally significant change for compliance teams is the beneficial ownership (UBO) threshold.
+Under AMLD4 and AMLD5, the threshold was "more than 25%" of shares, voting rights, or other ownership interests. The AMLR changes this to "25% or more" (Articles 62-63). This is not a drafting nuance — it means that an individual holding exactly 25% of a company's shares must now be identified and verified as a UBO, whereas under current rules they would not be.
+Additionally, the European Commission can lower the threshold to 15% or even lower for specific corporate structures or sectors deemed high-risk for money laundering. This discretion is not yet exercised, but compliance systems must be designed to accommodate it.
+For legal entities: The AMLR requires identification of all natural persons who hold or control, directly or indirectly, 25% or more of shares, voting rights, or other ownership interests. Where no natural person meets the threshold, the senior managing official is the UBO of last resort.
+For trusts and similar structures: All parties must be identified — settlor, trustee(s), protector (if any), beneficiaries, and any natural person exercising ultimate effective control. Trust structures in the EU face significantly enhanced transparency obligations.
+Transaction Monitoring and Suspicious Transaction Reporting
+The AMLR harmonises the obligation to report suspicious transactions to national FIUs. Key requirements:
+- Obliged entities must report any transaction where they know, suspect, or have reasonable grounds to suspect money laundering or terrorist financing
+- Reports must be made promptly — before executing the transaction where feasible
+- A harmonised reporting format will be set by AMLA's implementing technical standards
+- A "tipping off" prohibition prevents entities from disclosing to the customer that a report has been or is being filed
+Record-Keeping
+Standard record retention is five years from the end of the business relationship or the date of the transaction. AMLA may issue guidelines on what records must be maintained and in what format, establishing minimum data standards for the first time.
+Group-Wide AML Policies
+For financial groups, the AMLR requires parent undertakings to implement group-wide AML/CFT policies and procedures. Group-level requirements include:
+- A consolidated group risk assessment
+- Group-wide internal policies, controls, and procedures
+- Information sharing within the group for AML/CFT purposes, even across borders
+- Ensuring branches and majority-owned subsidiaries in third countries apply AML measures at least equivalent to EU standards
+AMLA's 23 Level 2/3 Mandates: What's Due in 2026
+AMLA is tasked with preparing regulatory technical standards (RTS), implementing technical standards (ITS), and guidelines across 23 mandates. Most are due by 10 July 2026 — the deadline that makes 2026 the action year, not 2027.
+The 23 mandates fall into three clusters:
+Cluster 1: Supervisory processes (10 mandates)
+- Standards on AML/CFT supervisory reviews and evaluations
+- Peer review methodology for national supervisors
+- Standards for the AML/CFT database maintained by AMLA
+- Selection criteria for AMLA's direct supervision (which entities fall under AMLA vs. national supervisors)
+- Standards for colleges of supervisors for cross-border groups
+Cluster 2: Risk and mitigating measures for obliged entities (8 mandates)
+- Guidelines on risk factors for CDD — what triggers enhanced vs. simplified CDD
+- Standards on internal controls, governance, and compliance function requirements
+- Standards on ongoing monitoring systems
+- Guidelines on how to identify UBOs in complex ownership structures
+- Sector-specific guidelines for crypto-asset service providers, crowdfunding platforms, and other new obliged entities
+Cluster 3: FIU processes (5 mandates)
+- Common reporting format for suspicious transaction reports
+- Standards for FIU information exchange
+- Guidelines on joint analysis mechanisms between FIUs
+The publication timeline for these standards means that many substantive CDD and reporting requirements will not be finalised until mid-2026. Obliged entities should monitor AMLA's consultation publications throughout 2026 and be prepared to update policies and procedures before the 2027 application date.
+Key Timelines
+DateEvent
+16 June 2024AML package published in Official Journal (AMLR + AMLD6)
+1 July 2025AMLA operational (Frankfurt)
+10 July 2026AMLA must publish most Level 2/3 technical standards
+10 July 2027AMLR fully applies; AMLD6 transposition deadline
+2027–2029AMLA beneficial ownership and account registers operational
+How the AML Package Intersects with Other EU Regulations
+MiCAR and AML
+For crypto-asset service providers, the AML package and MiCAR create parallel but complementary obligations. MiCAR authorisation is a prerequisite — only MiCAR-authorised CASPs can operate in the EU. The AMLR then imposes full AML/CFT obligations on those CASPs, including CDD, UBO identification, transaction monitoring, and suspicious transaction reporting. There is no AML carve-out for crypto.
+The CASP transitional period under MiCAR expires 1 July 2026. CASPs that are not authorised by that date are operating illegally. CASPs should therefore complete MiCAR authorisation before they face the full weight of AMLR obligations in 2027.
+DORA and AML
+DORA and the AML package are operationally connected. Transaction monitoring systems, suspicious transaction report (STR) filing systems, and customer screening tools all qualify as critical ICT systems under DORA. These systems must meet DORA's ICT risk management, incident reporting, and third-party risk requirements. A cyberattack that compromises your transaction monitoring system triggers both DORA incident reporting obligations and potentially AML/CFT concerns if the attack impairs suspicious transaction detection.
+SFDR and AML
+Asset managers subject to SFDR must also comply with AML obligations. The AMLR's group-wide policy requirements extend to AIFMD-authorised fund managers when they are part of a financial group. Investor onboarding processes must satisfy both SFDR product disclosure requirements and AMLR CDD requirements — particularly for natural persons investing in Article 8 or Article 9 funds.
+Practical Compliance Checklist for 2026–2027
+Immediate (Q1–Q2 2026)
+-  Scope assessment: Confirm whether your entity type falls within the AMLR's expanded list of obliged entities (particularly for CASPs, crowdfunding platforms, consumer lenders)
+-  UBO threshold gap analysis: Identify any beneficial owners who hold exactly 25% — update identification and verification procedures to capture them under the new threshold
+-  Monitor AMLA consultations: Register for AMLA consultation notifications; the 2026 RTS/ITS publications will set binding standards you must implement before July 2027
+-  Systems review: Assess whether your transaction monitoring and STR reporting systems can accommodate harmonised reporting formats once AMLA ITS are published
+Before 10 July 2026 (when AMLA standards publish)
+-  Review AMLA's CDD risk factor guidelines (Cluster 2 standards) and update your risk-based CDD procedures
+-  Update internal AML policies to align with AMLA's internal controls standards
+-  Assess group-wide implications: If you are part of a financial group, confirm parent-level group-wide AML policies are being prepared
+Before 10 July 2027 (AMLR application date)
+-  Complete full AMLR gap analysis against published technical standards
+-  Update customer onboarding procedures — CDD, UBO identification, enhanced CDD triggers
+-  Update transaction monitoring rules to new harmonised standards
+-  Implement harmonised STR reporting format per AMLA implementing technical standards
+-  Staff training on the new rulebook, particularly for new entity types newly brought into scope
+-  Third-country equivalence review: Identify business relationships with entities in third countries and assess against the updated high-risk third country list
+Frequently Asked Questions
+Does the AMLR apply immediately or only from 2027?
+The AMLR as a whole applies from 10 July 2027. However, obliged entities must monitor AMLA's technical standards publications throughout 2026, as these will define many of the detailed obligations (CDD procedures, reporting formats, risk factor guidelines) that entities will need to have implemented by the 2027 date. Waiting until 2027 to start the compliance programme is too late.
+What is the difference between AMLA direct supervision and national supervisor oversight?
+AMLA will directly supervise up to 40 selected obliged entities — those with the highest cross-border risk profiles. All other obliged entities remain supervised by their national competent authority, with AMLA providing coordination, binding standards, and peer review oversight. AMLA selection criteria will be published in regulatory technical standards; most financial institutions will remain under national supervision.
+How does the AMLR interact with existing national AML laws?
+The AMLR is directly applicable EU law — it overrides any inconsistent national provisions on the matters it covers. National laws remain relevant for matters not covered by the AMLR (e.g., the structure of national FIUs, supervisory powers, and penalties, which are addressed by AMLD6 requiring national transposition). Compliance teams will need to track both the AMLR directly and their home-state transposition of AMLD6.
+Need to check your AML compliance?
+Try free analysis →
+FR
+FinancialRegulations.EU Team
+Regulatory Intelligence
+Expert analysis of EU financial regulation — covering MiCAR, DORA, AIFMD, SFDR, and 15+ regulatory frameworks across 7 jurisdictions.
+Query AML obligations instantly
+AI-powered analysis of EU financial regulations. No credit card required.
+Start Free →
+Get EU regulatory insights in your inbox
+Weekly updates on MiCAR, DORA, SFDR and more. Unsubscribe anytime.
+Subscribe
+I agree to receive regulatory update emails. You can unsubscribe at any time. Privacy Policy.
+Related Resources
+Key Terms
+AI ActAMLAAI Act Risk ClassificationCASP
+Jurisdictions
+EUEuropean UnionNLNetherlandsDEGermanyLULuxembourgFRFranceBEBelgiumGBUnited Kingdom
+Related Articles
+AMLA Level 2 Package: 23 RTS, ITS and Guidelines Due July 10, 2026
+AMLA must submit 23 regulatory technical standards, implementing technical standards and guidelines to the European Commission by 10 July 2026. This guide covers the full package — CDD RTS, STR format standards, risk-factor guidelines, and AMLA direct supervision criteria — and what compliance teams must do before they apply in July 2027.
+17 April 2026
+The MiCAR Compliance Stack: Tools and Processes Every EU CASP Needs in 2026
+Getting a MiCAR CASP licence is one milestone. Running a compliant operation is another. This guide maps the six ongoing compliance workstreams — regulatory intelligence, AML/KYC, Travel Rule (TFR), governance and record-keeping, capital monitoring, and marketing communications — and the tool categories required for each. Includes the ESMA order book JSON schema, Travel Rule protocol comparison, and the July 2026 deadline timeline.
+12 April 2026
+MiCAR Marketing Communications Rules 2026 — CASP Compliance Under Articles 66–68 (1 July Deadline)
+MiCAR Articles 66–68 require all CASP marketing to be fair, clear, and not misleading — with mandatory risk warnings. Authorisation deadline: 1 July 2026. Covers NCA notification obligations under Article 68, common violations, and a pre-deadline audit checklist for crypto-asset service providers.
+23 March 2026
+
+========== European Commission -- AML/CFT at EU level ==========
+
+Anti-money laundering and countering the financing of terrorism at EU level - Finance
+Skip to main content
+enSelect your language
+Close
+- bgбългарски
+- esespañol
+- csčeština
+- dadansk
+- deDeutsch
+- eteesti
+- elελληνικά
+- enEnglish
+- frfrançais
+- gaGaeilge
+- hrhrvatski
+- ititaliano
+- lvlatviešu
+- ltlietuvių
+- humagyar
+- mtMalti
+- nlNederlands
+- plpolski
+- ptportuguês
+- roromână
+- skslovenčina
+- slslovenščina
+- fisuomi
+- svsvenska
+Search
+Finance
+Anti-money laundering and countering the financing of terrorism at EU level
+Fighting money laundering and terrorist financing contributes to global security, integrity of the financial system, financial stability and sustainable growth.
+What the EU is doing and why
+It is essential that gatekeepers (banks and other obliged entities) apply measures to prevent money laundering and terrorist financing. Traceability of financial information has an important deterrent effect.
+The European Commission carries out risk assessments in order to identify and respond to risks affecting the EU internal market.The European Union adopted robust legislation to fight against money laundering and terrorist financing (AML). The first anti-money laundering Directive was adopted in 1990 in order to prevent the misuse of the financial system for the purpose of money laundering. It provides that obliged entities shall apply customer due diligence requirements when entering into a business relationship (i.e. identify and verify the identity of clients, monitor transactions and report suspicious transactions).
+The EU laws have been constantly revised in order to mitigate new risks relating to money laundering and terrorist financing.
+The legislative framework not only covers a range of areas posing such risks, including virtual assets and crowdfunding, but also complements other regulations such as Markets in Crypto-Assets Regulation (MiCA).
+The new Regulation on the Traceability of Transfers of Funds (TFR) ensures the traceability of crypto-assets transfers and the authentication of users, aligning with FATF standards. It will apply as of December 2024.
+The Commission ensures effective application of this legislation by reviewing transposition of EU law and cooperating with competent authorities.
+Enhancing access to financial information by law enforcement            Terrorists and criminals have demonstrated their ability to transfer funds quickly between different banks, often in different countries, but lack of timely access to financial information means that many investigations come to a dead end. There is therefore a clear need to enhance cooperation between authorities responsible for combating terrorism and serious crime when financial information is a key part of an investigation.
+Directive (EU) 2019/1153 enhances the use of financial information by giving law-enforcement authorities direct access to information about the identity of bank-account holders contained in national centralised registries. In addition, it gives law enforcement the possibility to access certain information from national Financial Intelligence Units (FIUs) – including data on financial transactions – and also improves the information exchange between FIUs as well as their access to law enforcement information necessary for the performance of their tasks. These measures will speed up criminal investigations and enable authorities to combat cross-border crime more effectively.
+Risk assessment            The Commission publishes every other year a supranational risk assessment report. It assesses the vulnerability of financial products and services to risks of money laundering and terrorist financing. This risk analysis is conceived as a key tool to identify, analyse and address money laundering and terrorist financing risks in the EU. It aims at providing a comprehensive mapping of risks on all relevant areas, as well as recommendations to Member States, European Supervisory Authorities and obliged entities to mitigate these risks. This risk analysis support Member States and obliged entities when carrying out their respective risk assessments.
+Supervision and regulatory technical standards            The Commission’s services work closely with the European Supervisory Authorities in the implementation of the AML/CFT rules. The joint committee of the European Supervisory Authorities on AML/CFT issues guidelines and opinions to help national competent authorities to understand the regulatory expectations.
+As part of its legal obligation stemming from the 4th Anti-Money Laundering Directive the Commission adopted Delegated Regulations in relation to the following regulatory technical standards that have been developed by the European Supervisory Authorities (ESAs)
+- Regulatory technical standards for the minimum action and the type of additional measures credit and financial institutions must take to mitigate money laundering and terrorist financing risk in certain third countries
+- Regulatory technical standards on the criteria for the appointment of central contact points for electronic money issuers and payment service providers and with rules on their functions
+The new Regulation on the Authority for Anti‑Money Laundering and Countering the Financing of Terrorism (AMLA) will create a new EU authority (AMLA). It will transform AML/CFT supervision in the EU and support the cooperation among financial intelligence units (FIUs). Furthermore, it will be the central authority coordinating national authorities to ensure the private sector correctly and consistently applies EU rules.
+Authority for Anti‑Money Laundering and Countering the Financing of Terrorism (AMLA)            The new Regulation on the Authority for Anti‑Money Laundering and Countering the Financing of Terrorism (AMLA) will create a new EU authority. It will establish a new coordination mechanism for AML/CFT supervision in the EU and support cooperation amongst financial intelligence units (FIUs).
+More information on the AMLA
+EU-wide cooperation            - An Expert Group on Money Laundering and Terrorist Financing meets regularly to share views and help the Commission define policy and draft new legislation
+- A Committee on the Prevention of Money Laundering and Terrorist Financing may also be convened to give its opinion on implementing measures put forward by the Commission
+- The European Commission also organises meetings of an Expert group (the EU FIU's Platform) that brings Financial Intelligence Units together in order to facilitate cooperation among national FIUs and to provide advice and expertise to the Commission
+- The European Commission organises meetings of an Expert Group on eID and remote Know-Your-Customer (KYC) processes that brings public and private experts together to explore issues relating to electronic identification and remote KYC processes to provide advice and expertise to the Commission
+AML explained
+EU Finance Podcast
+Season 3, episode 1 - The one about Jobs at the Anti-money laundering agency
+EU Finance Podcast
+Season 2, episode 5 - The one about AMLA
+Stronger EU AML rules
+Factsheet on fighting financial crime
+Anti-money laundering
+Finance news hub article
+Fighting financial crime?
+YouTube video
+Policy making timeline
+19 June 2024
+Legislation - Anti-money laundering and countering the financing of terrorism in the EU
+Publication in the Official Journal of the the anti-money laundering and countering the financing of terrorism (AML/CFT) rules package including the AMLA Regulation.
+30 May 2024
+Legislation - Anti-money laundering and countering the financing of terrorism in the EU
+Adoption by the Council of the anti-money laundering and countering the financing of terrorism (AML/CFT) rules package including the AMLA Regulation.
+24 April 2024
+European Parliament plenary votes on the reports on Anti-money laundering and countering the financing of terrorism legislative package
+Latest update on the legislative package on Anti-money laundering and countering the financing of terrorism.
+22 March 2024
+Report - AMLD IV
+Publication of a report from the Commission to the European Parliament and the Council on the implementation of the 4th Anti-Money Laundering Directive
+- Text of the report
+- Staff working document accompanying the report
+- Study by the Council of Europe on the assessment of the concrete implementation and effective application of the 4th Anti-Money Laundering Directive in the European Union
+22 February 2024
+Seat selection procedure - AMLA
+Political agreement between the European Parliament and the Council on the location of the seat of AMLA in Frankfurt.
+Read the remarks by Commissioner McGuinness at the press conference on the selection of the AMLA seat.
+18 January 2024
+Legislation - Financial crime
+Political agreement between the European Parliament and the Council on Commission's package of legislative proposals to strengthen the EU’s anti-money laundering and countering the financing of terrorism (AML/CFT) rules.
+10 January 2024
+Seat selection procedure - AMLA
+Commission submitted its assessments of the applications to host AMLA.
+18 December 2023
+Call for application - AMLA
+Political agreement reached by co-legislators on the procedure to select the seat for AMLA.
+13 December 2023
+Legislation - AMLA
+Political agreement between the European Parliament and the Council on Commission's proposal to establish an EU Authority for Anti‑Money Laundering and Countering the Financing of Terrorism (AMLA).
+10 November 2023
+Call for application - AMLA
+The call for applications to Member States came to an end, with applications for the selection of the seat of AMLA received from 9 countries.
+28 September 2023
+Call for application - AMLA
+At the request of the co-legislators, which have agreed on the selection criteria, the Commission has launched a call for applications to Member States for the selection of the seat of AMLA.Deadline: 10 November 2023
+9 June 2023
+Legislation - Transfer of Funds Regulation
+Publication in the Official Journal of the Transfer of Funds Regulation (TFR).
+27 October 2022
+Staff working document - Public-private partnerships
+Commission staff working document on the use of public-private partnerships in the framework of preventing and fighting money laundering and terrorist financing.
+29 June 2022
+Legislation - Transfer of Funds Regulation
+Political agreement reached by co-legislators on Commission's proposal to amend the Transfer of Funds Regulation (TFR).
+The agreement provides for an obligation for all crypto service providers involved in crypto transfers to collect data on the originators and beneficiaries of the crypto-assets transfers they operate, and make them available to the competent authorities in charge of the fight against money laundering and terrorism financing.
+22 February 2022
+Manuals - Financial crime
+The European Commission presented a trainers’ manual and its corresponding user’s manual for those who train lawyers on anti-money laundering (AML) and counter terrorist financing (CTF) rules at EU level.
+20 July 2021
+Legislative proposal - Financial crime
+The European Commission presented an ambitious package of legislative proposals to strengthen the EU’s anti-money laundering and countering the financing of terrorism (AML/CFT) rules. The package harmonises AML/CFT rules across the EU. It also proposes the creation of a new EU authority to fight money laundering (AMLA).
+16 September 2020
+Report - Trusts and similar legal arrangements
+The European Commission adopted a report assessing whether Member States have duly identified and made subject to the obligations of Directive (EU) 2015/849 all trusts and similar legal arrangements governed under their laws. Directive (EU) 2015/849 (the 5th anti-money laundering Directive) indeed extended to trusts and similar legal arrangements the transparency rules and obligations applicable to legal entities, requiring Member States to identify and notify trusts or trust-like arrangements governed under their legal framework.
+7 May 2020
+Action plan - Financial crime
+The European Commission adopted an action plan for a comprehensive Union policy on preventing money laundering and the financing of terrorism built on six pillars. To gather the views of citizens and stakeholder on these measures, the Commission launched a public consultation in parallel to the adoption of this action plan.
+24 July 2019
+Communication - Financial crime
+The European Commission adopted a Communication entitled ‘Towards better implementation of the EU's anti-money laundering and countering the financing of terrorism framework’ accompanied by 4 reports.
+8 November 2018
+Opinion - Malta
+Commission opinion of 8 November 2018 addressed to the Financial Intelligence Analysis Unit of Malta, based on Article 17(4) of Regulation (EU) No 1093/2010, on the action necessary to comply with Union law.
+12 September 2018
+Communication - Anti-money laundering supervision
+Communication on strengthening the Union framework for prudential and anti-money laundering supervision, including targeted changes to the three Regulations establishing the Supervisory Authorities.
+9 July 2018
+Legislation - AMLD V
+Entry into force of  the 5th Anti-Money Laundering Directive (Directive (EU) 2018/843), which amends the 4th Anti-Money Laundering Directive.
+These amendments introduced substantial improvement to better equip the Union to prevent the financial system from being used for money laundering and for funding terrorist activities.
+These amendments were introduced to
+- enhance transparency by setting up publicly available registers for companies, trusts and other legal arrangements
+- enhance the powers of EU Financial Intelligence Units, and provide them with access to broad information for the carrying out of their tasks
+- limit the anonymity related to virtual currencies and wallet providers, but also for pre-paid cards
+- broaden the criteria for the assessment of high-risk third countries and improve the safeguards for financial transactions to and from such countries
+- set up central bank account registries or retrieval systems in all Member States
+- improve the cooperation and enhance of information between anti-money laundering supervisors between them and between them and prudential supervisors and the European Central Bank
+See also the Factsheet on the main changes of the 5th anti-money laundering Directive
+26 June 2017
+Guidelines - ESAs
+Publication of the final guidelines on anti-money laundering and countering the financing of terrorism by the Joint Committee of the three European Supervisory Authorities (EBA, EIOPA and ESMA - ESAs).
+25 June 2015
+Legislation - AMLD IV
+Entry into force of  the 4th Anti-Money Laundering Directive (Directive (EU) 2015/849).
+- Show 21 more items
+2012
+Recommendations - FATF
+Recommendations of the Financial Action Task Force (FATF).
+Relevant legislation
+Anti-Money Laundering and Terrorist Financing Directive VI (AMLD VI) - 2024/1640/EU            Basic information
+- Text of the AMLD VI (2024/1640/EU)
+- Summary of the legislation: Preventing abuse of the financial system for money laundering and terrorism purposes (from 2027) – Member States’ mechanisms
+Transposition by EU Member States
+- Transposition status of the AMLD VI by EU Member States
+- Transposition history of the AMLD VI by EU Member States
+Legislative history
+- Original legislative proposal for the AMLD VI
+- Impact assessment accompanying the legislative proposal for the AMLD VI
+- Executive summary of the impact assessment accompanying the legislative proposal for the AMLD VI
+- AML legislative package
+- History of the legislative initiative on new national mechanisms for preventing money laundering and counter-terrorist financing
+Anti-Money Laundering and Terrorist Financing Regulation (AMLR) - 2024/1624/EU            Basic information
+- Text of the AMLR (2024/1624/EU)
+- Summary of the legislation: Preventing abuse of the financial system for money laundering and terrorism purposes (from 2027)
+Legislative history
+- Original legislative proposal for the AMLR
+- Impact assessment accompanying the legislative proposal for the AMLR
+- Executive summary of the impact assessment accompanying the legislative proposal for the AMLR
+- AML legislative package
+- History of the legislative initiative on new rules for the private sector for preventing money laundering and counter-terrorist financing
+Regulation establishing the Authority for Anti-Money Laundering and Countering the Financing of Terrorism (AMLA Regulation) - 2024/1620/EU            Basic information
+- Text of the AMLA Regulation (2024/1620/EU)
+- Summary of the legislation: Authority for Anti-Money Laundering and Countering the Financing of Terrorism
+Legislative history
+- Original legislative proposal for the AMLA Regulation
+- Impact assessment accompanying the legislative proposal for the AMLA Regulation
+- Executive summary of the impact assessment accompanying the legislative proposal for the AMLA Regulation
+- AML legislative package
+- History of the legislative initiative on a new EU authority for preventing money laundering and counter-terrorist financing
+Anti-Money Laundering and Terrorist Financing Directive V (AMLD V) - 2018/843/EU            Basic information
+- Text of the AMLD V (2018/843/EU)
+Transposition by EU Member States
+- Transposition status of the AMLD V by EU Member States
+- Transposition history of the AMLD V by EU Member States
+Legislative history
+- Original legislative proposal for the AMLD V
+- Impact assessment accompanying the legislative proposal for the AMLD V
+- Executive summary of the impact assessment accompanying the legislative proposal for the AMLD V
+Anti-Money Laundering and Terrorist Financing Directive IV (AMLD IV) - 2015/849/EU            Basic information
+- Text of the AMLD IV (2015/849/EU)
+- Summary of the legislation: Preventing abuse of the financial system for money laundering and terrorism purposes
+Delegated and implementing acts
+- Delegated and implementing acts to the AMLD IV
+Transposition by EU Member States
+- The AMLD IV was transposed by all EU Member states into their national law.
+- Transposition history of the AMLD IV by EU Member States
+Monitoring and enforcement
+- List of competent authorities under Article 48(1a) of the AMLD IV
+Ongoing revision
+- Ongoing revision of the AMLD IV
+- Legislative initiative on the review of AMLD IV
+Legislative history
+- Original legislative proposal for the AMLD IV
+- Impact assessment accompanying the legislative proposal for the AMLD IV
+- Executive summary of the impact assessment accompanying the legislative proposal for the AMLD IV
+Transfer of Funds Regulation (TFR) - 2023/1113/EU            Basic information
+- Text of the TFR (2023/1113/EU)
+- Summary of the legislation: Information accompanying transfers of funds and certain crypto assets
+Legislative history
+- Original legislative proposal for the TFR
+- Impact assessment accompanying the legislative proposal for the TFR
+- Executive summary of the impact assessment accompanying the legislative proposal for the TFR
+- History of the legislative initiative on preventing money laundering and terrorist financing – traceability of crypto-asset transfers
+Use of Financial Information Directive - 2019/1153/EU            Basic information
+- Text of the Use of Financial Information Directive (2019/1153/EU)
+- Summary of the legislation: Using financial information for preventing, detecting, investigating and prosecuting criminal offences
+Transposition by EU Member States
+- Transposition history of the Use of Financial Information Directive by EU Member States
+Legislative history
+- Original legislative proposal for the Use of Financial Information Directive
+- Impact assessment accompanying the legislative proposal for the Use of Financial Information Directive
+- Executive summary of the impact assessment accompanying the legislative proposal for the Use of Financial Information Directive
+Related links
+Authority for Anti‑Money Laundering and Countering the Financing of Terrorism (AMLA)
+Financial Action Task Force

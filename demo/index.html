@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TrustSphere — Risk Intelligence for Institutional Banking</title>
+<meta name="description" content="Live transaction risk scoring with plain-English rationale, built on real SAP HANA Cloud and AI Core infrastructure." />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/pipeline.css" />
+<link rel="stylesheet" href="css/graph.css" />
+<link rel="stylesheet" href="css/severity.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <span class="wordmark">TrustSphere</span>
+    <span class="site-header__tag">Risk Intelligence · TEAM 07</span>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="wrap hero__inner">
+      <div class="hero__intro">
+        <p class="eyebrow">Live transaction scoring</p>
+        <h1 id="hero-heading" class="hero__heading">
+          Every transaction, scored and explained the moment it lands.
+        </h1>
+        <p class="hero__lede">
+          TrustSphere ingests, screens, and scores cross-border transactions in real time,
+          then tells you exactly why in plain English — not just a number.
+        </p>
+      </div>
+
+      <div class="hero__stage">
+        <div class="txn-card" data-txn-card aria-live="polite">
+          <p class="txn-card__label">Incoming transaction</p>
+          <dl class="txn-card__grid">
+            <div><dt>ID</dt><dd data-field="id">—</dd></div>
+            <div><dt>Corridor</dt><dd data-field="corridor">—</dd></div>
+            <div><dt>Amount</dt><dd data-field="amount">—</dd></div>
+            <div><dt>Originator</dt><dd data-field="originator">—</dd></div>
+            <div><dt>Beneficiary</dt><dd data-field="beneficiary">—</dd></div>
+            <div><dt>Counterparty type</dt><dd data-field="entityType">—</dd></div>
+          </dl>
+          <button class="btn btn--primary" type="button" data-score-btn>
+            Score this transaction
+          </button>
+        </div>
+
+        <div class="gauge-panel">
+          <div class="gauge" data-gauge id="gauge-instrument">
+            <svg data-gauge-svg viewBox="0 0 300 300" role="img" aria-labelledby="gauge-title gauge-desc">
+              <title id="gauge-title">Risk score dial</title>
+              <desc id="gauge-desc">Radial instrument showing the composite risk score from 0 to 100.</desc>
+              <path data-gauge-track class="gauge-track"></path>
+              <path data-gauge-progress class="gauge-progress"></path>
+              <g data-gauge-ticks></g>
+              <line data-gauge-needle class="gauge-needle" x1="150" y1="112" x2="150" y2="44"></line>
+              <circle class="gauge-hub" cx="150" cy="150" r="7"></circle>
+            </svg>
+            <div class="gauge__readout">
+              <span class="gauge__score" data-gauge-score>0</span>
+              <span class="gauge__scale">/ 100</span>
+            </div>
+            <p class="gauge__tier" data-gauge-tier aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rationale" data-rationale hidden>
+        <div class="rationale__col">
+          <p class="rationale__label">Why this score</p>
+          <ol class="rationale__lines" data-rationale-lines></ol>
+        </div>
+        <div class="rationale__col">
+          <p class="rationale__label">Top contributing factors</p>
+          <ul class="factor-list" data-factor-list></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pipeline-section" aria-labelledby="pipeline-heading">
+    <div class="wrap pipeline-section__intro">
+      <p class="eyebrow">How TrustSphere works</p>
+      <h2 id="pipeline-heading" class="pipeline-section__heading">
+        Eight phases, one auditable path from raw ledger to a human decision.
+      </h2>
+      <p class="pipeline-section__lede">
+        Every score traces back through the same pipeline — nothing skips a step,
+        and nothing downstream of Phase 6 is allowed to decide on its own.
+      </p>
+    </div>
+
+    <div class="wrap pipeline-stage" data-pipeline>
+      <div class="pipeline-rail" aria-hidden="true">
+        <span class="pipeline-rail__fill" data-pipeline-rail-fill></span>
+      </div>
+      <ol class="pipeline-list" data-pipeline-list>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">1</span>
+          </div>
+          <div class="pipeline-step__body">
+            <p class="pipeline-step__title">Raw data ingestion</p>
+            <p class="pipeline-step__detail">
+              Synthetic transactions and a KYC/case-note corpus, seeded with the
+              outliers and patterns the demo needs to find — nothing is left to chance.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">2</span>
+          </div>
+          <div class="pipeline-step__body">
+            <p class="pipeline-step__title">Data quality checks</p>
+            <p class="pipeline-step__detail">
+              NaN, duplicate, and reporting-gap audits run before any scoring —
+              a missing field or a suspicious gap is itself a signal, not noise to discard.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">3</span>
+          </div>
+          <div class="pipeline-step__body">
+            <span class="pipeline-step__tag">SAP Datasphere</span>
+            <p class="pipeline-step__title">Federation</p>
+            <p class="pipeline-step__detail">
+              NA, EU, and APAC sources unify into one queryable layer — a semantic
+              layer over each region's existing core banking system, not a migration.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">4</span>
+          </div>
+          <div class="pipeline-step__body">
+            <span class="pipeline-step__tag">SAP BTP</span>
+            <p class="pipeline-step__title">Scoring &amp; risk tiering</p>
+            <p class="pipeline-step__detail">
+              An AHP-weighted rule score blends with Isolation Forest, EWMA, and GARCH
+              signals; typology tagging and the severity matrix decide the final tier.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">5</span>
+          </div>
+          <div class="pipeline-step__body">
+            <p class="pipeline-step__title">Context retrieval (RAG)</p>
+            <p class="pipeline-step__detail">
+              Vector search over KYC and policy documents, plus beneficial-ownership
+              graph traversal for shell-company cases, surfaces the context behind a flag.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">6</span>
+          </div>
+          <div class="pipeline-step__body">
+            <span class="pipeline-step__tag">Joule</span>
+            <p class="pipeline-step__title">Explainability</p>
+            <p class="pipeline-step__detail">
+              Score, factors, and retrieved context become a two-to-three sentence
+              rationale a compliance officer can act on. Joule explains — it never decides.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">7</span>
+          </div>
+          <div class="pipeline-step__body">
+            <p class="pipeline-step__title">Outputs &amp; dashboards</p>
+            <p class="pipeline-step__detail">
+              An investigator case screen surfaces the score, tier, factors, and
+              rationale; leadership KPIs — false-positive rate, cost-per-case — roll up separately.
+            </p>
+          </div>
+        </li>
+        <li class="pipeline-step" data-pipeline-step>
+          <div class="pipeline-step__marker" data-pipeline-marker>
+            <span class="pipeline-step__dot" data-pipeline-dot></span>
+            <span class="pipeline-step__num">8</span>
+          </div>
+          <div class="pipeline-step__body">
+            <p class="pipeline-step__title">Human review</p>
+            <p class="pipeline-step__detail">
+              An analyst accepts or overrides the tier with a mandatory reason,
+              logged to an append-only audit trail. No score is final without it.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="graph-section" aria-labelledby="graph-heading">
+    <div class="wrap graph-section__intro">
+      <p class="eyebrow">Beneficial-ownership graph</p>
+      <h2 id="graph-heading" class="graph-section__heading">
+        Unstructured records. One traceable structure.
+      </h2>
+      <p class="graph-section__lede">
+        On their own, four company registrations and a wire transfer look unrelated.
+        Graph traversal over beneficial-ownership records resolves them into a single
+        structure in seconds.
+      </p>
+    </div>
+
+    <div class="wrap graph-pin__inner">
+      <div class="graph-stage" data-graph>
+        <svg data-graph-svg viewBox="0 0 760 460" role="img" aria-labelledby="graph-title graph-desc">
+          <title id="graph-title">Beneficial-ownership graph traversal</title>
+          <desc id="graph-desc">Four shell entities and an originator resolve into a graph converging on a single ultimate beneficial owner.</desc>
+        </svg>
+      </div>
+      <p class="wrap graph-caption" data-graph-caption>
+        Beneficial-ownership graph traversal links the beneficiary to 3 other shell
+        entities registered within 11 days of each other, all controlled by a single
+        ultimate beneficial owner.
+      </p>
+    </div>
+  </section>
+
+  <section class="severity-section" aria-labelledby="severity-heading">
+    <div class="wrap severity-section__intro">
+      <p class="eyebrow">Phase 4e — Typology &amp; severity matrix</p>
+      <h2 id="severity-heading" class="severity-section__heading">
+        Likelihood and severity, not one score, decide the tier.
+      </h2>
+      <p class="severity-section__lede">
+        Two independent bands look up a tier in a fixed matrix — transparent and
+        auditable, not a black-box threshold. Sanctions hits bypass it entirely
+        via a hard override straight to Critical.
+      </p>
+    </div>
+
+    <div class="wrap severity-stage">
+      <div class="severity-matrix" data-severity-matrix>
+        <div class="severity-matrix__grid">
+          <div class="severity-cell severity-cell--corner" aria-hidden="true"></div>
+          <div class="severity-cell severity-cell--col-head">Low severity</div>
+          <div class="severity-cell severity-cell--col-head">Medium severity</div>
+          <div class="severity-cell severity-cell--col-head">High severity</div>
+
+          <div class="severity-cell severity-cell--row-head">High likelihood</div>
+          <div class="severity-cell tier-medium" data-cell="high-low">Medium</div>
+          <div class="severity-cell tier-high" data-cell="high-medium">High</div>
+          <div class="severity-cell tier-critical" data-cell="high-high" data-severity-highlight>Critical</div>
+
+          <div class="severity-cell severity-cell--row-head">Medium likelihood</div>
+          <div class="severity-cell tier-low" data-cell="medium-low">Low</div>
+          <div class="severity-cell tier-medium" data-cell="medium-medium">Medium</div>
+          <div class="severity-cell tier-high" data-cell="medium-high">High</div>
+
+          <div class="severity-cell severity-cell--row-head">Low likelihood</div>
+          <div class="severity-cell tier-low" data-cell="low-low">Low</div>
+          <div class="severity-cell tier-low" data-cell="low-medium">Low</div>
+          <div class="severity-cell tier-medium" data-cell="low-high">Medium</div>
+        </div>
+      </div>
+
+      <p class="severity-caption" data-severity-caption>
+        The shell-company case lands <strong>high likelihood × high severity</strong> —
+        entity-type risk maxed, transaction size in the 96th percentile — landing
+        Critical independent of any sanctions hit.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <span class="wordmark wordmark--small">TrustSphere</span>
+    <p class="site-footer__note">
+      Team 07 · SAP hackathon prototype. Scoring runs on a real HANA Cloud + AI Core
+      backend; this page mocks the <code>/score</code> response for the demo.
+    </p>
+  </div>
+</footer>
+
+<script src="vendor/gsap/gsap.min.js"></script>
+<script src="vendor/gsap/ScrollTrigger.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/gauge.js"></script>
+<script src="js/pipeline.js"></script>
+<script src="js/graph.js"></script>
+<script src="js/severity.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3507 @@
+Wolfsberg Group -- Correspondent Banking Due Diligence Questionnaire (CBDDQ) Guidance v2.0 (2023)
+Source: https://db.wolfsberg-group.org/assets/09bafec3-4b77-428b-9113-f4203d290a2f/EN_CBDDQ%20Guidance%20(2023).pdf
+
+
+========== CBDDQ Guidance ==========
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.01  
+The Wolfsberg Group 
+Correspondent Banking Due Diligence 
+Questionnaire (CBDDQ) Guidance 
+February 2023 
+The Basel Committee on Banking Supervision (BCBS), the Committee on Payments and Market Infrastructures (CPMI), the Financial 
+Action Task Force (FATF) and The Financial Stability Board (FSB) have recognised the Correspondent Banking Due Diligence 
+Questionnaire (CBDDQ) as being ‘one of the industry initiatives that will help to address the decline in the number of correspondent 
+banking relationships by facilitating due diligence processes. 
+This document aims to support the usage of the CBDDQ by providing guidance on responses to questions as well as an understanding 
+of underlying risks of Correspondent and Respondent banking activities, and what steps a Respondent can take to enhance its controls 
+to meet current industry standards. In all responses, the Respondent should be transparent and note at the end of each section any 
+additional information that will help the Correspondent understand the context of the responses. Open and direct communication 
+between parties will assist to build a solid working relationship. A separate CBDDQ should be completed for each legal Entity. 
+This guidance covers the questions that the Wolfsberg Group believes would benefit most from additional background (so not all 
+questions are covered) and is to be used alongside all other published CBDDQ material, available at the Wolfsberg Group webpage 
+https://www.wolfsberg-principles.com/wolfsbergcb. This guidance is based on version 1.4 of the CBDDQ.  
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.02  
+1. Entity & Ownership
+Question 1 Full Legal Name Guidance 
+The Full Legal Name is also referred to as company name. Your Entity’s full legal name is vital to ensure 
+that the Correspondent Banking risk assessment is being performed on the correct party. 
+Points for Consideration 
+The full name must match the name in the Correspondent Bank’s records and reflect the legal Entity 
+that is completing the questionnaire.  
+Question 2 Append a list of foreign  
+branches which are covered 
+by this questionnaire 
+Guidance 
+A list of your Legal Entity’s foreign branches should be appended, unless there is a branch which has 
+different business activities/customers or does not follow the same Financial Crime Compliance (FCC) 
+programme. List all branches acting as responding entities, including full name an d country of 
+location. If the business model is the same or substantially similar in each  country where your Entity 
+has branches, one CBDDQ will suffice for all. If not, any differences should be noted, explaining what 
+they are.  
+Points for Consideration 
+All responses must be provided at the Legal Entity level, in other words the questionnaire must be 
+answered covering all branches but should not cover subsidiaries. If a response differs for one of your 
+branches, this needs to be highlighted and details explaining the difference added at the end of each 
+subsection. While regulatory and legal requirements vary across jurisdictions, generally requirements 
+exist to demonstrate identification/ verification, due diligence and Enhanced Due Diligence (EDD), 
+where applicable, are being applied to the correct legal Entity. 
+If any of the branches’ business activity (products offered, customer base, etc.) or FCC control 
+programme is significantly different than its head office, a separate questionnaire must be completed 
+for that branch. 
+Question 3 Full Legal (Registered) 
+Address 
+Guidance 
+Full Legal (Registered) address for Legal Entities , also known as address of incorporation,  should be 
+provided. 
+Points for Consideration 
+Different jurisdictions present a different level of potential Financial Crime (FC) risk, hence the 
+importance of understanding the geographic risks posed by the location of the registered and primary 
+business address(es). Consider if the jurisdiction has any FC vulnerabilities and how controls have been 
+implemented to address them. The risk of the jurisdiction in which the Entity is located also has a 
+bearing on the risks of the banking activity in that jurisdiction. For further information, refer to the  
+FATF Mutual Evaluations on jurisdictions that present FC weaknesses and the Wolfsberg Group 
+Country Risk Frequently Asked Questions (FAQs). 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          3  
+Question 4
+  
+Full Primary Business Address 
+(if different from above) 
+Guidance 
+Full Primary Business Address is the address where your Entity is primarily physically located (similar 
+to principal business address or address of residence). 
+Question 5 Date of Entity incorporation/ 
+establishment 
+Guidance 
+Provide the date of incorporation of your Entity. If the full date is not available, provide the year and 
+explain why the full date is not available. 
+Points for Consideration 
+As with other types of legal entities, the length of time the legal Entity has been in existence could have 
+a bearing on risk. Entities that have been in existence longer are likely to have a larger public footprint 
+and longer history, enabling the Correspondent to obtain more information and conduct a more 
+complete risk analysis. If your Entity was recently established, consider how it can demonstrate to the 
+Correspondent that it has the necessary knowledge of its customer base and risks such that controls 
+are implemented in an effective manner. 
+Question 6 Select type of ownership and  
+append an Ownership chart if  
+available 
+Guidance 
+You should provide the type of ownership for your Entity. The most commonly encountered 
+ownership structures are included in the drop down. If your Entity’s ownership structure is not 
+represented in the drop down, provi de the relevant information under Question 18 so  that the 
+Correspondent can understand the set up. 
+Points for Consideration 
+Different types of ownership structures may present different FC risks. Consider if the Entity’s 
+ownership structure poses risks related to money laundering, terrorist financing, sanctions, bribery 
+and corruption, tax evasion, fraud and/or has been the subject of adverse media and what steps, 
+additional information or additional controls can support the Correspondent’s assessment of your 
+Entity’s organisation. It is important for the Correspondent to understand your corporate structure in 
+order to assess risk. For this reason, as much relevant detail as possible describing the ownership 
+structure is desirable. 
+Some jurisdictions make the determination of ownership (especially publicly traded vs. privately held) 
+part of their regulatory due diligence requirements. Generally speaking, more transparency is linked 
+to less risk, while opaque ownership structures would present higher risk. 
+Question 6 
+a 
+Publicly Traded (25% of shares 
+publicly traded) 
+Guidance 
+An Entity is publicly traded if 25% or more of its ordinary shares or common stock are listed on a stock 
+exchange. 
+Question 6 
+a1 
+If Y, indicate the exchange 
+traded on and ticker symbol 
+Guidance 
+Provide the full names of all the stock exchanges where your Entity’s ordinary shares/common stock 
+are listed along with the unique ID used by each stock exchange to identify the security. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          4  
+  Points for Consideration 
+Different exchanges will have different requirements for reporting and transparency. The jurisdiction 
+of these exchanges plays a large role in whether they have high, more stringent standards, or lesser 
+requirements. The quality of oversight exercised by the stock exchange may be viewed as a risk 
+mitigant.  
+Question 6 
+b 
+Member Owned/Mutual Guidance 
+Mutual Societies are organisations owned by their members and managed for their benefit, such as 
+a building society, friendly society, credit union, registered society (including, co-operative societies, 
+industrial and provident societies, community benefit societies, which are registered legal entities 
+and hold limited liability). 
+Points for Consideration 
+Dispersed ownership of an Entity can lead to lower risk by reducing the chances of a small number of 
+individuals having substantial control of the Entity. Understanding the membership will be an 
+important factor in the risk assessment performed by the Correspondent. 
+Question 6 
+c 
+Government or state Owned 
+by 25% or more  
+Points for Consideration 
+The Correspondent’s assessment of the jurisdictional commitment to FCC and related laws, rules and 
+regulations will affect how it views government ownership. The manner in which the government 
+exercises control over an organisation may also be a consideration, for example whether the 
+government holds ownership only or has managerial/executive positions within the organisation. The 
+types of services offered by your Entity could be presented as a potential mitigant, when/if these 
+entities open a correspondent banking account for transactions on behalf of a government/state 
+owned body/state agency, as opposed to commercial transactions for third party customers (i.e. 
+Central Banks, treasury vs commercial payments). 
+Question 6 
+d 
+Privately Owned Guidance 
+If one of the previous types of ownership does not apply (as noted in Questions 6 a, b or c), select 
+privately owned.  
+Points for Consideration 
+Privately Owned entities can present additional risk due to a potential lack of transparency. Some 
+jurisdictions will require verification of parties with significant ownership and control. It is important 
+for the Correspondent to understand and have transparency with respect to the ownership structure 
+and individuals with significant ownership and control of your Entity. 
+Question 6 
+d1 
+If Y, provide details of 
+shareholders or Ultimate 
+Beneficial Owners (UBOs) with 
+a holding of 10% or more 
+Guidance 
+Provide immediate and ultimate shareholders (legal entities and natural persons) or UBOs, including 
+full names and percentage of ownership. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          5  
+  Points for Consideration  
+Shareholders and UBOs may have direct influence over the operation and the FC control programme 
+of an Entity and therefore, it is necessary for the Correspondent to understand who these parties are 
+and to identify relevant information about them. UBOs may pose different levels of risk according to 
+who they are, for example, whether these parties are Politically Exposed Persons (PEPs). While this 
+may not be an adverse risk, the Correspondent may need to obtain additional information to assess 
+the risk accurately. Refer to Wolfsberg Guidance on PEPs. 
+UBOs who individually do not hold 10% or more but do when aggregated hold 10% or greater (family 
+members, business partners, etc.) should be disclosed. Legal documentation to verify ownership 
+information and beneficiaries of trusts and other legal arrangements should be provided. Remember 
+to provide the necessary information with completeness and accuracy. 
+To better understand the risks associated to Beneficial Ownership, refer to the FATF Guidance on 
+Transparency and Beneficial Ownership. 
+Question 7 % of the Entity’s total shares 
+composed of bearer shares 
+Guidance 
+Are any share certificates of your Entity are issued in bearer form? In other words, is ownership is 
+signified by possession of physical certificates issued to “bearer”? 
+Points for Consideration  
+Legal entities which have issued ownership shares in bearer format will present a higher risk, as 
+ownership will belong to whoever is physically holding the share certificates. Legal entities with 
+bearer shares can change legal ownership quite easily, with minimal-to-no controls. A crucial part of 
+the Correspondent’s FC controls is based on knowing the customer, knowing who the bank is doing 
+business with. When an Entity is organised with a high percentage of its ownership in bearer share 
+format that might not be possible, as the UBO(s) can change from one day to the next. Therefore, if 
+the Entity has bearer sharers that form part of the ownership structure, consider what controls are in 
+place that may bring the Correspondent additional comfort, such as having the bearer shares in 
+custody with a regulated financial services provider. Consider that the Correspondent will need to 
+understand the current ownership, especially if the Correspondent is in a jurisdiction that requires 
+specific due diligence on UBOs. Not all jurisdictions allow the creation of entities with the ability to 
+issue bearer shares. Also, while an Entity might not currently have bearer shares issued, if the legal 
+structure/formation documents allow for bearer shares to be issued, this may need to be explained 
+to the Correspondent. 
+Question 8 Does the Entity, or any of its 
+branches, operate  under an 
+Offshore Banking License 
+(OBL)? 
+Guidance 
+OBL means a license to conduct banking activities which, as a condition of the license, prohibits the 
+licensed Entity from serving the citizens, or using the local currency, of the country which issued the 
+license. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          6  
+  Points for Consideration 
+A bank or bank branch with an OBL is prevented or restricted from doing business with the citizens of 
+the country which issued its license and is also less likely to receive as close a level of scrutiny from 
+the regulators in the country which issued its OBL. Further, in certain jurisdictions the process for 
+obtaining an OBL is less stringent than the process for a regular license. A bank with an OBL will by 
+definition draw most of its customers from outside its licensing jurisdiction which will give it a 
+different risk profile to local. The combination of lighter regulation, less frequent oversight and an 
+offshore customer base introduces a variety of additional risk elements that need to be evaluated 
+thoroughly. Note that a bank that is part of a larger financial group may have some of its locations 
+operating under OBLs and these may pose a lower level of risk than standalone banks with an OBL. If 
+the Entity is a standalone bank with an offshore license they will need to provide extensive due 
+diligence information to the Correspondent. If your Entity is affiliated with a major banking group that 
+is subject to comprehensive regulatory oversight it will need to describe that oversight. Consider how 
+controls may be demonstrated in relation to branches operating under an OBL, including how they 
+are relevant to the specific additional risks the jurisdiction may pose. 
+Question 8 
+a 
+If Y, provide the name of the 
+relevant branch/es which 
+operate under an OBL 
+Guidance 
+Include any branches or entities which operate under an OBL and country of registration and primary 
+address. 
+Question 9 Does the Bank have a Virtual 
+Bank License or provide 
+services only through online 
+channels? 
+Guidance 
+A virtual banking license means a license to conduct banking activities without any physical premises. 
+Offering banking services through online channels enables customers to conduct banking transactions 
+without walking into a physical facility.  
+Points for Consideration 
+The greatest risk inherent in virtual banking institutions and on-line banking services lies in the 
+potential anonymity of the parties conducting the transactions. Therefore, it is important to 
+demonstrate that the Entity has implemented appropriate controls including Customer Due Diligence 
+(CDD), record-keeping and monitoring and reporting.  
+Question 
+10 
+Name of primary financial 
+regulator/supervisory 
+authority 
+Guidance 
+Indicate the regulator with primary responsibility for oversight of FCC. 
+Points for Consideration 
+If there is more than one primary regulator, provide all names as this will provide material information 
+to the Correspondent to assess the oversight to which the Entity is subject. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          7  
+Question 
+11 
+Provide Legal Entity Identifier 
+(LEI) if available 
+ 
+Guidance 
+An LEI is a 20-character alpha numeric identifier that identifies distinct legal entities that engage in 
+financial transactions. It is defined by the International Organization for Standardization (ISO) 17442. 
+Question 
+12 
+Provide the full legal name of 
+ultimate parent (if different 
+from the Entity completing the 
+DDQ) 
+Guidance 
+Provide the name of the natural or legal person that holds/controls majority voting power over the 
+Entity. 
+Question 
+13 
+Jurisdiction of licensing 
+authority and regulator of 
+ultimate parent 
+Guidance 
+If applicable, provide the country in which the primary financial regulator/supervisory authority of 
+the ultimate parent is established. 
+Points for Consideration 
+The perceived effectiveness of the ultimate parent’s jurisdiction may impact how the Correspondent 
+assesses risk. Refer to National Risk Assessments or FATF Mutual Evaluation Reports on jurisdictions 
+that present FCC weaknesses and, where relevant, subsequent recommendations/action plan items.  
+Question 
+14 
+Select the business areas  
+applicable to the Entity 
+Guidance 
+This section refers to the areas of business offered by your Entity as the Respondent. Select all that 
+apply. 
+Points for Consideration 
+The more complex your Entity’s business is, the more specific, tailored and robust controls will be 
+expected. Consider where activities may pose higher risks and how your existing controls are able to 
+mitigate them. Different types of business services provided will bring different FC risks associated with 
+the activity and will require specific controls for each type of activity and product. 
+Question 
+14 k 
+Other (please explain) Guidance 
+Specify any other services which have not been covered in Questions 14 a-j above or provide any 
+clarifications that may be required. 
+Points for Consideration 
+Consider the potential FC  risks the other types of activities may pose and be prepared to discuss 
+and demonstrate your Entity’s  controls in place to mitigate such risks. 
+  
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.08  
+Question 
+15 
+Does the Entity have a 
+significant (10% or more)  
+portfolio of  non-resident 
+customers or does it derive 
+more than 10% of its revenue 
+from non-resident customers? 
+(Non-resident means  
+customers primarily resident in 
+a different  jurisdiction to  the 
+location where bank services 
+are provided) 
+Guidance 
+Indicate whether your Entity has non-resident customers whose combined revenue represents 10% 
+or more of the total revenue or if the number of non-resident customers is 10% or more of the total 
+customer base. 
+Points for Consideration 
+In general, conducting due diligence on customers resident in other jurisdictions is more involved and 
+complex than on local entities as these may pose additional risks. A significant non-resident customer 
+base can present risks if appropriate controls and processes do not exist. Make sure that the 
+Correspondent is aware of the nature of this customer base and any particular characteristics of its 
+activity. Entities which have a significant portion of their customers or revenues from non-resident 
+customers could present higher risk. It will be important for the Correspondent to understand why a 
+large number of customers or revenues are non-resident, and to achieve a comfort level that the 
+controls in place are proportionate to mitigate the risks. 
+Question 
+15 a 
+If Y, provide the top five  
+countries where  the non- 
+resident customers are 
+located 
+Guidance 
+List the top five countries where the non-resident customers are located. 
+Points for Consideration 
+Based on the perceived level of effective implementation of international standards, certain 
+jurisdictions will present higher risks from a FC risk perspective. The Correspondent might have 
+internal policies or risk appetite statements related to certain countries and before providing 
+correspondent banking services would need to ensure your customer base is in line with its risk 
+appetite and policies. 
+Question 
+16 a 
+Number of employees Guidance 
+Include the number of full-time employees of the Entity and any applicable branches. The Entity 
+should aim to include the most recent number available.  
+Points for Consideration 
+The number of employees provides a view of the size and scale of the Entity as an element of the 
+Correspondent’s risk assessment. 
+Question 
+16 b 
+Total Assets Guidance 
+Provide the Total Assets per the Entity’s latest audited balance sheet, including any applicable 
+branches. The Entity should aim to include the most recent figure available.  
+Points for Consideration 
+Total assets provide a view of the size of the business as an element of the Correspondent’s risk 
+assessment. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          9  
+2. Products and Services 
+Question 
+19 
+Does the Entity offer the 
+following products and  
+services: 
+Guidance 
+For each of the products and services mentioned below, indicate whether your Entity offers these 
+products and services directly to their customers. Do not include products or services where the Entity 
+acts only as an Introducer or Intermediary. 
+Points for Consideration 
+The products in this section are generally identified and recognised as presenting higher FC risks. If your 
+Entity offers these products to its customers, then this is relevant to the Correspondent in determining 
+the risk that the relationship may pose. The extent and effectiveness of the controls that are in place 
+to mitigate the risks of these activities will be crucial, so be upfront with additional information when 
+having a bi-lateral discussion. High risk does not necessarily imply an element for concern, but it does 
+mean that the Entity must have adequate controls in place to mitigate the risks which products and 
+services may pose.  
+Question 
+19 a 
+Correspondent Banking Guidance 
+If the Entity answers ‘NO’ the Questionnaire remains relevant as the Entity may be obtaining 
+correspondent banking services as a Respondent, rather than providing Correspondent Banking 
+services to other Financial Institutions (FIs). Go to Question 19 b onwards. 
+For further information on Correspondent Banking, refer to the definition in the CBDDQ Glossary and 
+the Wolfsberg Correspondent Banking Principles. 
+The Wolfsberg Group is aware that there are different definitions of Correspondent Banking. The 
+objective of the CBDDQ is to provide a consistent set of questions to be used during Correspondent 
+Banking due diligence and Risk Assessments to identify potential FC risks. If in doubt, The Wolfsberg 
+Group recommends using the CBDDQ. 
+Points for Consideration 
+When correspondent banking services are provided to a Respondent it opens the Correspondent to 
+a number of risks, as the services provided include the flow of funds of another FI through the 
+Correspondent’s accounts. Cross border correspondent banking introduces risks such as: 
+jurisdictional risk (that the Correspondent and their Respondent customers are subject to different 
+regulatory requirements), transparency risk (due to the added numbers of parties), and potential 
+downstream or nested risk, among others. See Question 19 a1b below for more detail on 
+downstream/nesting in Correspondent Banking Entity . 
+  
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.010  
+Question 
+19 a1a 
+Does the Entity offer 
+Correspondent Banking 
+services to domestic banks? 
+Guidance 
+Indicate whether you Entity provides correspondent banking services to banks located in the same 
+jurisdiction as the Entity. 
+Points for Consideration 
+The risk of activity flowing to the Correspondent Bank from your Entity must be mitigated and 
+managed by your controls. If your Entity provides Correspondent Banking services to other FIs, and 
+that activity flows through the Correspondent account, the risk of such activity is initially managed by 
+the Respondent FI customers’ controls and then by you. Since the Correspondent Bank‘s due diligence 
+was performed on you, rather than on your underlying FI customer (Know Your Customer (KYC) rather 
+than Know Your Customer’s Customer (KYCC)), it is important for the Correspondent Bank to 
+understand whether the activity that flows through the account is from you, your FI customer(s) or 
+your customer’s customer. 
+Question 
+19 a1b 
+Does the Entity allow 
+domestic bank customers to 
+provide downstream 
+relationships? 
+Guidance 
+Where you provide correspondent banking services to FIs, do you allow those FIs to provide 
+correspondent banking to other FIs and which flow through the Entity? 
+A downstream correspondent (often referred to as “nested”) relationship occurs when a Respondent 
+Bank receives correspondent banking services from a Correspondent and itself provides 
+correspondent banking services to other FIs in the account it maintains with its Correspondent. 
+Points for Consideration 
+If your Entity offers correspondent banking services to domestic FI customers, do you permit those 
+FIs to offer correspondent banking services themselves? If so, you should be prepared to discuss 
+additional controls in place for this activity. The risk in this activity is that the Correspondent would 
+be at least one step further removed from the organisation that has conducted due diligence on the 
+transacting party, and this can increase the risk of the activity, due to lack of visibility of the parties 
+involved and the potential risks associated to them. Consider this exposure when providing this 
+service and make it clear to the Correspondent when asked.  
+Question 
+19 a1c 
+Does the Entity have processes 
+and procedures in place to  
+identify downstream  
+relationships with domestic 
+banks? 
+Points for Consideration 
+The risk associated with downstream relationships is that the Correspondent Bank is further removed 
+from the underlying customer relationship. In terms of downstream  activity, the Correspondent is 
+further dependent on the controls of the downstream bank. In this and in other risk areas, if suitable 
+controls are not in place, then there may be higher risk activity flowing through the accounts than 
+initially expected. This poses potential additional FC risks both for you and for the Correspondent. 
+Where higher risk activity is taking place without having been identified, the control environment may 
+not be as robust as required.  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          11  
+Question 
+19 a1d 
+Does the Entity offer 
+correspondent banking 
+services to foreign banks? 
+Guidance 
+Indicate whether your Entity provides  correspondent banking services to banks outside the 
+jurisdiction of the Entity.  
+Points for Consideration 
+This is a similar type of activity to that set out in Question 19 a1a. If your customers are located in 
+different jurisdictions, they may not be subject to the same regulatory requirements as you and may 
+thus pose a different level of risk. Further, cross border correspondent banking introduces 
+jurisdictional risk (that the Foreign Bank’s customers are subject to different regulatory requirements 
+than the Respondent ), transparency risk (due to added numbers of parties) and potential 
+downstream/nested risk for the Correspondent. Additionally, a different jurisdiction may have 
+different business practices and pose different FC risks. 
+Question 
+19 a1e 
+Does the Entity allow 
+downstream relationships 
+with foreign banks? 
+Points for Consideration 
+As mentioned under Question 19 a1b, the risk in this activity is that the Correspondent would be at least 
+one step further removed from the organisation that it has conducted due diligence on, the transacting 
+party, and this can increase the risk of the activity, due to lack of visibility of the parties involved and 
+the potential risks associated to them. Additionally, when the activity is performed with foreign banks, 
+they may be subject to a different regulatory environment, which could be less robust than the 
+Respondent’s and may also have different business practice s in their  jurisdiction. Consider the 
+exposure when providing this service and make it clear to the Correspondent when asked.  
+Question 
+19 a1f 
+Does the Entity have processes 
+and procedures in  place to 
+identify downstream 
+relationships with foreign 
+banks? 
+Points for Consideration 
+As mentioned under Question 19 a1c, the risk associated with downstream relationships is that the 
+Correspondent Bank is further removed from the underlying customer relationship. In instances of 
+downstream activity, a bank is further dependent on the controls of the downstream bank. When the 
+Respondent’s customer is based in another jurisdiction, the risk exposure of the Correspondent Bank 
+may change, due to potential lower regulatory requirements and different business practices. Lack of 
+processes to identify and manage this type of relationship would generate an unknown level of risk 
+which most Correspondent Banks would not be able to accept.  
+Downstream activity also raises the question of ‘why’ and there should be a reasonable explanation 
+of why such relationships exist. There are a number of reasons for such activity, such as that the 
+Respondent’s FI customer is too small or has too low levels of activity to justify a direct relationship. 
+However, the Correspondent will need to make its own assessment of the control environment to 
+manage downstream activities. Ensure the responses demonstrate effective processes to identify and 
+manage such relationships, during the tenure of the relationship. 
+  
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.012  
+Question 
+19 a1g 
+Does the Entity offer 
+correspondent banking 
+services to regulated  Money 
+Services Businesses 
+(MSBs)/Money Value Transfer 
+Services (MVTSs)? 
+Points for Consideration 
+Money Service Business (MSBs) and Money or Value Transfer Services (MVTS) act as intermediaries 
+between their customers/counterparties, as the underlying transactors, and the Respondent. MSBs 
+and MVTS may be subject to different regulatory requirements and may thus pose a different level 
+of risk than the Respondent. It is important for you as the Respondent to understand the 
+appropriateness of the MSBs’/MVTS’ control environment including the level of payment transparency 
+before the activity is routed to the Correspondent. 
+What measures have been taken to understand the FCC programmes of the MSB/MVTS customers? 
+How do you ensure that you (and your Correspondent) have adequate understanding of, and visibility 
+into, the  names of  the originators and  beneficiaries of payment instructions ? Provide details 
+regarding steps taken to gain comfort in providing services to these entities, such as additional 
+controls, training and monitoring. 
+Question 
+19 a1h 
+Does the Entity allow 
+downstream relationships 
+with MSBs, MVTSs, or Payment 
+Service Providers (PSPs)? 
+Points for Consideration 
+This is a similar type of activity to that set out in Questions 19 a1a and 19 a1b. Consider the risk the 
+MSB/MVTS/PSP customers poses when they have MSB/MVTS/PSP customers and how appropriate 
+controls have been implemented in order to manage the risk. The controls should include an 
+assessment of the MSB /MVTS/PSP controls to assess their downstream customer risk and their 
+regulatory environment. The same risk your Entity had to understand and manage, will become part 
+of the risks to which the Correspondent will be exposed. The  risk of activity flowing to the 
+Correspondent Bank from the MSBs/MVTS/PSP customers must be mitigated and managed by your 
+controls. 
+Question 
+19 a1i 
+Does the Entity have processes 
+and procedures in  place to  
+identify downstream 
+relationships with 
+MSBs/MVTSs/PSPs? 
+Points for Consideration 
+As mentioned in Question 19 a1f, a lack of processes to identify and manage this type of relationship 
+would generate an unknown level of risk which most Correspondent Banks would not be able to 
+accept. MSBs and MVTSs pose additional risk for the Correspondent and may prove to be too risky 
+for some. 
+Ensure you can  demonstrate effective processes to identify and manage such relationships, in a 
+sustainable manner. An upfront and clear disclosure of such relationships will aid in the 
+Correspondent understanding your Entity’s business, including the rationale for using Correspondent 
+accounts for MSB/MVTS relationships. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          13  
+Question 
+19 b 
+Cross-Border Bulk Cash 
+Delivery 
+Points for Consideration 
+When criminal activity generates large quantities of physical cash, criminals need to find ways to place 
+that cash into the banking system. Banks that provide bulk cash services (especially when buying 
+cash), need to understand the source of that cash in order to ensure that it does not stem from the 
+proceeds of crime (e.g. drug sales or smuggling). If the Respondent  offers cross border bulk cash 
+services and some, or all, of the settlement activity flows through the Correspondent, the 
+Correspondent may ask for a description  of the  controls around this business and require an 
+explanation of the rationale for specific transactions. 
+Question 
+19c 
+Cross-Border Remittances Points for Consideration 
+Cross border remittances can be used for legitimate and illegitimate purposes. Because cross border 
+volumes are so large, it can be hard to identify the ‘good’ from the ‘bad’. Thus, it  is important to 
+understand, and when asked by the Correspondent, be able to provide the rationale for such activity 
+and the appropriate controls in place. Understanding the purpose of the payment, the ability to verify 
+the source of funds, appropriate monitoring scenarios are examples of controls that would help the 
+Correspondent understand the nature of risks associated with the cross-border activities. 
+Question 
+19 d 
+Domestic Bulk Cash Delivery Points for Consideration 
+Similar risks to cross border cash activity, attention must be paid to where in the country cash is 
+being generated/used and why. 
+Question 
+19 e 
+Hold Mail Points for Consideration 
+If a customer asks that the bank hold their mail rather than send it out to them in the normal way, it 
+can limit a bank’s ability to get in touch with that customer. It also raises questions about why such 
+special treatment is necessary. It can be an indication of a desire to limit transparency and circumvent 
+existing controls. 
+Question 
+19 f 
+International Cash Letter Points for Consideration 
+Cash Letter allows a respondent to send bulk cheques to its Correspondent for clearing. As controls 
+around wire transfers have steadily increased, the bulk clearing of physical cheques continues to 
+pose risks due, in part, to the inherently manual processes and the difficulties in identifying the 
+depositor of the cheques and monitoring the activity effectively. In the case of correspondent banks, 
+it is not possible for the clearing bank to know every depository customer of the correspondent bank 
+that may present a check for deposit. Some red flags  relating  to Cash letter items have been seen 
+with blank payee lines, cheques  bearing stamps or codes indicating possible use by third parties, 
+multiple sequentially-numbers cheques to the same payee and in repetitive amounts. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          14  
+Question 
+19 g 
+ 
+Low Price Securities 
+ 
+Points for Consideration 
+Low priced securities (typically under five US Dollar a share and often referred to as ‘penny stocks’) 
+tend to experience higher price volatility than other securities and have been exploited by criminals 
+in ‘pump and dump’ schemes to drive up the price of the security by hyping its potential, and then 
+selling at a higher price, leaving investors with losses. Banks that provide securities clearing and 
+custody services need to be alert to the risks posed by increases in trading of such securities to ensure 
+that they are not unwittingly moving money connected to securities fraud. 
+Question 
+19 h 
+Payable Through Accounts Points for Consideration 
+A payable through account involves a Respondent Bank opening an account with a Correspondent 
+and then providing its customers with cheque books or other means of drawing directly on the 
+respondent’s account with the Correspondent. The risk is that the Respondent is allowing its customer 
+direct access to their account with the Correspondent, an arrangement which is less transparent and 
+imposes heightened risk. This heightened risk is a result of the Respondent not having direct oversight 
+of the transactions and poses risk to the Correspondent who does full transparency into the true 
+originator. This direct access differs from downstream activity where the Respondent are routing the 
+transaction to the Correspondent. For further information, refer to FATF Recommendation 13.  
+Question 
+19 i 
+Payment Services to non -bank 
+entities who may then offer 
+third party payment services 
+to their customers 
+Points for Consideration 
+Providing payment services to non-bank entities, such as those listed in Questions 19 i2-i4, can 
+present additional risk especially if they act as intermediaries on behalf of their underlying customers. 
+It is important for you as the Respondent to understand the appropriateness of the entities’ control 
+environment including the level of payment transparency before the activity is routed to the 
+Correspondent.  
+Question 
+19 j 
+Private Banking  Points for Consideration 
+Private banking is generally viewed as posing potentially higher levels of FC risks due to the larger 
+value of transactions performed on behalf of individuals and the potential for such wealth or 
+transactional funds to have been obtained by illicit means. Consider the controls you have in place 
+to understand and monitor the source of funds and wealth of Private Banking customers, including 
+appropriate and effective controls to mitigate the risks of this activity. Specify whether the customer 
+base is solely domestic (in same jurisdiction as branch offering service) or whether the customer base 
+is outside that jurisdiction.  
+For more information, refer to the Wolfsberg AML Principles for Private Banking.   
+  
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.015  
+Question 
+19 k 
+Remote Deposit Capture 
+(RDC) 
+Points for Consideration 
+Unlike the physical deposit of cheques, RDC allows the deposit of images via a scanner that is provided 
+to the customer. Without appropriate controls on the location of the scanner, it is possible for deposits 
+to be made from locations other than the customer’s offices and by parties other than the customer. 
+Additionally, the use of RDC prevents the identification of physical red flags, such as instruments which 
+are visibly altered or contaminated with criminal substances. Cross-border RDC poses higher risk than 
+purely domestic activity. 
+Question 
+19 l 
+Sponsoring Private Automated 
+Teller Machines (ATMs) 
+Points for Consideration 
+ATMs that are not connected to a bank’s network pose potential FC risks, in that they could be used 
+to recirculate cash generated from illicit activities. Appropriate controls should be in place to 
+understand both the source and use of the cash flowing through ATMs. If such products are provided 
+and funds generated from this activity will flow through the Correspondent’s account, it increases the 
+FC risk.  
+Question 
+19 m 
+Stored Value Instruments Points for Consideration 
+There are a wide variety of stored value cards/instruments available, ranging from relatively low 
+value cards/instruments that can be used at one merchant only to those that can be loaded or 
+reloaded anywhere, including not necessarily via a bank account. Such activity poses increased FC 
+risks to the Correspondent if the lack of traceability of funds opens this type of product to potential 
+criminal activities. E-wallets can be susceptible to Transaction Laundering, digital evolution of money 
+laundering, where undisclosed businesses use approved merchants’ payment credentials to process 
+payments for unknown products and services, typically illicit or illegal. Activity may not be easy to 
+detect because of potential complexity in the payment chain.  
+Closed loop stored value instruments with low load values may pose minimal risk while network 
+branded reloadable cards or e-wallets pose higher risks. Be prepared to explain the type of stored 
+value instruments supported and the controls in place. If services are provided to E-wallet providers 
+be prepared to explain how the controls related to the activity and how due diligence on these 
+customers addresses the unique risks posed.  
+For more information, refer to the Wolfsberg Guidance on Prepaid and Stored Value Cards. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          16  
+Question 
+19 n 
+Trade Finance Points for Consideration 
+Trade-Based Money Laundering (TBML) is viewed by FATF and regulatory authorities as posing higher 
+risk for banks when providing trade finance products. Appropriate controls should be in place for 
+managing such activity. Documentary Trade Finance is a challenging activity to monitor from an FCC 
+point of view, as many elements of the transactions are paper based. Consider controls in relation to 
+this specific product and explain to the Correspondent how such risks are addressed.  
+For more information, refer to the Trade Finance Principles published by the Wolfsberg Group, the 
+International Chamber of Commerce (ICC) and  the Bankers Association for Finance and Trade (BAFT). 
+Question 
+19 o 
+Virtual Assets  Points for Consideration 
+This is a rapidly evolving space driven by bank and non-bank participants. An FI engaging as a virtual 
+asset service provider (as an administrator, exchanger, technology company, custodian, or payment 
+processor) is exposed to FC risks which materialise, at times, differently from the more traditional bank 
+products. Non-bank participants may not be subject to the same regulatory requirements as banks 
+which may increase FC risks. The primary risks associated with virtual or crypto currencies relate to 
+customer identification, payment transparency (including pseudonymous names) and traceability.  As 
+this is a space with on-going changes to the products, complexity of technologies, regulatory and 
+industry appetite, it potentially increases FC risks further, as banks and FIs try to keep up with changes 
+and what is expected from them. 
+Jurisdictions have different approaches to this evolving topic. Some are supportive and have 
+embraced the technology. Others have imposed restrictions and even prohibited the product. With 
+that in mind, if this product is provided, the Correspondent will need to understand what controls are in 
+place to ensure compliance with regulatory requirements, manage FC risk and ensure transparency. 
+The Correspondent will want to know the nature of the activity (i.e. virtual/crypto vs fiat), whether 
+settlement of such activity takes place over the account with the Correspondent and understand the 
+controls in place to mitigate specific FC risks associated to this product.  
+For more information, refer to the FATF Guidance for a Risk-Based Approach to Virtual Currencies. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          17  
+Question 
+19 p 
+For each of the following 
+please state whether you offer 
+the service to walk -in 
+customers and if so, the 
+applicable level of due 
+diligence: 
+Points for Consideration 
+‘Walk-ins’ (i.e. someone who walks into your Entity and askes to make a transaction without 
+establishing a relationship or opening an account) are not always subject to the same level of due 
+diligence when compared to existing customers, so activity on their behalf may not have the same 
+level of controls as the rest of the customer base. The possibility of no or little due diligence 
+performed on such customers is one of the key sources of FC risk, limiting the ability to monitor, 
+screen and understand this type of activity. If services to ‘walk-ins’ are offered, consider the risks 
+inherent to those services and the controls in place to mitigate them. If asked by the Correspondent, 
+such controls must be demonstrated in a sustainable manner, including the rationale for providing 
+this service and how to address regulatory compliance requirements. 
+Question 
+19 q 
+Other high-risk products and 
+services identified by  the 
+Entity (please specify) 
+Points for Consideration 
+Provide details of any other higher risk products that may impact the risk of activity flowing through the 
+Correspondent. 
+3. Anti-Money Laundering (AML), Counter-Terrorist Financing ( CTF) & Sanctions Programme 
+Question 
+22 
+Does the Entity have a 
+programme that sets 
+minimum AML, CTF and  
+Sanctions standards regarding 
+the following components: 
+Points for Consideration 
+A clearly defined and documented FC programme is the cornerstone of overall FC controls for an 
+organisation. The programme needs to be documented and include all programme elements, clearly 
+defining the scope in terms of which organisational entities and business units it applies to. Without 
+a clearly defined and documented FC programme, it will not be possible to ensure that controls and 
+associated procedures are implemented or that internal staff or third parties are aware of the 
+standards that apply.  
+Question 
+22 a 
+Appointed Officer with 
+sufficient 
+experience/expertise 
+Guidance 
+“Sufficient experience/expertise” of the Appointed Officer is based on local regulatory expectations 
+and industry standards in the jurisdiction where the Entity is based. Consider the type of compliance 
+roles previously undertaken and length of time that the individual has worked in the financial services 
+industry. Your Entity may have appointed the same person as both the FC and Sanctions Officer or 
+have a person for each role. 
+Points for Consideration 
+It is necessary to appoint an identified Officer who has senior responsibility, sufficient seniority and 
+autonomy to manage the FCC programme. Without an appointed officer, accountability for FC risk 
+management may become diluted. The appropriate level of expertise, proportionate to the size and 
+complexity of your Entity’s business, is essential for an effective programme. The level of experience 
+and expertise required should reflect the scale, complexity and FC and Sanctions risk of the FI’s 
+business. The Correspondent may ask for information on the credentials of the appointed officer.  
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          18  
+Question 
+22 b 
+Adverse information 
+Screening 
+Points for Consideration 
+Also known as ‘negative news, adverse information may come by way of public sources, connections 
+within the industry, law enforcement agencies, among others, and is defined as information with 
+potential negative connotation which may impact the view on existing customer. The programme 
+should define what is considered to be adverse media and set out an approach to reviewing it and 
+the risk appetite for dealing with negative information and the governance approach to approval and 
+exception handling. Documenting the identification, investigation and decision made are essential in 
+terms of evidencing the handling of the information. 
+Question 
+22 c 
+Beneficial Ownership Guidance  
+Beneficial ownership refers to the ownership structure of legal entities and the UBO is the natural 
+person(s) (i.e. one or more individuals) who benefit(s) from the legal Entity. 
+Points for Consideration 
+The programme should define the levels of direct and underlying beneficial ownership to be identified 
+for different customer types and risk levels. Companies may be formed to hide the identity of the 
+beneficial owner(s) (i.e. shell companies, private investment companies and trusts) but more broadly 
+it is necessary to understand the ownership of legal entities in order to understand the risk they pose. 
+Potential risk factors include geographic location of the owner, PEP or Sanctions exposure and source 
+of wealth considerations. 
+For more information, refer to the Wolfsberg Source of Wealth and Source of Funds FAQs. 
+Question 
+22 d 
+Cash Reporting Guidance 
+Indicate whether your Entity has cash reporting requirements. Only utilise the drop-down option “not 
+applicable” if there are regulatory reasons for not reporting (i.e. there is no regulatory requirement 
+to report cash transactions at any threshold) or operational reasons (e.g. the Entity does not handle 
+cash). Utilise the free-text box under Question 29 to provide further information if needed. 
+Points for Consideration 
+If there is a cash reporting obligation in any of your Entity’s locations, the programme should 
+document the standards to be followed. 
+Question 
+22 e 
+CDD Points for Consideration 
+Understanding customers’ information such as location of residence/activity, associated persons, type 
+of activities, source of funds and wealth and purpose of the account will serve as the basis of an 
+effective FCC programme, as it will provide essential information to use in the monitoring, screening 
+and risk assessment of the business and protect the Respondent and the financial system from illicit 
+activities. A lack of understanding of your customers’ personal details will lead to an ineffective FCC 
+programme, as it does not give the necessary information to monitor, screen and assess customers’ 
+potential risks. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          19  
+Question 
+22 f 
+EDD Points for Consideration 
+EDD is the gathering and analysis of additional due diligence information, tighter controls related to 
+monitoring of transactions as well as more regular refresh of the account details. It is required when 
+a customer presents potential elevated FC risks. Examples include customers whose source of income 
+is from high-risk activities, customers with a nexus to sanctioned countries or are sanctioned 
+themselves, complex ownership structures and those classified as PEPs. Most FIs and regulatory 
+authorities around the world require such controls to be implemented, and more likely than not, so 
+will the Correspondent. EDD requirements need to be defined, tailored to your Entity’s specific risk 
+attributes and implemented as part of your FCC programme. It must also be applied consistently to 
+all customers that are classified as such, from the account opening to the ongoing maintenance of 
+accounts and the relationship. Consistent and effective EDD controls implementation protects not 
+only the Entity and the Correspondent, but the financial system worldwide. 
+Question 
+22 g 
+Independent Testing Points for Consideration 
+To ensure the controls implemented are effective, independent testing is crucial and will mitigate the 
+potential risk of operational failure and help identify potential gaps in the Entity’s FCC programme. 
+The FCC programme should be subject to independent testing in addition to Internal Audit as a 
+fundamental pillar of the overall control environment. The programme should map out the 
+responsibilities, approach, frequency and reporting process for the independent testing. Independent 
+does not mean external to the organisation. It may be an internal team with the necessary skill set 
+and independence to the activity been monitored by them. In the absence of an effective and 
+frequent testing programme, a bank will be dependent on relatively less frequent Internal Audits or 
+Regulatory examinations to identify issues which may mean that issues are not discovered in a timely 
+fashion and corrected as part of the FCC programme 
+Question 
+22 h 
+Periodic Review Points for Consideration 
+Periodic or ongoing reviews of your Entity’s customers’ CDD and EDD records will support and refresh 
+your understanding of existing customers, ensuring changes are captured and creating the 
+opportunity to identify potential new FC risks. They will provide the necessary information for 
+accurate levels of monitoring, screening and general oversight to several customers. Without 
+accurately understanding the current FC, Sanctions, Fraud or Bribery and Corruption risks the 
+customers pose, the Entity is unable to know and document change in their PEP status, Sanctions 
+status, business activity or potential adverse/negative news in the Media.  
+Question 
+22 i 
+Policies and Procedures Guidance 
+“Policies” establish the principles to be adhered to in order to ensure effective risk management, 
+aligned to the three Lines of Defence model (refer to the Glossary for further information). 
+“Procedures” support the implementation of the policy by providing detailed requirements that must 
+be followed. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          20  
+Points for Consideration 
+Appropriate policies and procedures provide the foundation for a consistent FC programme. 
+Documented policies and procedures are required to implement the defined standards of the 
+programme across the Entity. Appropriate and documented policies and procedures support and 
+enable the consistent execution of the FC programme. Policies and procedures must be all 
+encompassing, across all FC programme elements, all organisational units, all legal entities under the 
+programme and covering all processes, including review functions. Without a documented set of 
+policies and procedures, the Entity will be unable to demonstrate that control processes exist, even 
+if they occur in practice. It will also lead to staff having an inconsistent understanding of the 
+programme and how to implement controls, making it impossible to manage the programme. The 
+lack of documented policies and procedures is considered a high-risk factor. 
+Question 
+22 j 
+PEP Screening Points for Consideration 
+Understanding PEP risks is a requirement under most regulatory regimes. Having an established and 
+effective PEP screening process, including the maintenance of appropriate lists which names are 
+screened against, is an important part of the Entity’s CDD and ongoing due diligence process. The 
+presence of such lists and processes will enable the Entity to develop an accurate understanding of 
+customer potential FC risks. Your programme should include definitions of a PEP and include both 
+domestic and foreign PEP definitions, the process standards for identifying and evaluating a PEP, the 
+risk appetite for dealing with a PEP and the governance approach to approval and exception handling.  
+For more information, refer to the Wolfsberg Guidance on PEPs. 
+Question 
+22 k 
+Risk assessment Guidance 
+Risk Assessment is an assessment of the inherent money laundering, terrorist financing, sanctions 
+and bribery and corruption risks, present within the Entity (customers, geography, products, 
+channels), as well as the mitigating controls implemented to manage those risks, resulting in a 
+residual risk rating. 
+Points for Consideration 
+The risk assessment is the opportunity to assess, document, analyse and create an accurate view of 
+existing risks, controls and gaps that may be in place to share with the Entity’s senior management. 
+Without such a process, it will be difficult for your Entity to understand its risks and will mean that 
+effective controls are unlikely to be in place. The programme should set out the standards for the risk 
+assessment process, how it is applied, executed, validated, and the implications of the outcomes. 
+Additionally, the risk assessment helps to demonstrate an understanding of the FC risks. Your Entity 
+should have an ongoing process for conducting its risk assessment exercise. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          21  
+Question 
+22 l 
+Sanctions Guidance 
+The FC programme must include a Sanctions programme, which should define which sanctions lists 
+would apply, which data elements they would apply to, processes for review and approval, and set 
+a risk appetite for dealing with customers with a sanctions nexus. 
+Points for Consideration 
+Transactional activity that is sent or received through the Correspondent on behalf of the Respondent 
+customer must comply with applicable sanctions regulations. There is risk to the you as the 
+Respondent and your Correspondent if impermissible activity flows through the relationship, and this 
+drives the requirement to have appropriate controls in place, including the implementation of 
+relevant Sanctions lists for ongoing screening. 
+Question 
+22 m 
+Suspicious Activity 
+Reporting 
+Guidance 
+Banks generally have an obligation to report suspicious or potentially suspicious activity to a 
+designated competent government authority. This is known as Suspicious Activity or Suspicious 
+Transaction reporting.  
+Points for Consideration 
+The programme should define clear standards for accuracy, completeness and review processes for 
+suspicious transaction/activity reporting, including having the reports completed within the required 
+timelines. 
+Question 
+22 n 
+Training and Education Guidance 
+Training and Education refers to activities delivered either internally or by a third party, designed to 
+educate and develop management and staff, taking into account the Entity’s policies and procedures 
+and for which attendance records are maintained. 
+Points for Consideration 
+A comprehensive training and educational programme is necessary to support an effective FCC 
+programme. The programme should define the standards for the Training and Education programme 
+required for management and staff, encompassing both general and specialised training, and 
+including minimum standards of qualification/experience for critical roles, training curriculum, 
+attendance and test pass standards, frequency of attendance and frequency of refresh and any 
+requirements for independent qualification, among others. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          22  
+Question 
+22 o 
+Transaction Monitoring Guidance 
+Post-transaction AML monitoring designed to identify potentially suspicious activity that can be 
+referred for further investigation and possible Suspicious Activity Reporting. 
+Transaction monitoring allows you to the implement thresholds on volume, frequency and patterns, 
+among other triggers in an effective and consistent manner. The ability to understand the nature of 
+activity flowing through the Entity (and thus also through the Correspondent) is an essential 
+component of an FCC programme. This is typically performed by some combination of automated 
+and manual processes. 
+Points for Consideration 
+The programme should define standards for Transaction Monitoring including scope of coverage, 
+tuning, threshold setting, documentation standards, and independent review. Consideration should 
+be given to how Transaction Monitoring outcomes feed back to the understanding of customer risk. 
+Question 
+23 
+How many full time 
+employees are in the Entity's 
+AML, CTF and Sanctions 
+Compliance Department? 
+Guidance 
+This question excludes contactors and temporary staff and is only concerned with AML and Sanctions 
+full time employees or equivalent in the second line of Defence (second line means independent risk 
+and/or control stewards, such as Compliance, Operations, Risk or Legal, among others). If the first line 
+function (first line means the front-line, customer facing functions) has dedicated staff performing 
+FCC activities, please include this in the response to Question 29. 
+Points for Consideration 
+The number of staff dedicated to performing FCC activities should be commensurate with the size 
+and scope of your Entity. The Correspondent will use this information in their assessment of your 
+control environment.  
+Question 
+24 
+Is the Entity's AML, CTF and 
+Sanctions policy approved  at 
+least annually by the  Board or 
+equivalent Senior 
+Management Committee? If N, 
+describe your practice in 
+Question 29. 
+Guidance 
+Policy may be maintained at the Entity or the Entity’s parent level – answer for the policy applied by 
+the Entity completing the questionnaire. If the Entity’s answer is “no” add context in the free text box. 
+Points for Consideration 
+Senior Management’s understanding, awareness and approval of such fundamental policies 
+demonstrates the commitment at Senior Level to the fight against FC. Lack of commitment can lead 
+to insufficient controls and/or resources dedicated to preventing FCs. 
+Question 
+25 
+Does the Board receive regular 
+reporting on the status of the 
+AML, CTF and Sanctions 
+programme? 
+Guidance 
+“Reporting” means Management Information (MI) provided to Senior Management by way of 
+presentation slides, metrics and/or discussions which can be evidenced via minutes. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          23  
+  Points for Consideration 
+Lack of regular reporting to senior levels of the organisation can lead to a lack of focus on evolving 
+risks across the organisation. To ensure appropriate oversight of the programme, the Board, or the 
+equivalent Senior Management Committee, would need to receive regular reports on status, including 
+metrics, progress on key projects, issues identified, among others. The reporting should be clear, 
+accurate, complete and such that the Board or other committees are able to demonstrate meaningful 
+oversight over the programme. Where updates are provided during governance  meetings, a record 
+of the information shared and minutes should be retained to provide evidence of discussion, 
+escalation, understanding of the risks raised and agreed approach taken, to Audit and Regulatory 
+visits. 
+Question 
+26 
+Does the Entity use third 
+parties to carry out  any 
+components of its AML, CTF  
+and Sanctions programme? 
+Guidance 
+Third party means a different legal Entity. This could be either related or unrelated to the responding 
+Entity (i.e. either another Entity in the same group or an external Entity).  
+Points for Consideration 
+Any dependency on a third party carrying out c omponents of the FCC programme should be 
+considered here. If a third party is employed to carry out FC prevention related activities, there should 
+be appropriate controls in place to ensure that the third party is performing the tasks correctly. Even 
+if the activity has been delegated, the responsibility for effective controls remains with the Entity. 
+Question 
+26 a 
+If Y, provide further details Guidance 
+Explain what is done by the third party, its responsibilities, details of the location where the third 
+party is based, if it is regulated and by whom, if it is related to the Entity. Confirm if the third party is 
+subject to the same governance, policies and procedures as your Entity. 
+Points for Consideration 
+If any third party is used, the programme should additionally map out the scope of work of those third 
+parties and the oversight in place. This should include standards for reporting, independent 
+evaluation, service review, among others. The Entity must ensure that they have appropriate access 
+to relevant information held/maintained by the third party for its own risk management purposes 
+and fulfilment of regulatory requirements, such as requests for information. 
+Question 
+27 
+Does the Entity have a 
+whistleblower policy? 
+Points for Consideration 
+A whistleblower policy is a best practice that promotes an environment where employees know the 
+organisation is open to hearing concerns and complaints and is committed to transparency.  
+Refer to the Glossary for further information. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          24  
+4. Anti-Bribery & Corruption 
+Question 
+30 
+Has the Entity documented 
+policies and procedures  
+consistent with  applicable 
+Anti-Bribery and Corruption 
+(ABC) regulations and  
+requirements to reasonably 
+prevent, detect and report 
+bribery and corruption? 
+Guidance 
+“Reasonably” refers to the ability to reduce the exposure to bribery and corruption versus the ability 
+to eradicate all risks. 
+Points for Consideration 
+Having an established and effective policy and procedure framework will demonstrate to the 
+Correspondent that the required controls to identify, investigate and manage bribery and corruption 
+risks are in place at your institution. Without a specific inclusion of ABC elements of an overall FCC 
+programme, bribery and corruption risks may not get the necessary attention within an organisation. 
+This could lead to risks materialising without appropriate mitigation. By creating policies and 
+procedures that are clear, concise and accessible to all employees the foundation for the ABC 
+programme is established. A lack of documented policies and procedures creates the risk that 
+stakeholders (employee, joint ventures and third parties) are unaware of the requirements of the 
+programme. It will also generate inconsistent understanding and implementation of controls, making 
+it impossible to hold employees accountable for their responsibilities.  
+Question 
+31 
+Does the Entity have an  
+enterprise-wide programme 
+that sets minimum  ABC 
+standards? 
+Guidance 
+“Enterprise wide” refers to a programme which covers all relevant functions and activities which may 
+be impacted by bribery and corruption risks, including branches and any businesses under your 
+Entity’s responsibility. Refer to the programme which is currently in place – whether it is imposed by 
+your parent company or designed by your Entity. 
+Points for Consideration 
+Without an enterprise-wide programme that sets minimum ABC standards there is a risk that the 
+branches and businesses of the Entity will create and comply with inconsistent procedures. For this 
+reason, it is important to ensure that all activities across the organisation adhere to the ABC 
+programme. A programme involves all aspects of the risk control management, from governance to 
+testing of effectiveness, and must include all functions/departments within the organisation. Bribery 
+and Corruption risks may vary among jurisdictions. 
+Question 
+32 
+Has the Entity appointed a 
+designated officer or  officers 
+with sufficient experience/ 
+expertise responsible for  
+coordinating the ABC  
+programme? 
+Guidance 
+Has your Entity assigned accountability for the ABC programme to an appropriate individual? 
+“Sufficient experience/expertise” is based on local regulatory expectations and industry standards in 
+the jurisdiction where your Entity is based. When considering sufficient experience take into account 
+the role(s) previously undertaken by that individual and length of time they have spent in the financial 
+services industry. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          25  
+  Points for Consideration 
+Without appropriate expertise, your Entity is at risk of not understanding the nature of its bribery 
+and corruption risks and how they are being mitigated. Designating an officer with sufficient ABC 
+expertise and sufficient autonomy and authority to coordinate the ABC programme helps ensure that 
+the programme is managed effectively and it sends a strong message to all stakeholders that ABC 
+compliance is taken seriously by your organisation. Not all organisations require an appointed officer 
+to look at bribery and corruption controls only. Your organisation must assess its requirements and 
+complexity to make such a decision. In some cases, the Money Laundering Reporting Officer (MLRO) 
+is also the ABC appointed officer. 
+Question 
+33 
+Does the Entity have 
+adequate staff with  
+appropriate levels  of 
+experience/expertise to 
+implement the ABC  
+programme? 
+Points for Consideration 
+An ABC programme without adequate staff or the necessary ABC expertise and resources creates the 
+risk that the programme does not function effectively.  
+Question 
+34 
+Is the Entity's ABC programme 
+applicable to: 
+Guidance 
+Select the appropriate option from the drop-down list of answers. 
+Question 
+34 (Choice 
+1) 
+Joint ventures Points for Consideration 
+Joint venture activity can create liability for your organisation if the joint venture partner(s) engage 
+in bribery and corruption. Making your ABC programme applicable to joint ventures, helps mitigate 
+risk. 
+Question 
+34 (Choice 
+2) 
+Third parties acting on behalf 
+of the Entity 
+Points for Consideration 
+Similar to 26, your Entity is responsible for the actions of third parties acting on your behalf, including 
+if the third party engages in bribery and corruption. 
+Question 
+35 
+Does the Entity have a global 
+ABC policy that: 
+Guidance 
+Indicate whether you have a global ABC policy that includes the requirements of Questions 35 a-c.  
+For more information, refer to the Wolfsberg Group ABC Programme Guidance for further 
+information 
+Question 
+35a 
+Prohibits the giving and  
+receiving of bribes? This  
+includes promising,  offering, 
+giving, solicitation or receiving 
+of anything of value, directly or 
+Guidance 
+‘Promising’ refers to the action of promising and not acting on the promise of bribe. ‘Offering’ refers 
+to the act of offering bribe, even if not accepted. ‘Giving’ refers to the action of give bribe, solicited 
+or not. ‘Solicitation’ refers to the act of asking for a bribe, even if not received. ‘Receiving’ refers to 
+the act of holding the bribe. ‘Directly or indirectly’ refers to circumstances where the person sending 
+or receiving the bribe is not the direct recipient but the beneficiary of the act of the bribe. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          26  
+indirectly, if imprope rly 
+intended to influence action or 
+obtain an advantage 
+Points for Consideration 
+Prohibiting the giving and receiving of bribes is the foundation of an ABC programme. 
+Question 
+35 b 
+Includes enhanced 
+requirements regarding 
+interaction with public 
+officials? 
+Guidance 
+Public Officials may include employees, appointees or other representatives of government offices 
+or departments at the national, regional, local or municipal level, or of state-controlled companies, 
+or of international organisations.  
+Points for Consideration 
+Interactions with public officials can be considered to pose a higher risk of bribery and corruption. 
+They may not be considered PEPs under your Entity’s definition as they do not hold a senior position 
+of power. There have, however, been numerous cases where interactions with public officials have 
+created opportunities for bribery and corruption. Such conduct could create significant liability for 
+under applicable anti-corruption laws, such as the U.S Foreign Corrupt Practices Act of 1977 (FCPA) 
+and the U.K. Bribery Act of 2010 (UKBA), amongst others. This risk can be mitigated by establishing 
+procedures governing interactions with public officials as part of the ABC programme. 
+Question 
+35 c 
+Includes a prohibition  against 
+the falsification of books and 
+records (this may be within the 
+ABC policy or any other policy 
+applicable to the Legal Entity)? 
+Guidance 
+“Books” refers to financial accounts. “Records” refer to any records retained for audit purposes. 
+Points for Consideration 
+ Several jurisdictions require relevant organisations to maintain accurate books and records. There 
+could be liability if all business activity is not recorded accurately in your organisation’s books and 
+records. Even if such laws do not exist in the jurisdiction, a formal prohibition against falsification of 
+books and records sends a message to the stakeholders that such conduct will not be tolerated. Your 
+Correspondent will most likely need to comply with such regulations. 
+Question 
+36 
+Does the Entity have  controls 
+in place to monitor the  
+effectiveness of their ABC 
+programme? 
+Guidance 
+“Monitor the effectiveness” refers to testing and oversight that your Entity has implemented to 
+assess compliance with your ABC programme. 
+Points for Consideration 
+Without controls in place to monitor the effectiveness of the ABC programme, including independent 
+audit reviews, there is a risk that your programme does not function as intended, which means 
+bribery and corruption could go undetected. It also refers to records of ABC training, approvals for 
+gift and entertainment, hiring, and third-party delegation, among other components of the ABC 
+programme. 
+Question 
+37 
+Does the Board  receive, assess 
+and challenge regular reporting 
+on the status of the ABC 
+programme? 
+Guidance 
+“Reporting” means MI which is reported to Senior Management by way of presentation slides, and/or 
+discussions which can be evidenced via minutes. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          27  
+  Points for Consideration 
+Regular MI on ABC matters for your Entity’s Board and senior management is crucial to establishing 
+a strong ethical tone from the top and across the organisation. It signals to stakeholders that the 
+individuals charged with the overall management of the organisation are concerned with bribery and 
+corruption matters and treat such matters as a priority. Without ongoing, accurate and clear MI to 
+support the Board and senior management’s awareness of existing risks and controls (among other 
+key information), your organisation may not be able to discharge its responsibilities in relation to ABC 
+oversight effectively. 
+Question 
+38 
+Has the Entity's ABC  
+Enterprise-Wide Risk 
+Assessment (EWRA) been 
+completed in the last 12 
+months? 
+Guidance 
+EWRA Means an ongoing risk assessment performed at the Entity level, looking at inherent risk, 
+mitigating controls and residual risks and their effectiveness. 
+Points for Consideration 
+The risk assessment is the opportunity to assess, document, analyse and create an accurate view of 
+the existing risks, controls and gaps that exist, to share with senior management. Without such a 
+view, it will be difficult to understand the risks and, most likely, to have effective controls in place. 
+The programme should set out the standards for the risk assessment process, how it is applied, 
+executed, tested, and the implications of the outcomes. Additionally, the risk assessment helps to 
+demonstrate an understanding of ABC risk.  
+Question 
+39 
+Does the Entity have an ABC 
+residual risk rating that is the 
+net result of the controls 
+effectiveness and the inherent 
+risk assessment? 
+Guidance 
+Residual risk means the risk that remains after the effectiveness of controls has been applied to the 
+inherent risk your organisation faces. 
+Points for Consideration 
+By developing a risk rating that is based upon (1) the effectiveness of the ABC controls and (2) the 
+inherent bribery and corruption risks facing the Entity’s branches and businesses, they can identify 
+the highest risk areas and then deploy ABC programme resources to address those highest risk areas. 
+Question 
+40 
+Does the Entity's ABC EWRA  
+cover the inherent risk 
+components detailed below: 
+Guidance 
+For each sub-question indicate whether your ABC EWRA includes that component.  
+Question 
+40 a 
+Potential liability created by  
+intermediaries and other third-
+party providers as appropriate 
+Points for Consideration 
+As noted under Question 34, your Entity is responsible for the actions of third parties acting on your 
+behalf. Accordingly, risk assessments addressing the use of third parties enable the Entity to evaluate 
+how well the ABC programme mitigates the risks of those third parties. 
+Question 
+40 b 
+Corruption risks associated  
+with the countries and 
+industries in which the Entity 
+does business, directly or 
+through intermediaries 
+Points for Consideration 
+Certain countries and industries pose greater bribery and corruption risk. By factoring countries and 
+industries in which Entity you do business into the risk assessments, ABC programme resources and 
+controls can be deployed more effectively to mitigate bribery and corruption risk. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          28  
+Question 
+40 c 
+Transactions, products or 
+services, including those  that 
+involve state-owned or state-
+controlled entities  or public 
+officials 
+Points for Consideration 
+As noted under Question 35 b, interaction with public officials poses significant liability risk under 
+relevant anti-corruption laws. It is important that the risk assessments consider interactions with 
+public officials, state-owned or state-controlled entities, so that your ABC programme can mitigate 
+the risk of bribery and corruption.  
+Question 
+40 d 
+Corruption risks associated  
+with gifts and hospitality, 
+hiring/internships, charitable  
+donations and political 
+contributions 
+Points for Consideration 
+Activities such as gift giving, entertaining, hiring, and making charitable donations and political 
+contributions can be performed to influence action or obtain an advantage. This activity creates the 
+risk of bribery and corruption liability. Accordingly, risk assessments should evaluate such activities 
+across your organisation to ensure that the ABC programme effectively monitors these types of 
+activities. 
+Question 
+40e 
+Changes in business activities 
+that may  materially increase 
+the Entity’s corruption risk 
+Points for Consideration 
+Changes in business activities may add additional bribery and corruption risks not previously 
+assessed, such as a new investment venture with a government body. Your risk assessment must 
+have the necessary tools to capture and consider such risks in a timely manner. 
+Question 
+41 
+Does the Entity's internal audit 
+function or other independent 
+third party cover ABC Policies 
+and Procedures? 
+Points for Consideration 
+By having internal audit or an independent third party with ABC expertise evaluate the organisation’s 
+ABC programme, it ensures that the programme is reviewed by an independent Entity. This provides 
+an objective evaluation of the effectiveness of the programme.  
+Question 
+42 
+Does the Entity provide 
+mandatory ABC training to: 
+Guidance 
+For each sub-question, indicate whether you provide training to that group. 
+Question 
+42 a 
+Board and senior  Committee 
+Management 
+Guidance 
+Respond to this question considering the Board responsible for the responding Entity (which may be 
+the Board of the parent). 
+Points for Consideration 
+ABC training tailored to the organisation’s Board and senior management enhances the Management 
+team’s skills and capability to understand bribery and corruption risks, their responsibilities and 
+ensures the ongoing focus on ABC controls.  
+Question 
+42 b 
+Fist Line of Defence Points for Consideration 
+ABC training for First Line of Defence employees mitigates bribery and corruption risk because these 
+employees are in the best position to identify and prevent potential bribery and corruption as they 
+have direct visibility into the relevant conduct. Providing mandatory ABC training, ensures that these 
+employees are attuned to these issues. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          29  
+Question 
+42 c 
+Second Line of Defence Points for Consideration 
+Second Line of Defence employees are usually responsible for identifying suspicious patterns of 
+conduct. Accordingly, providing appropriate ABC training to these employees ensures that they are 
+equipped to identify and report potential improper conduct and thereby mitigating bribery and 
+corruption risk. 
+Question 
+42 d 
+Third Line of Defence Points for Consideration 
+Third Line of Defence refers to Audit and any independent assessment unit. As per Question 42 c, the 
+risk of bribery and corruption can be reduced by providing appropriate ABC training, ensuring that 
+the employees are equipped to identify and report potential improper conduct. 
+Question 
+42 e 
+Third parties to which specific 
+compliance activities subject to 
+ABC risk have been outsourced 
+Guidance 
+Refers to training provided to third parties which currently perform ABC compliance activities on 
+behalf of the Entity. 
+Points for Consideration 
+Any third party that is responsible for ABC compliance activities should receive mandatory ABC 
+training. Failure to do so creates the risk that the third party is not familiar with the ABC programme 
+and does not adhere to the programme’s requirements. 
+Question 
+42 f 
+Non-employed workers  as 
+appropriate (contractors/ 
+consultants) 
+Points for Consideration 
+Any non-employed workers that is responsible for ABC compliance activities should receive 
+mandatory ABC training. Failure to do so creates the risk that the third party is not familiar with the 
+ABC programme and does not adhere to the programme’s requirements. 
+Question 
+43 
+Does the  Entity provide ABC 
+training that is targeted to  
+specific roles,  responsibilities 
+and activities? 
+Guidance 
+Refers to training designed for specific roles/jobs/positions to help them understand their 
+responsibilities in relation to ABC in their day -to-day activities. (e.g. employees that are responsible 
+for booking customer entertainment or travel) 
+Points for Consideration 
+As noted under Questions 42 a-f, various stakeholders occupy different roles with respect to the ABC 
+programme. Accordingly, it is important to provide each stakeholder with targeted training that 
+addresses their roles and responsibilities as they relate to the programme. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          30  
+5. AML, CTF & Sanctions Policies and Procedures  
+Question 
+46 
+Has the Entity documented 
+policies and procedures 
+consistent with applicable 
+AML, CTF and Sanctions 
+regulations and requirements 
+to reasonably prevent, detect 
+and report: 
+Guidance 
+Indicate through each sub-question whether you have documented policies and procedures to 
+address the main elements of an AML, CTF and Sanctions programme.  
+Points for Consideration 
+Lack of documented policies and procedures can lead to failure to comply with jurisdictional 
+requirements or inconsistent implementation of controls and provide opportunity for illicit actors to 
+abuse a respondent for money laundering, including routing FC-related activity through the Entity. 
+The extent to which a group-wide policy is implemented will be considered by the Correspondent as 
+a best practice. 
+Question 
+46 a 
+Money laundering Refer to the Glossary  
+Question 
+46 b 
+Terrorist financing Refer to the Glossary  
+Question 
+46 c 
+Sanctions violations Refer to ‘Sanctions’ in the Glossary 
+Question 
+47 
+Are the Entity's policies and  
+procedures updated at least  
+annually? 
+Points for Consideration 
+Good governance requires periodic assessment of regulatory requirements and policies and 
+procedures against industry best practices. It is essential to have a process in place which requires all 
+branches and segments of the Business to regularly update their policies and procedures. Lack of 
+processes for updating policies and procedures may result in failure to identify or gaps with current 
+applicable regulatory requirements and demonstrate limited focus on FC controls.   
+Question 
+48 
+Has the Entity chosen to 
+compare its policies and 
+procedures against: 
+Points for Consideration 
+If your Entity is not bound by the regulations of key financial markets, most likely your Correspondent 
+will be, in order to transact in their markets and currencies. Your Entity may choose to perform a gap 
+analysis to understand where any variations are and decide on what elements may be worth 
+implementing. 
+Two key markets are U.S. and EU. Once the analysis is complete, it is a good practice to identify 
+potential ways to strengthen existing policies and procedures if gaps are identified. 
+Question 
+48 a 
+US Standards Points for Consideration 
+Your US Correspondent will be subject to US Standards. Aligning some or all of your processes to US 
+standards may support your access to US payment systems.  
+Question 
+48 b 
+EU Standards Points for Consideration 
+Similar to the points for consideration in Question 48 a, compliance with European Standards and 
+requirements may support access to EU payment systems.  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          31  
+Question 
+49 
+Does the Entity have policies 
+and procedures that: 
+Guidance 
+For each sub-question indicate whether you have policies and procedures covering that topic. 
+Question 
+49 a 
+Prohibit the opening and 
+keeping of anonymous and 
+fictitious named accounts 
+Guidance 
+Anonymous and fictitious named accounts mean accounts where the true account-owner is not 
+known to your Entity or where identifying information about the true account-owner is not 
+transmitted by your institution to FIs when you send payment or other financial messages to them. 
+Points for Consideration 
+Maintaining anonymous and fictitious named accounts provides no transparency into the 
+owner/controllers which may lead to potential misuse of the accounts by illicit actors. Also, these 
+types of naming conventions do not allow for effective economic sanctions and name screening by 
+any party in the payment chain. Failure to recognise these types of accounts may increase FC risk. If 
+these accounts exist at the Entity, it is imperative to complete and identify relevant ownership and 
+control to determine if there are any bad actors, PEPs, negative media, tied to the account owners.  
+Question 
+49 b 
+Prohibit the opening and 
+keeping of accounts for 
+unlicensed banks and/or NBFIs 
+Points for Consideration 
+The inability to identify unregistered or unlicensed entities that have registration or licensing 
+requirements may leave your Entity open to FC risks. If these accounts exist at your institution, and 
+they refuse to provide evidence of licensing, a determination should be made regarding the 
+legitimacy of the customer. In addition, unlicensed banks/NBFIs may not be abiding by their local 
+regulations.  
+Question 
+49 c 
+Prohibit dealing with other 
+entities that provide  banking 
+services to unlicensed banks 
+Points for Consideration 
+Maintaining accounts for entities which deal with unlicensed banks introduces the potential risk of 
+processing transactions for entities not properly vetted and not subject to regulatory oversight and 
+review, for both Respondent and Correspondent. Failure to identify this activity for an existing 
+customer could lead to the correspondent/respondent institution being liable for executing 
+transactions that could be considered unlawful.  
+Question 
+49 d 
+Prohibit 
+accounts/relationships with 
+shell banks 
+Guidance 
+Per FATF, a shell bank is “a bank that has no physical presence in the country in which it is 
+incorporated and licensed, and which is unaffiliated with a regulated financial group that is subject 
+to effective consolidated supervision. Physical presence means meaningful mind and management 
+located within a country. The existence simply of a local agent or low-level staff does not constitute 
+physical presence.”  Many jurisdictions prohibit doing any business with these types of entities.  
+For more information, refer to FATF Recommendation 13. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          32  
+  Points for Consideration  
+Shell banks have been found to be used to facilitate FC, as there is no regulatory oversight due to a 
+lack of physical presence. Offering services to a shell bank can allow bad actors/criminals to gain 
+access to the financial systems to facilitate FC.  
+Question 
+49 e 
+Prohibit dealing with  another 
+Entity that provides services to 
+shell banks 
+Guidance 
+Even if there is not a direct relationship with shell banks, if there is a downstream customer who 
+offers services to shell banks, there would be exposure to FC risks from those entities. 
+Points for Consideration 
+Offering services to an Entity that provides services to a shell bank can allow bad actors/criminals to 
+gain access to the financial systems to facilitate FC. 
+Question 
+49 f 
+Prohibit opening and 
+keeping of accounts for Section 
+311 designated entities 
+Guidance 
+Section 311 allows the U.S. Financial Crimes Enforcement Network (FinCEN) to take certain special 
+measures against foreign jurisdictions, foreign FIs, classes of international transactions, or types of 
+accounts of primary money laundering concern.  
+Points for Consideration 
+Correspondent banks subject to these rules will require their respondent banks to understand the 
+risks associated with continuing to do business with the designated parties and implement controls 
+to mitigate the risk of transactions being conducted through the accounts maintained at the 
+correspondent bank. You can expect to have a discussion with their Correspondent on this control 
+and how it can ensure compliance with these requirements. You should also consider performing 
+their own screening for the presence of such entities in their payment activity. If your Entity conducts 
+business with a foreign FI that is designated as a 311 primary money laundering concern, this can 
+create issues with your correspondent bank(s) if your Entity attempts to transact in US Dollar on 
+behalf of a designated foreign FI, as U.S. Correspondents are not allowed to process payments for 
+311 entities.  
+Question 
+49 g 
+Prohibit opening and  keeping 
+of accounts for any of 
+unlicensed/unregulated 
+remittance agents,  exchanges 
+houses, casa de cambio, 
+bureaux de change or money 
+transfer agents 
+Points for Consideration 
+Failing to identify unregistered or unlicensed entities, where such entities are generally required to 
+be registered or licensed, may leave an Entity open to FC risks. If these accounts exist at the 
+institution, a determination should be made regarding the legitimacy of the customer. If you have 
+relationships with such unlicensed/unregulated entities, you should be prepared to demonstrate to 
+your correspondent(s) how you gain comfort in relation to their activities (where licensing/regulation 
+would normally be required). Maintaining accounts for unlicensed money transmitters and exchange 
+houses can lead to additional risks as these entities are not generally subject to regulatory oversight 
+and review.   
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          33  
+Question 
+49 h 
+Assess the risks of relationships 
+with domestic and foreign 
+PEPs, including their family and 
+close associates 
+Points for Consideration 
+PEPs carry a greater risk of bribery and corruption because their prominent role in a country and their 
+public function can make them a target for bad actors seeking undue influence. Failure to understand 
+and assess the potential risk of PEPS, related family members and associates can create exposure to 
+the movement of illicit funds, including those associated with corruption. 
+Question 
+49 i 
+Define the process for 
+escalating FC risk 
+issues/potentially suspicious 
+activity identified by 
+employees 
+Points for Consideration 
+Lack of clear escalation processes may lead to failure in investigating and reporting potential 
+suspicious activity. A clear escalation path for AML and CTF issues should be implemented that is 
+available to all staff. It should be independent and route to qualified individuals to ensure that risks 
+and/or suspicious activity are quickly identified and actioned.  
+Question 
+49 j 
+Define the process, where  
+appropriate, for terminating  
+existing customer relationships 
+due to financial crime risk 
+Points for Consideration 
+Lack of clear processes for terminating relationships for FC concerns may lead to potential criminal 
+activity continuing to flow through your organisation. A clear and defined exit process will not only 
+assist with the exit but will also ensure that accounts are swiftly closed, and related parties are 
+reviewed. These actions should seek to identify potentially related businesses or accounts remaining 
+at the institution to mitigate the identified FC.  
+Question 
+49 k 
+Define the process for exiting 
+customers for financial crime  
+reasons that applies across the 
+Entity, including foreign 
+branches and affiliates 
+Points for Consideration 
+Lack of a clear identification and escalation process for exiting customers that conduct suspicious 
+activity may lead to a failure to report potential FC, including lack of management oversight, 
+consistent processes and rogue employees. Consider what happens after the escalation and 
+reporting process. How are any ongoing risks posed by customers/activity addressed and how is the 
+identification of associated accounts at branches and affiliates identified.  
+Question 
+49 l 
+Define the process and controls 
+to identify and handle 
+customers that were 
+previously exited for financial 
+crime reasons if they seek to 
+re-establish a relationship 
+Points for Consideration 
+If a customer or related parties seeks to re-establish a relationship, the reasons and the risks 
+associated with the original exit must be vetted and mitigated. There should be substantive proof 
+that the risk issues identified earlier no longer exist. Lack of a full review of a customer that wants to 
+re-establish a relationship may result in repeated risks if the customer has the same or similar 
+management, regardless of whether there is a change in operational policies. 
+Question 
+49 m 
+ 
+Outline the processes  
+regarding screening for  
+sanctions, PEPs and adverse 
+media/negative news 
+Points for Consideration 
+There should be a clear definition and screening process for these specific entities/persons so they 
+can be identified and screened. Screening is essential to assist in identifying and mitigating the risks 
+associated with customers that are subject to sanctions, PEP, or adverse media/negative news 
+concerns. This screening should include variations in spelling and/or foreign language if applicable. 
+Failure to maintain methods to identify PEPs properly and to screen for sanctions and negative can 
+expose the Entity to unidentified risks which are not properly assessed, monitored or mitigated. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          34  
+Question 
+49 n 
+Outline the processes for the 
+maintenance of internal 
+"watchlists" 
+Points for Consideration 
+Failure to maintain methods to prevent previously exited customers and related parties internally 
+identified from re-onboarding or re-entering the bank can lead to processing transactions with 
+elevated FC risk, which presents concerns as to the effectiveness of the FC programme. 
+Question 
+50 
+Has the Entity defined a risk 
+tolerance statement or similar 
+document which defines a risk 
+boundary around their 
+business? 
+Guidance 
+A risk tolerance/risk appetite statement documents the level of the exposure beyond which the 
+Entity is not prepared to accept additional risks. This can reduce and protect against unwanted risks 
+and set business expectations in advance, thus ensuring that sales partners are aware of which 
+customers to pursue and which not to pursue.  
+Points for Consideration 
+Failure to define a risk appetite/risk tolerance for your Entity can lead to an unacceptable level of risk 
+which may not be mitigated by controls. Risk appetite/risk tolerance is a way of defining and 
+measuring what business your Entity will or will not accept. 
+Question 
+51 
+Does the  Entity have record 
+retention procedures that 
+comply with applicable laws? 
+Guidance 
+A robust programme includes documented procedures outlining the minimum period for which 
+records must be kept, e.g. CDD information, outcome of screening controls, escalation and decisions 
+made by Senior Management and others.  
+Points for Consideration 
+Lack of defined procedures for maintenance of records can put your Entity at risk of breaching 
+applicable laws. Minimum record keeping requirements may be defined by local regulations and are 
+also guided by FATF Recommendation 11. 
+6. AML, CTF & Sanctions Risk Assessment 
+Question 
+54 
+Does the Entity's AML and CTF 
+EWRA cover the inherent risk 
+components detailed below 
+Guidance 
+The Wolfsberg Group have published the Wolfsberg FAQs on Risk Assessments for Money 
+Laundering, Sanctions and Bribery & Corruption which should prove helpful to entities seeking to 
+understand the process and language. 
+Question 
+54 a 
+Customer 
+ 
+Points for Consideration 
+What is the overall residual risk of the customer base as a whole? Consider the percentage of high, 
+medium and low risk customers and the controls in place to mitigate that risk. Also consider the 
+percentage of customers which may have higher industry risk and PEP risk. This kind of information 
+helps management assess if your Entity’s current risk exposure fits within the risk appetite. Not 
+identifying the proportion of active customers by risk and industry type may cause gaps in attempts 
+to mitigate the risk presented by higher risk customers effectively. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          35  
+Question 
+54 b 
+Product 
+ 
+Guidance 
+Different products have different risks. Product controls should be assessed, e.g. Terms & Conditions, 
+early surrender, payments on behalf of the customers, cross border nature, sold by intermediaries. 
+What percentage of products have higher risk indicators? 
+Points for Consideration 
+Failure to be aware of the risk of products and how many customers utilise such products, can inhibit 
+the appropriate controls that have been implemented for such product. 
+Question 
+54c 
+Channel Guidance Examples of channels are face to face, fax, post/mail, image transfer, internet banking, 
+mainframe links and SWIFT. 
+Points for Consideration 
+Consider the risks associated with how the Entity interacts with customers. Assess which channels 
+expose the Entity to higher risks and determine the percentage of such channels being utilised, so 
+that the associated controls are appropriate. 
+Question 
+54 d 
+Geography 
+ 
+Points for Consideration 
+Consider what percentage of activities involve higher risk geographies which will enable the Entity to 
+ensure that controls are appropriately designed and implemented. This analysis should allow for 
+identification of any concentration of customers (and their connected/related parties) from countries 
+with a higher probability of AML and CTF risk and the proportion of payments which are made 
+to/from higher risk countries. 
+Question 
+55 
+Does the Entity's AML and CTF 
+EWRA cover the controls 
+effectiveness components 
+detailed below: 
+ 
+Guidance 
+Controls are programmes, policies or activities put in place to protect against the materialisation of 
+money laundering and terrorism financing risks, and to ensure their prompt identification. Each 
+control should be assessed for overall design and operating effectiveness. Controls are also used to 
+maintain compliance with regulations governing activities. 
+Points for Consideration 
+The risk of internal controls not being evaluated periodically to determine their effectiveness is that 
+they will remain static and will not effectively offset the overall inherent risks identified by the EWRA, 
+or other means of risk assessment, as the organisation evolves. 
+Question 
+55 a 
+Transaction Monitoring 
+ 
+Points for Consideration 
+ Consider the type of transaction monitoring which is applied to customers, products, channels and 
+geography in the organisation and assess its suitability versus existing inherent risks. Is the 
+monitoring automated or manual? Consider if the rules and scenarios are appropriate for your 
+customer base, including whether they are subject to tuning or other validation exercises. Consider 
+if tactical monitoring is required to be implemented where gaps exist in the transaction monitoring 
+framework. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          36  
+Question 
+55 b 
+Customer Due Diligence (CDD) 
+ 
+ 
+Points for Consideration 
+Consider the effectiveness of the CDD requirements and implementation, e.g. how quickly are they 
+applied, how frequently the data are refreshed, whether they are risk-based, and performance 
+indicators relating to the execution of CDD within your organisation (e.g. is CDD completed on time 
+and to an appropriate quality standard? Are exceptions used appropriately, etc.?).  
+The lack of an effective CDD programme may prevent the Entity from appropriately identifying 
+customers, assigning risk ratings and understanding the purpose of their relationships. The CDD 
+programme must be designed to identify elements including sanctions exposure, source of 
+funds/wealth, adverse media/negative news and PEP exposure and include provisions for the CDD 
+Information to be updated using a risk-based approach. 
+Question 
+55 c 
+PEP identification 
+ 
+Points for Consideration 
+Consider the effectiveness of the way PEPs are identified, how regularly such customers are 
+monitored, screened and their KYC profiles updated. 
+Unidentified PEP relationships may cause the risk rating to be incorrect and may prevent the correct 
+EDD measures from being in place to mitigate any potential FC risk. 
+Question 
+55 d 
+Transaction Screening 
+ 
+ 
+Points for Consideration 
+Consider the effectiveness of any screening of transactions against lists besides sanctions lists (which 
+are covered below). For example, any internal watchlists that are maintained and against which 
+transactions are screened.  
+Question 
+55 e 
+Name Screening against 
+Adverse Media/Negative News 
+ 
+ 
+Points for Consideration 
+How frequently are customers’ names screened against adverse media/negative news? What news 
+sources are used? Does screening cover connected parties (such as owners and directors)? What 
+procedures are in place for determining what constitutes material events and how they are to be 
+processed and escalated? What processes are in place to address any inquiries from your 
+Correspondent(s) about adverse media/negative news affecting your Entity or its customers? 
+The lack of Negative Media screening on customers may result in failure to identify the risk they pose 
+to your Entity and result in a need to change the risk rating or conduct further due diligence and 
+potentially lead to an exit. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          37  
+Question 
+55 f 
+Training and Education 
+ 
+Points for Consideration 
+Consider the volume, quality and frequency of training provided, and whether completion and 
+success rate are documented. Also consider how frequently training materials are updated so they 
+remain useful and relevant. Targeted training, focus on key roles, utilising practical examples and 
+case studies is an important part of effective training. A process to risk rate departments or business 
+areas enables the identification of higher risk areas that may require more frequent or specialised 
+training. 
+Without effective training, the first Line of Defence will not be equipped to identify FC risks efficiently 
+and the second line will not have the necessary knowledge to provide oversight. Senior management 
+will not be in a strong position to discharge its responsibilities and prioritise key controls. Education 
+is also a key element of control, as it provides regular regulatory updates, lessons learned from 
+industry fines and keeps FCC themes at the forefront of the organisation's priorities. 
+Question 
+55 g 
+Governance 
+ 
+ 
+Guidance 
+Governance means a documented, regular and targeted set of tools to help management discharge 
+its responsibilities effectively. It can include but is not limited to meetings, e-mails, presentations, 
+escalation paths, defined roles and responsibilities via ‘terms of reference’, among others.  
+Points for Consideration 
+Not only must your Entity ensure that appropriate governance is in place in relation to FC controls, 
+but also that it incorporates documented proof of meetings, decisioning, discussions and escalations, 
+where relevant. Unless all key stages of the control framework are documented, they cannot be 
+evidenced and may be considered as non-existent or weaker by Auditors and Regulatory Authorities. 
+Question 
+55 h 
+Management information 
+ 
+Points for Consideration 
+Consider the quality of the MI generated in relation to FC controls and how effective that is. Different 
+types of MI are produced in a bank  related to AML/CTF. Some will focus on daily tasks, helping to 
+identify errors/gaps in the existing controls. Others will be developed specificall y for senior  
+management and will help management to have an overview of the end-to-end FCC programme. 
+Lack of appropriate and accurate MI (e.g. wrong  data sources, different parameters utilised to 
+compare the same information, inconsistent dates, etc.), may cause the organisation to be ineffective 
+in identifying risks or failures in the FCC programme. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          38  
+Question 
+56 
+Has the Entity's AML and CTF 
+EWRA been conducted in the 
+last 12 months? 
+ 
+Points for Consideration 
+A risk assessment that is not refreshed regularly cannot serve as a tool to track and highlight changes 
+in risk exposure, the controls in place and any challenges in managing risk effectively. Without regular 
+refresh, underlying risks could have changed without appropriate management oversight. Your Entity 
+should decide on the appropriate frequency of the risk assessment to maintain the relevance of the 
+findings and risk mitigation programme. If the risk assessment is not conducted annually an 
+explanation should be provided. 
+Question 
+57 
+Does the Entity's Sanctions  
+EWRA cover the inherent risk 
+components detailed below: 
+Guidance 
+For each sub-question, indicate whether that component is included in your Sanctions EWRA as an 
+inherent risk. 
+Question 
+57 a 
+Customer  
+ 
+Points for Consideration 
+What is the overall sanctions residual risk exposure via the customer base and their transactions? 
+Consider the special risks posed by customers who transact with jurisdictions that are prohibited to 
+your Entity or your Correspondents? Also consider what thresholds are  acceptable for sanctioned 
+parties’ ownership of the customers? This kind of information helps management assess if your 
+organisation’s sanction risk fits its risk appetite. 
+Question 
+57 b 
+Product 
+ 
+Points for Consideration 
+Consider end-to-end data flows for all products so your organisation can be sure that all relevant 
+data is being captured for screening. Certain products (especially those that include third parties) 
+may great exposure to additional Sanctions risks if the controls are not fit for purpose. 
+Question 
+57 c 
+Channel Guidance  
+Examples of channels are face to face, fax, post/mail, image transfer, internet banking, mainframe 
+links and SWIFT.       
+Points for Consideration 
+Not understanding the product and customer  delivery channels and their respective controls in 
+relation to Sanctions exposure may create a gap in the effectiveness of the programme. For example, 
+can customers amend the reference or address to avoid identification of Sanctions nexus by the 
+screening systems? 
+Consider the risks associated with the method of customer interaction. Assess which channels 
+present exposure to higher sanctions risks and determine the percentage of such channels being 
+utilised, so that the controls are appropriate. Consider whether any of these channels provides 
+reduced visibility to parties involved. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          39  
+Question 
+57 d 
+ 
+Geography Points for Consideration 
+Consider the sanctions exposure presented by the location of the customers and their 
+counterparties. Particularly those in proximity to sanctioned jurisdictions. This analysis should allow 
+for the assessment of the required controls to prevent facilitating transac tions with sanctioned 
+jurisdictions/entities. 
+Question 
+58 
+Does the Entity's Sanctions  
+EWRA cover the controls  
+effectiveness components 
+detailed below:  
+Guidance 
+Controls include programmes, policies or activities put in place to mitigate sanctions risks, ensuring 
+that potential risks are promptly identified. Each  control should be assessed for overall design and 
+operating effectiveness. Controls are also used to maintain compliance with regulations governing 
+the activities. 
+If internal con trols are not evaluated to determine their effectiveness , this increases the risk  that 
+they will remain static and will not effectively offset the overall inherent risks identified by the EWRA 
+as your organisation evolves and offers new products or services. 
+Question 
+58 a 
+Customer Due Diligence (CDD) Points for Consideration 
+Does the CDD process identify whether or not the customer operates in a Sanctioned country? Does 
+the due diligence program me identify potential customer ownership in a Sanctioned country or 
+customer business relationships with those in Sanctioned countries?  
+Not completing full CDD could create sanctions risks associated with  new customers, leaving the 
+Entity open to regulatory related issues. Robust CDD will assist in the identification of potential 
+sanctions nexus of customers and their key stakeholders. 
+Question 
+58 b 
+Governance Points for Consideration 
+Not only must you r Entity ensure that appropriate governance is in place in relation to sanctions 
+controls, but also that it incorporates documented  decisioning and escalations, where relevant. 
+Unless all key stages of the control framework are documented they cannot be evidenced and may 
+be considered as non-existent or weaker by auditors and regulatory authorities. 
+Governance is crucial for the management of sanctions risk, to ensure senior management oversight 
+of potential concern 
+Question 
+58c 
+List Management Points for Consideration 
+List Management is critical to the management of sanctions risk. The processes to manage changes 
+to relevant lists is key to ensuring all parties and jurisdictions subject to sanctions are properly 
+identified. Out of date screening lists could lead to sanctions breaches and regulatory scrutiny. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          40  
+Question 
+58 d 
+Management information Points for Consideration 
+Consider the quality of the MI generated in relation to sanctions controls and how effective that is 
+for your organisation. Different types of MI are produced related to sanctions. Some will focus on 
+daily tasks, helping to identify errors/gaps in the existing controls. Others  will be developed 
+specifically for senior management and will help management to have an overview of the end-to-end 
+sanctions programme. 
+Question 
+58 e 
+Name Screening  
+ 
+ 
+Points for Consideration 
+How frequently does your Entity screen customers’ names against sanctions lists? Does screening 
+cover connected parties (such as owners and directors)? What procedures are in place for 
+determining what constitutes material events and how they are to be processed and escalated? Not 
+completing accurate sanctions name screening may lead to sanctions breaches and regulatory 
+concerns. 
+Question 
+58 f 
+Transaction Screening 
+ 
+ 
+Points for Consideration 
+Are the transaction screening processes effective in protecting from sanctions violations? Is the 
+output used to identify which customers pose a sanctions risk? Are the results of sanctions screening 
+processes linked to CDD/KYC processes to build a fuller picture of the risk presented by the 
+customers? Have you considered screening the transactions that flow to your Correspondent using 
+the sanctions requirements of that jurisdiction? As one example if you do not screen US Dollar activity 
+against the OFAC list you are exposed to the possibility that your US Dollar Correspondent will 
+block/freeze or reject the transaction under OFAC regulations. 
+Question 
+58 g 
+Training and Education 
+ 
+Points for Consideration 
+Consider the volume, quality and frequency of training provided, and whether completion and 
+success rate are documented. Also consider how frequently training materials are updated so they 
+remain useful and relevant. Targeted training, focus on key roles, utilising practical examples and 
+case studies is an important part of effective training. A process to risk rate the departments or 
+business areas would identification of higher risk areas that may require more frequent or specialised 
+training. 
+Without effective training, the first Line of Defence will not be equipped to identify sanctions risks 
+efficiently and the second line will not have the necessary knowledge to provide oversight. Senior 
+management will not be in a strong position to discharge its responsibilities and prioritise key 
+controls. Education is also a key element of control, as it provides regular regulatory updates, lessons 
+learned from industry fines and keeps FCC themes at the forefront of the organisation's priorities. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          41  
+Question 
+59 
+Has the Entity's Sanctions 
+EWRA been conducted in the 
+last 12 months? 
+ 
+Points for Consideration 
+A risk assessment that is not refreshed regularly cannot serve as a tool to track and highlight changes 
+in exposure, the controls in place and any challenges in managing risk effectively. Without regular 
+refresh, underlying risks could have changed without appropriate management oversight. 
+You should decide on the appropriate frequency of the Sanctions risk assessment to maintain the 
+relevance of the findings and risk mitigation programme. If the risk assessment is not conducted 
+annually an explanation should be provided. 
+7. KYC, CDD and EDD 
+Question 
+62 
+Does the Entity verify the 
+identity of the customer? 
+Guidance 
+“Verification of identity” refers to the requirement to evidence the information provided by/on 
+behalf of the customer during CDD, as required. Failure to verify the identity of a customer can lead 
+to unknowingly conducting business with individuals or entities who are establishing a relationship 
+for purposes of conducting nefarious activities. 
+Points for Consideration 
+The level of verification will typically vary dependent on regulatory requirements, the customer risk 
+rating, and other elements such as what type of verification (documentary/non-documentary) is 
+available. Although there will be different approaches, there must be consistent documentation of 
+the rationale for the level of verification. Where variances were applied, the additional steps 
+taken/implemented to mitigate any additional control must be documented. 
+Question 
+63 
+Do the Entity's policies and 
+procedures set out when CDD 
+must be completed, 
+e.g. at the time of  onboarding 
+or within 30 days? 
+Guidance 
+Consider not only CDD procedures/regulatory requirements. but the exceptions which may be 
+applied, including the time allowed for a customer to have its profile finalised (approved) after it has 
+established a relationship with the Entity, if relevant. Consider the risks for customer profiles which 
+are overdue for ongoing review. A profile that is overdue for a long period of time can become a 
+considerable risk to the FCC programme, as the information will not be up to date information and 
+therefore will not enable the identification of risk flags which are used to determine the level of 
+monitoring required. 
+Points for Consideration 
+Lack of policies /procedures and relevant controls to ensure due diligence is conducted in a timely 
+manner exposes the Entity to the risk of conducting business with individuals or entities who are, or 
+who are connected to, illicit actors. As the gateway for activity flowing to the Correspondent, any 
+gaps in the Entity’s processes will result in the Respondent exposing the Correspondent to 
+heightened risk. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          42  
+Question 
+64 
+Which of the following does  
+the Entity gather and retain 
+when conducting CDD? Select 
+all that apply: 
+Guidance 
+For each sub-question indicate whether your Entity documents that component as part of CDD. 
+Question 
+64 a 
+Customer identification Guidance 
+Consider the effectiveness of the controls based on customer types in identifying and verifying the 
+customers adequately. 
+Points for Consideration 
+As noted under Question 62, the identification and verification of customers are key in order for to 
+understand what risks the Entity is exposed to. Specifically, this control is critical to mitigate the risk 
+that a customer is not actually who they purport to be. 
+Question 
+64 b 
+Expected activity Guidance 
+This may include volumes, types of transactions, jurisdictions to/from which transactions are likely 
+to occur, Entity types, frequency, products and values. Consider the effectiveness of the processes 
+to source, document and assess the expected activity of the customers against their actual activity 
+at regular intervals, across the duration of the customer life cycle. Refer to the Glossary for further 
+clarification. 
+Points for Consideration 
+Well understood and documented expected activity will support an effective transaction monitoring 
+process and minimise unnecessary engagement with the customer and delay of service. In addition, 
+it will support the identification of irregular patterns and type of payments/transactions.  
+Question 
+64 c 
+Nature of 
+business/employment 
+Guidance 
+This should include all types of revenue generating activity provided/performed by the customer. 
+Points for Consideration 
+In addition, it helps with the identification of high-risk activities which the customer may be 
+undertaking and may give rise to a different customer profile. This information also helps with 
+understanding the customer’s source of funds and transactional activity. 
+Question 
+64 d 
+ 
+Ownership structure Guidance 
+Refers to the full list of shareholders, intermediary entities and UBOs, including percentages of 
+ownership. Consider the level of scrutiny performed on the customers’ ownership structure based 
+on Entity type and customer risk rating and how efficient the processes are in identifying potential 
+FC risks. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          43  
+  Points for Consideration 
+Ownership structures (e.g. complex) can be a key contributor to additional FC risks due to a number 
+of elements, such as the jurisdictions of incorporation, the business activity or residency of 
+shareholders, the identity of shareholders or key controllers, holding a senior political public 
+function, sanctions nexus, higher risk activities, and source of funds from companies which are part 
+of the chain of ownership. 
+Question 
+64 e 
+Product usage Guidance 
+Product Usage means the type and level (e.g. value/volume) of utilisation of products. 
+Points for Consideration 
+Certain products will be considered higher risk than others. Different products expose your 
+organisation to different risks due to the permitted volume of transactions, currencies associated to 
+them, channels utilised, complexity, among others. 
+Consider the effectiveness of the processes when assessing the expected activity vs actual activity 
+for each product, if applicable.  
+Question 
+64f 
+Purpose and nature of 
+relationship 
+Guidance 
+The reason for the establishment of the relationship and the type of relationship such as investment 
+banking or private banking. 
+Points for Consideration,  
+The purpose of the relationship will provide a rationale for the products offered to the customer. 
+Similarly, the nature of the relationship will provide context to what products the customer can 
+access in your organisation. Both will help build an understanding of the potential risk the customer 
+may pose to your organisation. 
+Question 
+64 g 
+Source of funds Points for Consideration 
+The customer’s source of funds may be important in enabling an understanding of certain activities 
+and the FC risks they pose. The risk of not understanding the source of funds is that your Entity cannot 
+reasonably determine if the funds are from a legitimate source or are consistent with the customer’s 
+source of wealth. 
+Refer to the Glossary for further information. 
+Question 
+64 h 
+Source of wealth Points for Consideration 
+The risk of not understanding the customer’s source of wealth is that it cannot be reasonably 
+determined that their wealth has been derived from a legitimate source nor whether it is consistent 
+with the business activity of the customer. While source of funds is a largely transactional 
+consideration, source of wealth looks more broadly at the overall relationship and how the wealth 
+was accumulated through time – especially for higher net worth individuals. 
+Refer to the Glossary for further information. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          44  
+Question 
+65 
+Are each of the following 
+identified: 
+For each sub-question indicate whether that information is identified as part of CDD.  
+Question 
+65 a 
+Ultimate beneficial ownership  Points for Consideration 
+Failure to identify all relevant parties that have influence and control over an organisation can lead 
+to the provision of account services to illicit actors and/or parties subject to sanctions. 
+Question 
+65 a1 
+Are ultimate beneficial 
+ownership verified? 
+Guidance 
+This question is asking if your Entity verifies UBOs within the ownership/control threshold set by your 
+Entity, e.g. 25% or more, 10% or more, etc. 
+Points for Consideration 
+Shareholders and UBOs may have direct influence over the operations of customers which in turn 
+may introduce FC to your Entity maintaining the customer relationship. It is necessary to understand 
+who these parties are and to identify relevant information about them. Depending on a number of 
+elements, for example, whether they are PEPs, the UBOs may present different risks. 
+Although there may be no negative connotation with these risks, your Correspondent similarly as 
+part of its CDD process may need to obtain additional information on the individuals /organisations 
+behind its Respondent Bank customer, to assess the risk accurately.  
+To better understand the risks associated with Beneficial Ownership, refer to the FATF Guidance on 
+Transparency and Beneficial Ownership. 
+Consider whether the process verifies the UBO (i.e. individual), where applicable.  
+Question 
+65 b 
+Authorised signatories (where 
+applicable) 
+Points for Consideration 
+As noted under Questions 62 and 65 a,  failure to identify authorised signatories can lead to 
+conducting business with individuals or entities who are, or who are connect to , illicit actors or are 
+subject to sanctions. 
+Refer to the Glossary for further information. 
+Question 
+65 c 
+Key controllers Points for Consideration  
+Failure to identify key controllers can lead to conducting business with individuals or entities who 
+are, or which benefit from, illicit actors subject to sanctions. 
+Question 
+65 d 
+Other relevant parties Guidance 
+“Other relevant parties” means any other Entity or individual which otherwise holds a significant 
+ownership or controlling interest in the customer, e.g. authority to act on behalf of the customer (e.g. 
+trustees). 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          45  
+  Points for Consideration 
+As noted under Questions 65 a and 65 b, failure to identify relevant parties (who have power of 
+influence and/or decision making) can lead to conducting business with individuals or entities who 
+are, or who are connected to, illicit actors or subject to sanctions. 
+Question 
+66 
+What is the Entity  ’s minimum 
+(lowest) threshold applied to 
+beneficial ownership 
+identification? 
+Guidance 
+Indicate your Entity’s lowest ownership/control threshold obtained from its customers, based on 
+your risk appetite and regulatory requirements. Note that if “Other (Specify the percentage)” is 
+selected as an answer, you can type the percentage figure in the same text box as the drop down.  
+“Lowest” refers to the ownership threshold applied to the highest risk customer rating your Entity 
+implements. Typically, the higher the FC risk posed by a legal Entity customer, the more detailed will 
+be the requirements necessary for understanding the legal Entity’s ownership. 
+Question 
+67 
+Does the due diligence process 
+result in customers receiving a 
+risk classification? 
+Guidance 
+“Risk classification” refers to the customer receiving a risk score or rating when assessing potential 
+FC risk exposure. 
+Points for Consideration 
+Failure to assign a risk rating to customers appropriately could lead to a portfolio of higher risk 
+customers that exceeds your Entity risk tolerance. Also, by not adopting a risk -based approach the 
+focus on higher risk customers may be limited. 
+Question 
+67 a 
+If Y, what factors/criteria are 
+used to determine the  
+customer's risk classification? 
+Select all that apply: 
+Points for Consideration 
+Risk assessment should include several factors to consider various aspects of potential FC risks 
+effectively. One of the primary purposes of appropriately determining a customer's FC risk 
+classification is to establish the appropriate risk profile of a customer and the corresponding level of 
+due diligence required. 
+Question 
+68 
+For high-risk non-individual 
+customers, is a site visit a part 
+of your KYC process? 
+Guidance: 
+A site visit refers to visiting the physical location of a customer’s operational business premises. The 
+purpose of visits for FC risk management purposes typically includes verifying that the customer does 
+in fact have location and an operational business of operation. Consideration should also be given to 
+the circumstances in which it would be sufficient to perform virtual site visits where physical site visit 
+may not be possible. In certain circumstances a site visit can also be used to evaluate the customer’s 
+operational controls and risk management processes and establish relationships with the 
+management team. It can also be used to conduct the required assessment of the customer’s 
+AML/CTF and Sanctions controls in the case of Correspondent Banking relationships. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          46  
+  Points for Consideration: Failure to conduct a site visit for certain higher risk customer relationship 
+could lead to establishing a relationship with a shell company resulting in unknowingly onboarding 
+entities that could be establishing a relationship for purposes of conducting nefarious activities, or 
+which benefit from illicit actors. 
+The need for site visits will typically vary dependent on regulatory requirements, the customer risk 
+rating, Entity type and other elements such as what type of verification is used to confirm the 
+existence of a customer’s operations. 
+Question 
+68 a 
+If Y, is this at: Guidance 
+If the answer to Question 68 is ‘YES’, indicate what prompts the site visit. 
+Question 
+69 a3 
+Trigger Event Guidance 
+The response should indicate when a site visit is conducted, at onboarding or through the life cycle 
+of the customers. 
+A trigger event (a FC potential risk identified during the customer life cycle) may cause an immediate 
+review of the customer’s due diligence and risk rating. It may be a change in ownership, adverse 
+media/negative news event, a sanctions or transaction monitoring investigation, material FC risk, a 
+change in the products and services used by the customer or the customer moving domicile to 
+another country, among others. 
+Question 
+70 
+What is the method used by 
+the Entity to screen for adverse 
+media/negative news? 
+Guidance 
+Adverse Information/negative news is information that suggests that there may be reputational or 
+FC risks in establishing or maintaining a relationship with a particular Entity or individual. Adverse 
+information screening refers to screening of potential negative news and other negative information 
+identified in relation to your Entity's customers and management of alerts generated.   
+ 
+Question 
+70  
+Automated/Manual/ 
+Combination 
+Points for Consideration 
+Methods to screen customers for adverse media/negative news must be designed to provide 
+adequate coverage, review and decisioning of potential results and tailored to the customer base 
+and risk profile. The method may be manual during the customer’s onboarding or review, automated 
+with screening occurring on a predetermined cycle, or any combination of automated and manual. 
+Failure to identify and evaluate adverse Information/negative news on customers could result in 
+establishing or maintaining a relationship with an undesirable Entity or individual which may not have 
+occurred had the adverse media/negative news been identified and assessed. The method of 
+screening should be commensurate with the size of your Entity. 
+Automated is typically achieved through a regular automated feed of data into a screening tool which 
+will perform name match checks against the data and generate ‘alerts’ for bank staff to review. 
+Manual is in reference to screening that is not automated. Combination is a mix of automated and 
+manual. 
+
+© The Wolfsberg Group 2023 Wolfsberg CBDDQ Guidance v2.047  
+Question 
+71 
+Does the Entity have a risk -
+based approach to screening 
+customers and  connected 
+parties to determine whether 
+they are PEPs, or controlled by 
+PEPs? 
+Points for Consideration 
+Name screening, including PEP identification, can enhance the ability to assess risks associated with 
+customers who are potentially higher risk as a result of the association as a PEP. Screening should be 
+risk based unless local regulations determine otherwise. Also take into account that the ongoing 
+nature of political changes and consider the requirements for ongoing review of customers for 
+potential change in status. 
+Question 
+71 a 
+If Y, is this at: Guidance 
+If your response to Question 71 is ‘YES’, indicate when the screening occurs. 
+Question 
+71 a3 
+Trigger event Points for Consideration 
+A trigger event (a FC potential risk identified during the customer life cycle) may cause an immediate 
+review of the customer’s due diligence and risk rating. It may be a change in ownership, adverse 
+media/negative news event, a sanctions or transaction monitoring investigation, material FC risk, a 
+change in the products and services used by the customer or the customer moving domicile to 
+another country, among others. 
+Question 
+72 
+What is the method used by 
+the Entity to screen PEPs? 
+Points for Consideration 
+Methods to screen customers for PEP identification must be designed to provide adequate coverage, 
+review and decisioning of the potential results, tailored to the customer base. 
+Question 
+73 
+Does the Entity have policies,  
+procedures and processes to 
+review and escalate potential  
+matches from  screening 
+customers and connected  
+parties to determine whether 
+they are PEPs, or controlled by 
+PEPs? 
+Guidance 
+This question is asking whether your Entity has a documented process in policies and procedures that 
+sets out how an employee can disposition an alert or escalate screening hits related to PEPs and PEP 
+exposure. When alerts are identified, there should be a defined clear process for escalation, 
+investigation, reporting and any other action required as a consequence of the investigation 
+outcome. 
+Points for Consideration 
+At escalation consider whether to impose additional transaction monitoring is appropriate for 
+customers identified as having PEP exposure and whether a CDD review should be triggered to 
+determine whether the customer’s risk rating is commensurate with the risk. 
+Question 
+74 
+Is KYC renewed at defined 
+frequencies based on risk 
+rating (Periodic Reviews)? 
+Points for Consideration 
+Lack of processes to review and update customer information periodically can leave the Entity 
+exposed to unknown changes in the customer profiles and associated risks. 
+Question 
+75 
+Does the Entity maintain and 
+report metrics on current and 
+past periodic or trigger  event 
+due diligence reviews? 
+Guidance 
+This question focuses on the governance and timely completion of periodic and trigger event 
+KYC/CDD reviews of your Entity’s customers base, and the provision of MI so that Senior 
+Management are made aware of control issues e.g. delays, back logs. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          48  
+  Points for Consideration 
+A comprehensive set of metrics including key risk indicators and key performance indicators is 
+necessary to give a complete view of the KYC programme and enable your Entity to identify trends 
+and areas of potential concern, including but not limited to backlogs which may lead to not 
+identifying risk introduced over the course of the relationship. Metrics which provide an overview on 
+previous and current, both periodic and trigger reviews, will provide the opportunity to assess 
+progress, effectiveness and potential concerns related to customer due diligence reviews 
+Question 
+76 
+From the list below, which 
+categories of customers or 
+industries are subject to EDD 
+and/or are restricted, or 
+prohibited by your Entity's FCC 
+Programme? 
+Guidance 
+This question focuses on whether your Entity requires that certain customer types are subject to 
+mandatory EDD, subject to limitations on activity that your Entity will support (“restrictions”*), or 
+whether business relationships with these customer types are prohibited** due to FCC concerns. 
+EDD and/or restrictions are a way to increase oversight and mitigate the potential risk of having funds 
+generate from illicit origins. 
+* Restricted activities are activities which your Entity has classified as ‘restricted’ due to its 
+regulatory/legal requirements or limited risk appetite. Restricted activities may be acceptable by 
+your Entity with additional controls in place (placed by its customer and/or by your Entity).  
+** Prohibited activities refers to activities which your Entity has classified as ‘prohibited’ due to its 
+regulatory/legal requirements or due to not meeting your Entity’s AML risk appetite. Prohibited 
+activities are not acceptable by the Entity and may cause the customer to be rejected or exited, based 
+on the Entity’s risk-based approach.  
+Points of Consideration 
+Certain categories of customers represent higher FC risk and should be subject to EDD. Failure to 
+identify those categories of customers and perform associated EDD, may lead to an incorrect 
+assessment of risk presented by a particular category of customers and ineffective monitoring. The 
+Respondent should be aware that the Correspondent may have developed an acceptable risk 
+appetite which may impact the acceptance of flows from certain customer categories. 
+Question 
+76 a 
+Arms, defence, military Points for Consideration 
+These customers include companies, governments, military departments and other entities which 
+manufacture, sell, purchase or use weapons for either defensive or offensive purposes, including any 
+intermediaries in this activity. 
+Arms, defence and military goods can find their way to terrorists or sanctioned entities. Arms may 
+be deemed to pose reputational risk. Defence contracts may be large and involve government 
+officials which may give rise to bribery and corruption risk.  
+EDD and/or restrictions are a way to increase oversight and mitigate or manage the potential risk of 
+having funds passing through accounts generated from this type of activity, from illicit origins. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          49  
+Question 
+76 b 
+Respondent Banks Points for Consideration 
+Correspondent banking brings with it the risk that the account held by a respondent at a 
+correspondent is used not just for the respondent ’s proprietary activity but also the activity of the 
+respondent’s customers. The Correspondent will perform CDD on its customer (your Entity) but not 
+on your Entity’s customers, which creates risk for the Correspondent in that activity is flowing through 
+it for parties of which it may have no direct knowledge. 
+Question 
+76 b1 
+If EDD or EDD and Restricted, 
+does the EDD assessment 
+contain the  elements as set 
+out in the Wolfsberg 
+Correspondent Banking 
+Principles 
+2022? 
+Guidance 
+For more information, refer to the Correspondent Banking Principles. 
+Question 
+76 c 
+Embassies/Consulates Points for Consideration 
+There are well publicised cases in the public domain illustrating some of the challenges posed by 
+embassy banking. At a minimum, an embassy is likely to present similar risks posed by banking 
+government entities in the embassy’s country, including the involvement of PEPs. There can be 
+possible red flags on how the account is funded, (through personal accounts), the use of account and 
+transactions processed.  
+Refer to the Glossary for more information. 
+Question 
+76 d 
+Extractive industries Points for Consideration 
+Extractive industries refer to industries involved in the extraction and management of oil, gas, 
+minerals, metals, coal, quarrying, precious stones and other natural resources. 
+The extractive industry (e.g. mining, oil) can pose additional risks such as bribery and corruption, 
+environmental damage, employee welfare, among others.  
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          50  
+Question 
+76 e 
+Gambling customers Points for Consideration 
+Gambling can be a cash intensive industry that may or may not have similar regulatory requirements 
+as banks for how to handle cash and report suspicious activity. Your Entity should review its 
+gambling industry customers carefully in order to develop a full understanding of their control 
+environment and the risk they present. Consideration should also be given whether your Entity 
+prohibits or restricts certain activities, such as unlicensed gambling business.  
+Correspondent banks may take a different approach to these classifications based on their risk 
+appetite. 
+For more information, refer to the Glossary. 
+Question 
+76 f 
+General Trading Companies Points for Consideration 
+General trading companies trade in a multitude of commodities and may change the products they 
+buy/sell or offer over time. In some cases, the changes in their business line or product offerings can 
+be sudden or frequent due to market conditions, which makes it difficult to also establish a customer 
+profile and determine expected activity. In addition, general trading companies can be used as front 
+companies by illicit actors to disguise the illegal origin of criminal proceeds by commingling the illicit 
+funds with that of the general trading company funds. 
+Question 
+76 g 
+Marijuana-related Entities Guidance 
+Consider if Marijuana and or Marijuana-related industries are allowed or not in the Correspondent’s 
+jurisdiction and whether the appropriate controls exist to prevent related transactions flowing 
+through that bank if required. 
+Points for Consideration 
+Marijuana-related business can refer to entities involved in the growing, selling and distribution of 
+any form of marijuana and may also refer to related businesses that support this activity. This 
+classification will vary based on the jurisdiction and the Correspondent band risk appetite.  
+Question 
+76 h 
+ MSB/MVTS customers Points for Consideration 
+MSBs and MVTSs may be subject to different regulatory requirements and/or oversight and 
+supervision and, thus, may pose a different level of risk. There often is no ongoing relationship 
+between the MSB/MVTS and the underlying customer, which makes monitoring for suspicious 
+activity difficult. These businesses can be cash-intensive and provide services to unbanked 
+individuals. Unlicensed MSBs/MVTSs present enhanced risk and are of particular concern and can be 
+described using a variety of specific terms, including hawala, hundi, and fei-chen. 
+Refer to the Glossary for further information. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          51  
+Question 
+76 i 
+ 
+Non-account customers 
+ 
+Points for Consideration 
+Consider what categories of non-account customers your Entity may be exposed to and what risks 
+they may bring. For the purposes of this question, ‘non-account customers’ refer to parties who use 
+services, but do not go through an onboarding due diligence process and do not maintain an ongoing 
+relationship with the bank.  
+Question 
+76 j 
+Non-Government 
+Organisations (NGOs) 
+Points for Consideration 
+Although the vast majority of NGOs are not utilised for illicit activities, steps need to be taken to 
+identify any outliers due to the risk of NGOs, similarly to charities, being used as a front for terrorist 
+activities. NGOs can also be set up as legitimate organisations that indirectly support terrorist 
+activities. Understanding the nature of the entities activities is an important due diligence step. 
+For more information, refer to the Glossary. 
+Question 
+76 k 
+Non-resident customers Guidance 
+Customers outside the jurisdictions in which your Entity operates can present additional risks. It is 
+important to understand the commercial reasons for which a customer located in a different 
+jurisdiction would need an account and the purpose of the account. All due diligence requirements 
+should apply to non-resident customers. EDD may be required depending on the perceived risk. 
+Question 
+76 l 
+Nuclear power Points for Consideration 
+Nuclear power refers to a form of energy produced by a nuclear reaction, capable of producing an 
+alternative source of electrical power to that supplied by coal, gas or oil. 
+Nuclear power involves the risk of dual use technology (weapons) and the potential  for reputation 
+risk and money laundering. EDD and/or restrictions are a way to increase oversight and mitigate the 
+potential risk of having funds from illicit origins passing through accounts generated from this type 
+of activity. 
+Question 
+76 m 
+Payment Service Providers 
+(PSPs) 
+Points for Consideration 
+By enlisting the services of a PSP, a merchant becomes less dependent on FIs to manage transactions. 
+PSP customers process transactions through the accounts for their underlying customers which do 
+not undergo due diligence by your Entity. Payments may also lack transparency as to the ultimate 
+originators and/or beneficiaries if they are processed in bulk. Registration and licensing 
+requirements may differ in various jurisdictions and an understanding of the particular requirement 
+for the PSP should be undertaken. 
+For more information, refer to the Glossary. 
+Question 
+76 n PEPs Guidance 
+For more information, refer to the Wolfsberg Guidance on PEPs.  
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          52  
+  Points for Consideration 
+PEPs can be susceptible to corruption as a result of an elected or appointed position, which gives 
+them a position of influence and power, as well as access to public funds.  
+Question 
+76 o 
+PEP Close Associates Points for Consideration 
+PEP Close Associates include PEP's widely- and publicly known close business colleagues or personal 
+advisors, in particular persons acting in a financial fiduciary capacity. 
+PEP close associates can be susceptible to corruption as a result of connection to a PEP. 
+Question 
+76 p 
+PEP Related Points for Consideration 
+PEP related refers to close family members of a PEP. 
+PEP-related individuals (immediate family members) can be susceptible to corruption as a result of 
+connection to a PEP. 
+Question 
+76 q 
+Precious metals and stones Points for Consideration 
+Criminals can use illicit funds for precious metals and stone purchases, presenting higher risk to the 
+banks involved in the transactions. EDD and/or restrictions are a way to increase oversight and 
+mitigate the potential risk of having funds passing through your E ntity’s accounts generated from  
+this type of activity, from illicit origins. 
+For more information, refer to the Glossary. 
+Question 
+76 r 
+Red light businesses/Adult 
+entertainment 
+Points for Consideration 
+In most jurisdictions,  “red light” business and adult entertainment are considered a high-risk industry 
+for FC. From the welfare of the people in the business to the source of funds, the potential for illicit 
+funds to be processed through this industry is high. Additionally, human trafficking activities are also 
+associated with this industry. “Red light” business/adult entertainment is also known for being cash-
+intensive, adding additional traceability risks. If your Entit y has such customers, consider if the EDD 
+and restrictions capabilities are sufficient to mitigate such risks. This type of business can expose both 
+the Correspondent and Respondent to a number of FC risks, in addition to be often a cash-based and 
+unlicensed/unregulated activity. Potential reputation risk is also an additional concern which requires 
+controls to mitigate it. 
+For more information, refer to the Glossary. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          53  
+Question 
+76 s 
+Regulated charities Points for Consideration 
+Regulated charities pose less FC risks than unregulated charities. However, they still can present risks 
+if the contributors are unknown entities and if the recipients are in locations with less stringent FC 
+controls. EDD and/or restrictions are a way to i ncrease oversight and  mitigate the potential risk of 
+having funds passing through accounts generated from this type of activity (i.e.  illicit origins). 
+Understanding the nature of the entities activities is an important due diligence step. Although the 
+vast majority of charities are not utilised for illicit activities, steps need to be taken to identify any 
+outliers. 
+For more information, refer to the Glossary. 
+Question 
+76 t 
+Shell banks Points for Consideration 
+Shell banks have been found to be used to facilitate FC as there is no regulatory oversight due to 
+lack of any physical presence. Doing business with shell banks is prohibited in most jurisdictions. 
+For more details, refer to the Glossary and FATF Recommendation 13.  
+Question 
+76 u 
+Travel and Tour Companies Points for Consideration 
+Travel and tour companies present the risk of being used to pay for travel and travel-related expenses 
+with illicit funds. 
+Question 
+76 v 
+Unregulated charities Points for Consideration 
+Unregulated charities may not be subject to any government/self-regulatory organisation oversight, 
+making them an easy target for transfer of illicit proceeds. EDD and/or restrictions  are a way to 
+increase oversight and mitigate the potential risk of having funds passing through your Entity’s  
+accounts generated from this type of activity (i.e. illicit origins). It is important to understand under 
+what circumstances charities are required to be regulated in order to determine whether a charity 
+that is a customer is properly constituted. Additionally, the jurisdiction of operation may also impact 
+the risk profile of the charity. 
+Question 
+76 w 
+Used Car Dealers Points for Consideration 
+It is a known typology that criminal enterprises often purchase cars and then resell them for clean 
+money. Used-car dealerships can be the preferred route to engage with and may therefore be 
+susceptible to money laundering by criminals that buy used cars (often with cash) as a way to launder 
+illicit money. In some jurisdictions, used car dealership may not be subject to any regulations or cash 
+transaction reporting requirements.  
+Question 
+76 x 
+Virtual Asset Service 
+Providers  
+Points for Consideration 
+Virtual currencies may lack transparency into the parties involved and/or may have been used for FC. 
+The virtual currency space is a rapidly evolving area with varying levels of regulatory oversight and 
+considerable adverse media/negative news about use by illicit actors. 
+For more information, refer to the Glossary. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          54  
+Question 
+77 
+If restricted, provide details of 
+the restriction. 
+Guidance 
+Your Entity chooses to limit the types of business it will do with particular customers. Effective 
+monitoring of such restrictions and documentation of the controls related to the restriction is 
+essential to demonstrate the effectiveness of the controls. 
+An example of a restriction might be the provision of clearing services for proprietary payments but not 
+third-party payments. 
+Question 
+78 
+Does EDD require senior 
+business management and/or 
+compliance approval? 
+Guidance 
+This question refers to a documented process as part of the bank’s EDD process which requires that 
+senior business management and/or compliance approval is required in order to establish or 
+continue (for existing customers) a business relationship with certain categories of high-risk customer 
+(as defined by the bank’s risk appetite and/or standards). 
+Points for Consideration 
+What constitutes senior business management will depend on the size, structure, and nature of the 
+FI. However, the objective is to ensure that more senior-level management individuals are aware and 
+accept the relationships with certain categories of higher-risk customers as part of the EDD process. 
+Question 
+79 
+Does the Entity have specific 
+procedures for onboarding 
+entities that handle customer 
+money, such as lawyers, 
+accountants, consultants, real 
+estate agents? 
+Points for Consideration 
+Professional service provider accounts allow for ongoing business transactions with multiple 
+customers and your Entity does not have a direct relationship with , or knowledge of, the beneficial 
+owners of these types of accounts, which may be a constantly changing group of individuals and legal 
+entities. 
+As with any account that presents third -party risk, the bank could be more vulnerable to potential 
+money laundering abuse. Some potential examples of abuse could include laundering illicit currency, 
+structuring currency deposits and withdrawals, and opening any third-party account for the primary 
+purpose of masking the underlying customer’s identity. 
+Question 
+80 
+Does the Entity per form an 
+additional control or quality 
+review on customers subject to 
+EDD? 
+Guidance  
+If the response is ‘YES’, relating to additional controls, please provide information in Question 82. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          55  
+8. Monitoring & Reporting 
+Question 
+83 
+Does the Entity have risk-
+based policies, procedures 
+and monitoring processes for 
+the identification and  
+reporting of suspicious  
+activity? 
+Guidance 
+Your Entity shall have in place procedures and controls compliant with the AML/CTF regulations to 
+mitigate and effectively manage the risks of money laundering and terrorist financing that your Entity 
+faces as well as the money laundering and terrorist fin ancing red flags relevant for you r Entity and 
+the industry sector. 
+A risk-based approach allows to prioritise resources on areas of higher AML/CTF risk identified. 
+Points for Consideration 
+Lack of policies and procedures could lead to inconsistent practices and failure to meet regulatory 
+reporting requirements. 
+Question 
+84 
+What is the method used by 
+the Entity to monitor  
+transactions for suspicious 
+activities? 
+ 
+Guidance 
+The method of monitoring transactions for suspicious activity should be commensurate with the type 
+and volume of transactions undertaken, in order to mitigate money laundering risks effectively. 
+Points for Consideration 
+Automated solutions will be most suitable for high-volume activities while manual monitoring may 
+suffice for lower volumes and/or in situations where it may be difficult to load all relevant data into 
+an automated system, e.g. monitoring of documentary letter of credit activity. Regardless of whether 
+or not an automated system is used, human vigilance remains fundamental. 
+Continuous assessment of existing manual transaction monitoring process is important, and 
+consideration should be given to their effectiveness versus the risk they pose.  
+Question 
+84 a 
+If manual or combination 
+selected, specify what type of 
+transactions are  monitored 
+manually 
+Guidance 
+Provide further information on the use of manual monitoring. 
+Question 
+84 b 
+If automated  or combination 
+selected, are internal system 
+or vendor-sourced tools 
+used?  
+ 
+Points for Consideration 
+Where a vendor-sourced or internal solution is used, your Entity should assess its adaptability to 
+cover its activities and the AML/CTF risks involved, the frequency of updates, and the limitations. The 
+flexibility and scalability of a solution is of utmost importance, as the underlying risks surrounding 
+transaction monitoring are evolving. Additionally, it is important to be able to create an audit trail to 
+have a clear understanding of the selected solution, and potentially to show to the relevant 
+authorities. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          56  
+Question 
+84 b2   
+When was the tool last 
+updated?  
+• < 1 year 
+• 1-2 years 
+• Other - Please explain  in 
+Question 91 
+Guidance 
+Effective monitoring requires regular review and updating of the parameters or criteria used to 
+generate monitoring reports or issue alerts. Regular assessment of effectiveness should also be made 
+to your Entity’s transaction monitoring system (including vendor updates) to take into account 
+changes in business operations and developments in money laundering and terrorist financing 
+methods (new scenarios). Any enhancements to the system should be properly documented. 
+Points for Consideration 
+Insufficient updates may prevent detection of new money laundering or financing trends. 
+Question 
+84 b3 
+When was the automated 
+Transaction Monitoring 
+application last calibrated?  
+• Within the last year 
+• Within the past 2 years 
+• Other - Please explain  (in 
+Question 91) 
+Guidance  
+FIs need to review and customise, if relevant, the parameters and thresholds in relation to the level 
+of activity of the customers and cannot use an off- the-shelf calibration. A methodology and an audit 
+trail of the changes in the tuning should be maintained and approved by the MLRO in order to be 
+potentially presented to the competent authorities. 
+Points for Consideration 
+Transaction monitoring systems should be tuned regularly to adjust thresholds to the evolving 
+transactional activity and take into account historical alerts and Suspicious Activity Reports (SARs). 
+FIs should periodically review, test, and refine their transaction monitoring rules to ensure they 
+remain current and effective in targeting riskier transactions, behaviours and new AML/CTF trends.  
+Question 
+85 
+Does the Entity have regulatory 
+requirements to report 
+suspicious transactions? 
+Points for Consideration 
+Local regulatory authorities are expected to implement FATF Recommendation 20 (and its 
+interpretative notice). 
+Question 
+85 a 
+If Y, does the Entity have 
+policies, procedures and  
+processes to  comply with 
+suspicious reporting 
+requirements? 
+Guidance 
+Those procedures should define the process and criteria to report a suspicion as well as the timing of 
+the SAR filing and its content. Controls should be applied to detect and remediate potential breaches. 
+Question 86 
+ 
+ 
+Does the Entity have policies, 
+procedures and  processes to 
+review and  escalate matters 
+arising from the monitoring of  
+customer transactions and 
+activity? 
+Guidance 
+These policies should describe what escalation action to take when customer is subject to a SAR in 
+order to prevent the repetition of suspicious transaction. Consider the method of escalation, audit 
+trail, quality of the review of escalations and decisioning. The MLRO should be informed of the 
+AML/CTF incidents relating to the transaction monitoring in order to ensure that remedial measures 
+are taken. This understanding will demonstrate the efficiency/effectiveness of how your Entity 
+manages the monitoring of customer activity. Policies and procedures should ensure senior 
+management visibility of escalation volume and backlog to ensure compliance with local law. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          57  
+Question 
+87 
+Does the Entity have a data 
+quality management 
+programme to ensure that 
+complete data for all 
+transactions are subject to 
+monitoring? 
+Guidance 
+Data quality is a prerequisite for the sound functioning of the transaction monitoring systems. Your 
+Entity should periodically review the completeness and validity of data used in its transaction 
+monitoring systems – for instance, through the performance of data integrity checks to ensure that 
+data is being completely and accurately captured in the source systems and transmitted to its 
+transaction monitoring systems.  
+Appropriate controls or periodical reviews should be conducted to identify abnormally functioning 
+transaction monitoring rules or scenarios (abnormal volume variation on transactions and alerts) and 
+ensure that any such irregularities caused by data integrity issues are properly remediated. 
+Points for Consideration 
+Any irregularities could lead to let illicit activity going unidentified with no surveillance and 
+consequently end at being unable to issue SAR when appropriate. 
+Question 88 
+ 
+ 
+ 
+Does the Entity have processes 
+in place to respond to Request 
+For Information (RFI) from 
+other entities in a timely 
+manner? 
+Guidance 
+Consider the processes and standards in place to support incoming RFIs. Also consider how such 
+inquiries are treated – can they also be used as a prompt to initiate investigation into the underlying 
+activity/customer by your Entity? 
+Points for Consideration 
+The provision of additional information in response to RFIs sent to Entity by other banks supports the 
+investigation processes of other institutions and serves to demonstrate the quality of the control 
+processes of the recipient of the RFI. Delays in responding to RFIs from the Correspondent may affect 
+how the Correspondent views the effectiveness of your Entity’s FC programme. 
+Question 89 
+ 
+ 
+Does the Entity have processes 
+in place to send Requests for 
+Information (RFIs) to their 
+customers in a timely manner? 
+Guidance 
+In the case of missing information or determining the payment purpose, an RFI ensures that the front-
+office team asks the right questions to gain more clarity on the transactions. An RFI process ensures 
+that the investigations teams reach the correct recipient and track the response receipt within a 
+certain time limit. 
+Points for Consideration 
+Delay in sending RFIs or lack of control on the RFI response time could lengthen the time required to 
+report suspicious activities and potentially breach regulatory deadline for reporting. Lack of RFI 
+process for timely responses could lead to reporting of suspicious activity that could have been 
+explained with additional information. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          58  
+9. Payment Transparency 
+Question 
+92 
+Does the Entity adhere to the  
+Wolfsberg Group Payment 
+Transparency Standards? 
+Guidance 
+Refer to the Wolfsberg Payment Transparency Message Standards publication. 
+Points for Consideration 
+Use of incorrect message formats and/or not including full/accurate payment information will 
+compromise an Entity’s own sanctions screening and transaction monitoring processes as well as 
+those of all the other banks in the payment chain. 
+Your Entity should evaluate all payment processing standards, across all products and locations, to 
+determine adherence to the standards. A formally documented evaluation or gap analysis, as well as 
+testing where required, would serve to substantiate consistency with the standards. 
+Question 
+93 
+Does the Entity have policies, 
+procedures and  processes to 
+comply with and have controls 
+in place to ensure compliance 
+with: 
+Guidance 
+Policies, procedures and processes should be documented, communicated to and be accessible to 
+relevant staff. 
+Question 
+93 a 
+FATF Recommendation 16 Guidance 
+Refer to the Glossary for further information on FATF Recommendation 16. 
+Points for Consideration 
+Although FATF Recommendations are not regulatory requirements, Correspondents may wish to 
+see that controls in place to monitor for, and enforce, FATF Recommendation 16 on wire transfers.  
+Question 
+93 b 
+Local Regulations Guidance 
+There should be a process for ensuring that your E ntity is aware of local regulatory standards for  
+payment transparency and any changes that occur, and that it should have processes and procedures 
+to comply with those standards. 
+Question 
+93 c 
+If N, explain. Guidance 
+If there are no such policies and procedures, as described above, to comply in any respect with these 
+standards, consideration must be given  to the extent of any deviation and E ntity’s ability to collect 
+the necessary payment information. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          59  
+Question 
+94 
+Does the Entity have controls to 
+support the inclusion of 
+required and accurate 
+originator information in cross -
+border payment messages? 
+Guidance 
+Consider documented processes to ensure that they require the complete set of originator 
+information and whether the originator information provided in cross -border payment messages is 
+consistent with the information about the customer as verified as part of the CDD process. 
+Points for Consideration 
+Information should not be truncated, in all possible  situations. Truncation means that not all data 
+received is included in the outgoing messages, either because the message fields do not allow for a 
+sufficient number of characters, or the complete information is not provided at the initiation of the 
+transaction. The inclusion of complete and accurate originator information in payment messages is 
+required to support the effective execution of transaction monitoring and sanctions screening control 
+processes. 
+Question 
+95 
+Does the Entity have controls 
+to support the inclusion of 
+required beneficiary 
+information cross -border 
+payment messages?  
+Guidance 
+There should be control processes to ensure that payment originators are providing full information 
+in all possible situations and that beneficiary information supplied by the customer is not 
+meaningless. Whereas beneficiary information may be more difficult to source than originator 
+information, the bank should have a defined approach for obtaining it. 
+Also consider what system controls are in place at your Entity to prevent wire transfers from being 
+executed/released without required beneficiary information , or beneficiar y information that is 
+clearly meaningless, when your Entity is acting as the Ordering FI. 
+Points for Consideration 
+The inclusion of required beneficiary information in payment messages further supports the effective 
+execution of transaction monitoring and screening control processes. 
+10. Sanctions 
+Question 
+98 
+Does the Entity have a 
+Sanctions Policy approved  by 
+management regarding 
+compliance with sanctions 
+law applicable to the Entity, 
+including with respect to its 
+business conducted with, or 
+through accounts  held at 
+foreign financial institutions? 
+Guidance 
+Your Entity should have a policy which covers the compliance with all sanctions laws applicable to 
+your Entity. 
+Points for Consideration 
+Consider compliance with all relevant Sanctions lists and how additional controls may need to be 
+implemented  where your Entity are not required to do so (but the Correspondent is). Consider how 
+to ensure compliance with the sanctions obligations of the Correspondent. A clear policy and senior 
+management commitment to comply with sanctions laws provide all compliance requirements to 
+your Entity’s employees. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          60  
+Question 
+99 
+Does the Entity have  policies, 
+procedures, or  other controls 
+reasonably designed to  
+prevent the use  of another 
+entity’s accounts or services in 
+a manner  causing the other 
+entity to violate sanctions  
+prohibitions applicable to the 
+other entity (including 
+prohibitions within the 
+other entity's local 
+jurisdiction)?  
+Points for Consideration  
+Sanctions often differ from jurisdiction to jurisdiction. As a result, it is important to understand both 
+the sanctions laws of the jurisdictions in which your Entity operates and those in which it maintains 
+its accounts to avoid transacting through those accounts for parties or jurisdictions that would violate 
+the Correspondent’s regulatory requirements. Failure to do so can lead to blocked/frozen 
+transactions and potential violations for your Entity and the Correspondent. 
+Question 
+100 
+Does the Entity have 
+policies, procedures or other 
+controls reasonably designed 
+to prohibit and/or detect 
+actions taken  to evade 
+applicable sanctions  
+prohibitions, such as  
+stripping, or the resubmission 
+and/or masking, of sanctions  
+relevant information in cross-
+border transactions? 
+Guidance 
+Ensure that policies and procedures include controls to detect customers seeking to evade sanctions.  
+Points for Consideration 
+Parties may attempt to submit payments masking/removing prohibited names or jurisdictions to 
+evade sanctions. This may occur by the customer purposefully not supplying full details in payment 
+transactions or by re-submitting transactions that were previously blocked/frozen or rejected with 
+the sanctioned references eliminated or masked. Failure to develop controls to identify this 
+behaviour can put both your Entity and the Correspondent at risk of violations. Consider not only 
+what controls are in place, but also their effectiveness.  
+Question 
+101 
+Does the Entity screen its  
+customers, including  
+beneficial ownership  
+information collected by the 
+Entity, during onboarding and 
+regularly thereafter  against 
+Sanctions Lists? 
+Guidance 
+Sanctions laws and lists of sanctioned entities, individuals or jurisdictions can be subject to frequent 
+change. As such, it is important that all relevant data is collected and screened on a continuing basis. 
+Points for Consideration 
+Some regulations specify that a legal Entity that is not listed directly as a sanctioned target is 
+considered  a sanctioned target if 50% or more of it is owned by a beneficial owner that is directly 
+sanctioned. Similarly, some jurisdictions may consider an Entity to be sanctioned if one or more of 
+its controlling parties is a sanctioned target.  
+For more information, refer to the Wolfsberg Guidance on Sanctions Screening. 
+Question 
+102 
+What is the method used by 
+the Entity for sanctions 
+screening? 
+Guidance 
+The method of screening customers against sanctions lists should be commensurate with the type 
+and volume of customers in order to mitigate sanctions violations.  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          61  
+ Points for Consideration 
+Automated screening is most appropriate for large volumes of customers, while manual processes 
+may suffice for lower volumes. Manual processes may also be suited for tasks that do not lend 
+themselves easily to automation, e.g. documentary trade finance. The methodology should be re-
+assessed as your Entity’s business evolves and the FC risks change.  
+For more information, refer to the Wolfsberg Guidance on Sanctions Screening. 
+Question 
+103 
+Does the Entity screen all 
+sanctions relevant data, 
+including at a minimum, Entity 
+and location  information, 
+contained in cross border 
+transactions against Sanctions 
+Lists? 
+Points for Consideration 
+References to sanctioned entities/related parties/jurisdictions can occur in any field in a transaction, 
+including free text fields. Incomplete screening can result in failure to identify a transaction with 
+reference to a sanctioned Entity or jurisdiction. 
+Question 
+104 
+What is the method used by the 
+Entity? 
+Guidance 
+Similar to customer screening, the method for transaction screening should be commensurate with 
+the volume of transactions processed. 
+Automated screening should be used for products t hat generate a large number of transactions and 
+multiple fields of information.  
+Question 
+105 
+Does the Entity have a data 
+quality management 
+programme to ensure that 
+complete data for all 
+transactions are subject to 
+sanctions screening? 
+Guidance 
+Effective sanctions screening is dependent on quality data management processes. Does the 
+organisation have sufficient processes to have effective screening? 
+Points for Consideration 
+In order to ensure that your Entity is in compliance with sancti ons laws, all data sources must be 
+accurate and complete. A robust quality data management programme should be designed to ensure 
+all relevant data is available for screening. 
+Question 
+106 
+Select the Sanctions Lists  used 
+by the Entity in its sanctions 
+screening processes: 
+Guidance 
+As stated in Question 98, in order to mitigate the risk of a sanctions violation by the organisation and 
+in the regulatory jurisdiction of the Correspondent, it is important to understand and be explicit as to 
+which sanctions lists are being used for sanctions screening purposes. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          62  
+Points for Consideration 
+It is a good practice to use broadly adopted sanctions lists (e.g. OFAC, UN, EU, HMT, among others) to 
+identify any potential sanctioned entities. This should be done in addition to any local jurisdictional 
+lists as well as the applicable list(s) used by the Correspondent. There may be differences between 
+the sanctions regulations that are applicable to your E ntity (as Respondent) and those that are 
+applicable to the Correspondent. Through the due diligence process, your E ntity should seek to 
+understand any such differences to ensure that it meets the Correspondent’s expectations. 
+Question 
+107 
+When regulatory authorities 
+make updates to their  
+Sanctions list, how many  
+business days before the Entity 
+updates their active  manual 
+and/or automated  screening 
+systems against: 
+Guidance 
+Indicate for each category the timeframe within which internal sanctions lists are updated.  
+Points for Consideration  
+Sanctions lists which are not kept current or experience delays in updates into the screening systems 
+can expose both your Entity and the Correspondent to the risk of processing transactions in violation 
+of sanctions laws. A sustainable process must be implemented which allows the identification of 
+updated lists, with a defined time frame and process flow on how to have the lists updated across the 
+organisation. 
+Question 
+108 
+Does the Entity have a physical 
+presence, e.g. branches, 
+subsidiaries, or representative 
+offices located in 
+countries/regions against 
+which UN, OFAC, OFSI, EU and 
+G7 membe r countries have 
+enacted comprehensive 
+jurisdiction-based Sanctions? 
+Guidance 
+Comprehensive Sanctions Programmes – Known as Sensitive Sanctioned Countries (SSCs). This is 
+where almost all (barring licenced) activity is prohibited with the country. 
+Answer ‘YES’ if your Entity has a physical presence in any country which is included in any of the 
+Sanctions Lists. 
+Points for Consideration 
+If your E ntity has a physical presence in any sanctioned country or jurisdiction, this will present 
+heightened risk to the Correspondent. The risk is that funds from branches or businesses based or 
+sourced from sanctioned countries or jurisdictions may pass through the Correspondent. If this 
+occurs, the Correspondent will have to report, block/freeze or reject the activity. 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          63  
+11. Training & Education 
+Question 
+111 
+Does the Entity provide 
+mandatory training, which 
+includes: 
+Points for Consideration 
+Without a core commitment from the organisation and senior management on training that is fit for 
+purpose, deployed on a regular basis and of true  benefit to those undertaking it, there  is a 
+considerable risk that the FCC programme will not be able to be implemented effectively. 
+Adequate tra ining of management and staff on a regular basis is required to ensure a sound 
+understanding of money laundering , terrorist financing  and Sanctions risks, and the bank ’s FCC 
+programme. Questions 11 1 a-f refer to  specific training topics which contribute to  making the 
+training programme comprehensive, relevant and effective. 
+Question 
+111 a 
+Identification and reporting of 
+transactions to government 
+authorities 
+Guidance 
+This question focuses on both systematic regulatory transactional reporting obligations and 
+suspicious activity reporting. 
+Question 
+111 b 
+Examples of different forms of 
+money laundering, terrorist 
+financing and sanctions 
+violations relevant for the types 
+of products and services 
+offered 
+Points for Consideration 
+An impactful training programme should include case studies, examples of risks your E ntity has 
+identified based on its customers, products, business types and geographic exposures in order to have 
+employees realise that the risks are real rather than theoretical. 
+Question 
+111 d 
+New issues that occur in the 
+market, e.g. significant 
+regulatory actions or new 
+regulations 
+Points for Consideration 
+Without regular and relevant updates to training material, staff may not be aware of emerging 
+typologies, risks or control standards. 
+Question 
+111 e 
+Conduct and Culture Points for Consideration 
+Conduct and Culture in this context refers to regulatory requirements and institutional standards 
+around behaviour from a FC risk management perspective. 
+Question 
+111 f 
+Fraud  Guidance 
+A training programme should include fraud-related case studies and risks identified in the Institution 
+in order to provide employees with information on potential scenarios related to internal and 
+external fraud. 
+Question 
+112  
+Is the above mandatory 
+training provided to: 
+Guidance 
+Training should be provided to all functions that have a role within the overall AML, CTF and 
+Sanctions programme of the bank. This would include  contractors/consultants and all roles 
+mentioned below. Consider how the training can be tailored to the roles mentioned so that it is 
+relevant and practical to employee’s responsibilities. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          64  
+Question 
+112 a 
+Board and Senior Committee 
+Management 
+Guidance 
+The Board, or other Senior Management Committee, is respons ible for ensuring the effective 
+implementation of, and adherence to, the AML, CTF and Sanctions programme. To be able to execute 
+this, they must receive an appropriate level of training. 
+Question 
+112 e and f 
+Third parties to which 
+specific FCC activities 
+have been outsourced 
+and non-employed 
+workers 
+(contractors/consultant)  
+Guidance 
+Answer “Yes” if your Entity provides training to the third party performing FCC activities on your 
+behalf or if your Entity has oversight of the third party’s training progr amme for FCC and is 
+comfortable that it complies with your Entity’s requirements. 
+Points for Consideration 
+If your Entity depends on any third parties to deliver parts of its AML, CTF or Sanctions programme, 
+these third parties should be subject to the same standards of training as internal resources. 
+Question 
+113 
+ 
+Does the Entity provide 
+AML, CTF & Sanctions 
+training that is targeted to 
+specific roles, 
+responsibilities and high-
+risk products, services and 
+activities? 
+Points for Consideration 
+AML, CTF and Sanctions are broad and complex disciplines and staff in key roles should receive more 
+targeted training to focus on higher-risk and more specialised areas of the programme. 
+Question 
+114 
+Does the Entity provide 
+customised training for AML, 
+CTF and Sanctions staff? 
+Guidance 
+AML and Sanctions staff includes all full-time employees, as well as contractors and temporary staff, 
+from both the first and second Line of Defence (refer to the Glossary for further information). 
+“Customised” refers to a training programme tailored to the role and responsibilities that the 
+employee undertakes. 
+Points for Consideration 
+Training will generally be more effective if it is targeted at the audience, in terms of relevance of 
+content and level. A single universal set of training may not be appropriate for all staff in the bank and 
+a more effective approach is to adopt a more targeted and customised training perspective either by 
+business unit or function, or by risk area (e.g. specific trainings on, ABC, CTF, Sanctions screening, etc.). 
+  
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          65  
+12. Quality Assurance/Compliance Testing 
+Question 
+117 
+Does the Entity have a 
+programme-wide risk-based 
+Quality Assurance programme 
+for financial crime (separate 
+from the independent Audit 
+function)  
+Points for Consideration 
+Failure to ensure quality records relating to CDD and other KYC processes can lead to incomplete or 
+inaccurate records, which may result in customers that exceed the risk appetite. Processes to assess 
+the quality of those processes help mitigate that risk. 
+Question 
+118 
+Does the Entity have a 
+programme-wide risk-based 
+Compliance Testing process 
+(separate from the 
+independent Audit function)? 
+Points for Consideration 
+It is important that the organisation has a compliance testing programme looking at FC controls across 
+all functions which discharge FCC responsibilities, ensuring consistent oversight and identification of 
+potential gaps in the programme. 
+13. Audit 
+Question 
+121 
+In addition to inspections by the 
+government 
+supervisors/regulators, does 
+the Entity have an internal 
+audit function, a testing 
+function or other independent 
+third party, or both, that 
+assesses FCC AML, CTF, ABC, 
+Fraud and Sanctions policies 
+and practices on a regular 
+basis? 
+Guidance 
+An independent party should have the responsibility to examine and evaluate the adequacy and 
+effectiveness of the policies, controls and procedures comply with the requirements of the  applicable 
+regulations, make recommendations in relation to those polic ies, controls and procedures, and 
+monitor compliance with those recommendations. 
+Points for Consideration 
+Independent audit and testing of the FCC programme is an industry best practice and, in many cases, 
+is a regulatory requirement. Independent audit should be designed to ensure that there is credible 
+challenge to how the  programme is working in order to assess its effectiveness. This independent 
+review is necessary to avoid any bias in assessing whether the programme is. 
+Question 
+122 
+How often is the Entity audited 
+on its AML, CTF, ABC, Fraud and 
+Sanctions programme by the 
+following: 
+Points for Consideration 
+The selection “Via component-based reviews” refers to reviews focusing on a theme (also known as 
+thematic reviews) or on a specific function. 
+Frequent reviews from independent sources provide an assessment of the effectiveness of the 
+programme. 
+Question 
+123 
+Does the internal audit function 
+or other independent third 
+party cover the following areas: 
+Guidance 
+Indicate which areas are covered by the internal audit/independent assessments. 
+
+© The Wolfsberg Group 2023                               Wolfsberg CBDDQ Guidance v2.0                          66  
+Question 
+124 
+Are adverse findings from 
+internal and external audit 
+tracked to completion and 
+assessed for adequacy and 
+completeness? 
+Points for Consideration  
+It is important to have adequate processes to track any identified findings to ensure completeness 
+and validation of remediation. Lack of such processes may lead to an ineffective FC programme and 
+potential regulatory concerns. 
+14. Fraud 
+Question 
+127 
+Does the Entity have policies in 
+place addressing fraud risk? 
+Guidance 
+Your Entity should have a governance framework around “How to manage Fraud Risks?”. This could 
+be achieved either in a dedicated Anti-Fraud Policy or by inclusion into other policies, such as 
+Compliance, Misconduct or Corporate Security. The policy should cover at least the definition of 
+Fraud, Applicability of the Policy, Roles and Responsibilities (including Obligations) and Escalation 
+Paths. 
+Question 
+128 
+Does the Entity have a 
+dedicated team responsible for 
+preventing and detecting 
+fraud? 
+Guidance 
+It is important that resources are aligned not only for handling fraud events (investigations) but also 
+to have teams allocated to a more holistic Fraud Prevention and Fraud Detection framework. 
+Question 
+129 
+Does the Entity have real time 
+monitoring to detect fraud? 
+Guidance 
+It is important that payment/transaction-based fraud is being monitored in real time to detect 
+fraudulent patterns/behaviour enabling your Entity to interdict these transactions before processing 
+them. 
+Question 
+130 
+Do the Entity’s processes 
+include gathering additional 
+information to support its fraud 
+controls, for example, IP 
+address, GPS location and/or 
+device ID? 
+Guidance 
+It is important that fraud monitoring systems use all available data to identify potential fraudulent 
+transactions before processing them. Examples include, but are not limited to, transactional data 
+(amount, date, IP address, device ID, authentication method) and non-transactional data (customer 
+data, industry, location) as well as watchlists (internal/external).

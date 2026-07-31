@@ -1,0 +1,9 @@
+pandas
+numpy
+pyarrow
+hdbcli
+requests
+networkx
+fastapi
+uvicorn[standard]
+pydantic
