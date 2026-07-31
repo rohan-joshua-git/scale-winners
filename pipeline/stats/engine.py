@@ -34,7 +34,7 @@ if str(_ROOT) not in sys.path:
 
 from src.exposure_ranking import ExposureRanker          # noqa: E402
 from pipeline.stats.spec import (                        # noqa: E402
-    DIMENSIONS, MEASURES, QuerySpec, Filter,
+    DIMENSIONS, MEASURES, ORDINAL_DIMENSIONS, QuerySpec, Filter,
 )
 
 #: Columns returned for intent='list'. Deliberately narrow - an investigator
@@ -146,12 +146,44 @@ class StatsEngine:
             df = self._apply(df, f)
         return df
 
+    # -- ordering ---------------------------------------------------------
+    @staticmethod
+    def _sorted(df: pd.DataFrame, order_by: str, descending: bool) -> pd.DataFrame:
+        """Sort by a measure, or by an ordinal categorical with exposure as the
+        tiebreak.
+
+        The tiebreak is not a nicety. ALERT_PRIORITY has three levels over ~1.5k
+        alerts, so sorting by the label alone leaves 194 CRITICALs in whatever
+        order the frame happened to be in, and "top 20 by priority" would return
+        an arbitrary 20 of them - stable across runs, but meaningless, and
+        wrong in a way nobody would notice. Within a level, exposure decides.
+        """
+        if order_by in ORDINAL_DIMENSIONS:
+            order = list(ORDINAL_DIMENSIONS[order_by].ordinal)
+            known = df[order_by].isin(order)
+            key = df[order_by].map({v: i for i, v in enumerate(order)})
+            if not descending:
+                key = (len(order) - 1) - key       # direction baked into the key,
+            key = key.where(known, len(order))     # so unknowns stay last either way
+            return (df.assign(_ord=key)
+                      .sort_values(["_ord", "exposure"], ascending=[True, False])
+                      .drop(columns="_ord"))
+        return df.sort_values(order_by, ascending=not descending, na_position="last")
+
     # -- metrics ----------------------------------------------------------
-    def _metric(self, g: pd.DataFrame, name: str, total: int) -> Any:
+    def _metric(self, g: pd.DataFrame, name: str, total: int, matched: int) -> Any:
         if name == "count":
             return int(len(g))
         if name == "pct_of_backlog":
             return _round(100.0 * len(g) / total, 1) if total else None
+        if name == "pct_of_matched":
+            # Share of the FILTERED population, which is what a reader of a
+            # filtered breakdown assumes a percentage means. Both are offered
+            # because they answer different questions and, under a filter, they
+            # differ a lot: EMEA CRITICALs are 12.5% of the backlog but 30.9% of
+            # EMEA. Reporting only the first next to a region filter invites the
+            # reader to do the wrong division in their head.
+            return _round(100.0 * len(g) / matched, 1) if matched else None
         if g.empty:
             return None
         if name == "avg_exposure":
@@ -209,8 +241,7 @@ class StatsEngine:
             if spec.allocation == "banded":
                 out = self._banded(df, spec.limit)
             else:
-                out = df.sort_values(spec.order_by, ascending=not spec.descending,
-                                     na_position="last").head(spec.limit)
+                out = self._sorted(df, spec.order_by, spec.descending).head(spec.limit)
             cols = [c for c in DISPLAY_COLS if c in out.columns]
             rows = out[cols].replace({np.nan: None}).to_dict("records")
             for r in rows:
@@ -219,7 +250,7 @@ class StatsEngine:
                 if r.get("exposure") is not None:
                     r["exposure"] = _round(r["exposure"])
         else:
-            rows = self._aggregate(df, spec, total=len(full))
+            rows = self._aggregate(df, spec, total=len(full), matched=n_matched)
 
         return {
             "spec": spec.model_dump(),
@@ -230,19 +261,29 @@ class StatsEngine:
             "provenance": self.provenance(),
         }
 
-    def _aggregate(self, df: pd.DataFrame, spec: QuerySpec, total: int) -> list[dict]:
+    def _aggregate(self, df: pd.DataFrame, spec: QuerySpec, total: int,
+                   matched: int) -> list[dict]:
         if not spec.group_by:
-            return [{m: self._metric(df, m, total) for m in spec.metrics}]
+            return [{m: self._metric(df, m, total, matched) for m in spec.metrics}]
         keys = list(spec.group_by)
         out = []
         for key, g in df.groupby(keys, dropna=False, observed=False):
             key = key if isinstance(key, tuple) else (key,)
             row = {k: (None if pd.isna(v) else v) for k, v in zip(keys, key)}
-            row.update({m: self._metric(g, m, total) for m in spec.metrics})
+            row.update({m: self._metric(g, m, total, matched) for m in spec.metrics})
             out.append(row)
-        sort_metric = spec.metrics[0]
-        out.sort(key=lambda r: (r.get(sort_metric) is None, r.get(sort_metric)),
-                 reverse=spec.descending)
+        # An ordered dimension sorts by its own severity order - a breakdown by
+        # priority reading CRITICAL, HIGH, MEDIUM is what the reader expects;
+        # sorting it by count gives HIGH, CRITICAL, MEDIUM, which looks like a
+        # mistake even though the numbers are right.
+        if len(keys) == 1 and keys[0] in ORDINAL_DIMENSIONS:
+            order = list(ORDINAL_DIMENSIONS[keys[0]].ordinal)
+            out.sort(key=lambda r: order.index(r[keys[0]])
+                     if r[keys[0]] in order else len(order))
+        else:
+            sort_metric = spec.metrics[0]
+            out.sort(key=lambda r: (r.get(sort_metric) is None, r.get(sort_metric)),
+                     reverse=spec.descending)
         return out[:spec.limit]
 
     # -- standing summary -------------------------------------------------

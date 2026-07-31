@@ -81,15 +81,27 @@ def classify_intent(message: str) -> str:
 # deterministic extractor
 # --------------------------------------------------------------------------
 
-_AGG = re.compile(r"\b(how many|count|number of|total|average|avg|median|sum|"
-                  r"breakdown|distribution|per |by )\b", re.I)
-_ASC = re.compile(r"\b(lowest|smallest|least|oldest|bottom)\b", re.I)
+# "by X" is NOT an aggregate signal on its own - it is ambiguous between
+# grouping ("how many by region") and ordering ("give me the cases by priority"),
+# and treating it as grouping turned "give me the cases ... by alert priority"
+# into a three-row breakdown. The disambiguator is whether an aggregate verb is
+# present, so grouping cues and ordering cues are now detected separately.
+_AGG_STRONG = re.compile(r"\b(how many|count of|counts?\b|number of|breakdown|"
+                         r"distribution|grouped by|broken down by|group by|per)\b", re.I)
+_AGG_WEAK = re.compile(r"\b(total|sum|average|avg|mean|median)\b", re.I)
+_LIST_CUE = re.compile(r"\b(give me|show me|list|which (?:cases?|alerts?)|"
+                       r"the (?:cases?|alerts?)|top \d+|first \d+|pull up|find me)\b", re.I)
+#: "by <field>" / "ordered by <field>" - the field the user wants applied.
+_BY_PHRASE = re.compile(
+    r"\b(?:ordered by|sorted by|sort by|ranked by|rank by|order by|grouped by|"
+    r"broken down by|group by|by|per)\s+([a-z_][a-z_ ]{1,29})", re.I)
+_ASC = re.compile(r"\b(lowest|smallest|least|oldest|bottom|ascending|asc)\b", re.I)
 _LIMIT = re.compile(r"\b(?:top|first|show me|give me)\s+(\d{1,3})\b", re.I)
+_GROUP_BY = re.compile(r"\b(?:by|per|grouped by|broken down by|breakdown by)\s+([a-z ]{3,25})", re.I)
 _UNASSIGNED = re.compile(r"\b(unassigned|nobody|no one|not assigned|unowned)\b", re.I)
 _SLA = re.compile(r"\b(sla|overdue|breached|past due)\b", re.I)
 _OVER_DAYS = re.compile(r"\b(?:over|more than|older than|>)\s*(\d+)\s*(day|days|month|months|year|years)\b", re.I)
 _OVER_USD = re.compile(r"\b(?:over|above|more than|>)\s*\$?\s*([\d,.]+)\s*(k|m|million|thousand)?\b", re.I)
-_GROUP_BY = re.compile(r"\b(?:by|per|grouped by|broken down by|breakdown by)\s+([a-z ]{3,25})", re.I)
 
 _DAY_MULT = {"day": 1, "days": 1, "month": 30, "months": 30, "year": 365, "years": 365}
 _USD_MULT = {"k": 1e3, "thousand": 1e3, "m": 1e6, "million": 1e6}
@@ -121,12 +133,30 @@ def _value_matches(text: str) -> list[Filter]:
     return out
 
 
+def _by_fields(text: str) -> list[str]:
+    """Fields named after 'by' / 'ordered by' / 'per', longest phrase first.
+
+    Returned in the order they appear so the caller can decide whether they are
+    grouping or ordering - the phrase itself does not say.
+    """
+    out = []
+    for gm in _BY_PHRASE.finditer(text):
+        words = gm.group(1).split()
+        for n in range(min(4, len(words)), 0, -1):
+            r = S.resolve_field(" ".join(words[:n]))
+            if r and r not in out:
+                out.append(r)
+                break
+    return out
+
+
 def rule_spec(message: str) -> Extraction:
     """Best-effort spec with no network call. Reports its assumptions."""
     m = message.strip()
     low = m.lower()
     assumptions: list[str] = []
     filters = _value_matches(m)
+    by_fields = _by_fields(low)
 
     if _UNASSIGNED.search(low):
         filters.append(Filter(field="ASSIGNED_TO", op="is_null"))
@@ -142,37 +172,64 @@ def rule_spec(message: str) -> Extraction:
         amt = float(mu.group(1).replace(",", "")) * _USD_MULT.get((mu.group(2) or "").lower(), 1)
         filters.append(Filter(field="AMOUNT_USD", op="gte", value=amt))
 
-    # ordering / measure
-    order_by, descending = "exposure", not bool(_ASC.search(low))
-    for phrase, (target, note) in S.AMBIGUOUS.items():
-        if re.search(r"(?<![a-z])%s" % re.escape(phrase), low):
-            if target in S.MEASURES:
-                order_by = target
-            assumptions.append(note)
-            break
+    # -- intent ----------------------------------------------------------
+    # An aggregate verb decides this, never a bare "by". "Give me the cases ...
+    # by alert priority" is a list ordered by a label, not a breakdown.
+    if _AGG_STRONG.search(low):
+        intent = "aggregate"
+    elif _AGG_WEAK.search(low) and not _LIST_CUE.search(low):
+        intent = "aggregate"
     else:
-        for term in ("amount", "value", "age", "oldest", "newest", "exposure"):
-            if term in low and (r := S.resolve_field(term)) in S.MEASURES:
-                order_by = r
-                break
-    if re.search(r"\boldest\b", low):
-        order_by, descending = "age_days", True
-    if re.search(r"\bnewest\b|\bmost recent\b", low):
-        order_by, descending = "age_days", False
+        intent = "list"
 
-    intent = "aggregate" if _AGG.search(low) else "list"
     group_by = []
     if intent == "aggregate":
-        for gm in _GROUP_BY.finditer(low):
-            for n in range(4, 0, -1):
-                term = " ".join(gm.group(1).split()[:n]).strip()
-                r = S.resolve_field(term)
-                if r in S.GROUPABLE and r not in group_by:
-                    group_by.append(r)
-                    if term in S.AMBIGUOUS:
-                        assumptions.append(S.AMBIGUOUS[term][1])
-                    break
+        for r in by_fields:
+            if r in S.GROUPABLE and r not in group_by:
+                group_by.append(r)
 
+    # -- ordering --------------------------------------------------------
+    order_by, descending, explicit_order = "exposure", not bool(_ASC.search(low)), False
+    if intent == "list":
+        for r in by_fields:
+            if r in S.ORDERABLE:
+                order_by, explicit_order = r, True     # the user named a field
+                break
+
+    if not explicit_order and intent == "list":
+        # Only a list has an ordering the user can be ambiguous about. Running
+        # this for aggregates double-reported the region assumption, because the
+        # group_by loop below already covers it.
+        for phrase, (target, note) in S.AMBIGUOUS.items():
+            if re.search(r"(?<![a-z])%s" % re.escape(phrase), low):
+                if target in S.ORDERABLE:
+                    order_by = target
+                assumptions.append(note)
+                break
+        else:
+            for term in ("amount", "value", "age", "oldest", "newest", "exposure"):
+                if term in low and (r := S.resolve_field(term)) in S.MEASURES:
+                    order_by = r
+                    break
+        if re.search(r"\boldest\b", low):
+            order_by, descending = "age_days", True
+        if re.search(r"\bnewest\b|\bmost recent\b", low):
+            order_by, descending = "age_days", False
+    elif order_by in S.ORDINAL_DIMENSIONS:
+        assumptions.append(
+            "Ordered by the %s label (%s); ties within a level broken by "
+            "exposure, since the label alone does not order alerts inside it."
+            % (order_by, " > ".join(S.ORDINAL_DIMENSIONS[order_by].ordinal)))
+
+    # An explicitly-named grouping field is not an ambiguity we resolved, but
+    # a vague one ("by region") still is.
+    for r in group_by:
+        for phrase, (target, note) in S.AMBIGUOUS.items():
+            if target == r and re.search(r"(?<![a-z])%s(?![a-z_])" % re.escape(phrase), low):
+                assumptions.append(note)
+                break
+
+    # -- metrics ---------------------------------------------------------
     metrics = ["count"]
     if intent == "aggregate":
         if re.search(r"\btotal\b|\bsum\b", low) and re.search(r"amount|value|usd|\$", low):
@@ -183,6 +240,10 @@ def rule_spec(message: str) -> Extraction:
             metrics = ["count", "median_age_days"]
         else:
             metrics = ["count", "pct_of_backlog", "avg_exposure"]
+        # Under a filter, "% of backlog" is the wrong denominator for the
+        # question the reader is asking, so report both rather than swapping.
+        if filters and "pct_of_backlog" in metrics:
+            metrics.insert(metrics.index("pct_of_backlog") + 1, "pct_of_matched")
 
     ml = _LIMIT.search(low)
     limit = int(ml.group(1)) if ml else (50 if intent == "aggregate" else 20)
@@ -201,7 +262,8 @@ def rule_spec(message: str) -> Extraction:
                       limit=min(limit, 500), allocation=allocation)
     except ValidationError as e:
         return Extraction(spec=None, clarify="Could not build a valid query: %s" % e)
-    return Extraction(spec=s, assumptions=assumptions, method="rules")
+    return Extraction(spec=s, assumptions=list(dict.fromkeys(assumptions)),
+                      method="rules")
 
 
 # --------------------------------------------------------------------------
@@ -235,6 +297,15 @@ composite score), NOT the ALERT_PRIORITY label. Say so in assumptions. Use \
 ALERT_PRIORITY only when the user names the label or says "severity".
 - "region" means CLIENT_REGION_CODE (client HQ) unless the user clearly means \
 the counterparty/destination, which is DEST_REGION_CODE. Say which you chose.
+- "by X" is ambiguous. If the question asks for CASES or ALERTS, "by X" means \
+order_by X and intent stays "list". Only use group_by when the question asks \
+how many / a count / a breakdown / a distribution / an average.
+- order_by accepts ordered categoricals (ALERT_PRIORITY, DEST_FATF_STATUS, \
+DEST_RISK_TIER, band) as well as numeric measures. Ties inside a level are \
+broken by exposure automatically - do not work around that.
+- When the request has filters and you are producing a breakdown, include both \
+"pct_of_backlog" and "pct_of_matched": under a filter they answer different \
+questions and only pct_of_matched sums to 100.
 - Use allocation "banded" when the user is asking what to WORK ON (a queue, \
 today's work, assignment), because a flat top-N starves new critical alerts.
 - group_by is only valid with intent "aggregate".
@@ -253,8 +324,15 @@ _FEWSHOT = [
     ("How many unresolved alerts in EMEA, broken down by FATF status?",
      {"intent": "aggregate",
       "filters": [{"field": "CLIENT_REGION_CODE", "op": "eq", "value": "EMEA"}],
-      "group_by": ["DEST_FATF_STATUS"], "metrics": ["count", "pct_of_backlog", "avg_exposure"],
+      "group_by": ["DEST_FATF_STATUS"],
+      "metrics": ["count", "pct_of_backlog", "pct_of_matched", "avg_exposure"],
       "limit": 50, "assumptions": ["'EMEA' read as client HQ region."]}),
+    ("Give me the cases with the highest priority in EMEA by alert priority",
+     {"intent": "list",
+      "filters": [{"field": "CLIENT_REGION_CODE", "op": "eq", "value": "EMEA"}],
+      "group_by": [], "order_by": "ALERT_PRIORITY", "descending": True, "limit": 20,
+      "assumptions": ["Ordered by the ALERT_PRIORITY label since you named it; "
+                      "ties within a level broken by exposure."]}),
     ("What should my team work on today?",
      {"intent": "list", "filters": [], "order_by": "exposure", "descending": True,
       "limit": 20, "allocation": "banded",
@@ -315,9 +393,13 @@ def extract_spec(message: str, use_llm: bool = True) -> Extraction:
         except Exception as e:                        # transport/auth/deployment
             out = rule_spec(message)
             out.method = "llm->rules"
+            detail = str(e).strip() or type(e).__name__
+            if isinstance(e, FileNotFoundError):
+                detail = ("team_07_credentials.json not found - AI Core needs the "
+                          "gitignored tenant credentials in the repo root")
             out.assumptions.append(
                 "AI Core unavailable (%s); used the deterministic extractor."
-                % type(e).__name__)
+                % detail[:140])
             return out
     return rule_spec(message)
 

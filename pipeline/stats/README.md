@@ -30,6 +30,46 @@ the executor. This is the same separation `risk_drivers.py` keeps between
 policy-set severities and narration, and it is what keeps this stage on the
 light governance path.
 
+## "by X" is ambiguous, and the fix is in the spec
+
+`"Give me the cases ... by alert priority"` wants a **list ordered by** a label.
+`"How many cases by region"` wants a **breakdown grouped by** one. The phrase is
+identical; the disambiguator is whether an aggregate verb is present
+(`how many`, `count`, `breakdown`, `distribution`, `per`).
+
+The first version got this wrong in a way worth recording, because the cause was
+in the schema rather than the parser. `order_by` accepted numeric measures only,
+so *"order by alert priority"* had **no valid spec** — and the extractor did what
+anything under-specified does: it reinterpreted the request as the nearest thing
+it could express, and returned a three-row breakdown to someone who asked for
+cases.
+
+The lesson is that an unexpressible request must be able to *clarify*, never
+mutate. So ordered categoricals are now sortable — `ALERT_PRIORITY`,
+`DEST_FATF_STATUS`, `DEST_RISK_TIER`, `band` carry an explicit `ordinal`:
+
+```python
+ALERT_PRIORITY    CRITICAL > HIGH > MEDIUM
+DEST_FATF_STATUS  BLACK_LIST > NON_COMPLIANT > GREY_LIST > MEMBER   # = FATF_WEIGHT order
+band              AGED (>1yr) > CURRENT (31-365d) > NEW (<=30d)
+```
+
+FATF order follows `ExposureRanker.FATF_WEIGHT` (1.00 / 0.80 / 0.60 / 0.15), not
+alphabetical and not source-table order.
+
+**Ties inside a level break by exposure.** Three priority levels over ~1,554
+alerts means 492 alerts share the label `CRITICAL`; sorting on the label alone
+would return an arbitrary 20 of them — stable across runs, entirely meaningless,
+and wrong in a way nobody would catch.
+
+## Two denominators, both reported
+
+`pct_of_backlog` is the share of all 1,554 unresolved alerts. `pct_of_matched`
+is the share of the filtered set. Under a filter these differ sharply — EMEA
+CRITICALs are 12.5% of the backlog but 30.9% of EMEA — and a reader looking at a
+breakdown headed "EMEA" will assume the second. Both are emitted whenever
+filters are present rather than silently picking one.
+
 ## Two ambiguities resolved in code, not in a prompt
 
 **"priority" → `exposure`, not `ALERT_PRIORITY`.** The label is one of five
@@ -142,14 +182,15 @@ question rather than a guess.
 ## Tests
 
 ```bash
-python -m pipeline.stats.selftest      # 47 checks, no network, real backlog
+python -m pipeline.stats.selftest      # 59 checks, no network, real backlog
 ```
 
 Covers executor correctness (filters compose, aggregates sum back to the
 population, exposure is not rescaled by filtering, banded allocation reaches all
-three ageing bands), contract enforcement (unknown fields, invented operators,
-SQL injection and out-of-range limits must all be rejected), and question →
-expected-spec pairs.
+three ageing bands), ordinal ordering (severity-monotonic, exposure tiebreak,
+reversible, groups report in severity order), denominators, contract enforcement
+(unknown fields, invented operators, SQL injection and out-of-range limits must
+all be rejected), and question → expected-spec pairs.
 
 That last set is the point of the spec design: exact-match grading on a small
 JSON object is a tractable eval, whereas grading prose is not. Extending

@@ -133,6 +133,52 @@ def main() -> int:
           all(band["rows"][i]["exposure"] >= band["rows"][i + 1]["exposure"]
               for i in range(len(band["rows"]) - 1)))
 
+    # -- ordinal ordering -------------------------------------------------
+    # Regression: "order by alert priority" was unexpressible (order_by accepted
+    # measures only), so the extractor reinterpreted it as a group-by and
+    # returned a 3-row breakdown for a request that asked for cases.
+    print("\nordinal ordering")
+    prio = e.run(QuerySpec(intent="list", order_by="ALERT_PRIORITY", limit=30))
+    check("ordinal sort puts the most severe level first",
+          prio["rows"][0]["ALERT_PRIORITY"] == "CRITICAL",
+          "got %s" % prio["rows"][0]["ALERT_PRIORITY"])
+    order = ["CRITICAL", "HIGH", "MEDIUM"]
+    check("ordinal sort is monotonic in severity",
+          all(order.index(prio["rows"][i]["ALERT_PRIORITY"])
+              <= order.index(prio["rows"][i + 1]["ALERT_PRIORITY"])
+              for i in range(len(prio["rows"]) - 1)))
+    crit = [r for r in prio["rows"] if r["ALERT_PRIORITY"] == "CRITICAL"]
+    check("ties inside a level break by exposure descending",
+          all(crit[i]["exposure"] >= crit[i + 1]["exposure"] for i in range(len(crit) - 1)),
+          "%d CRITICALs in the page" % len(crit))
+    asc = e.run(QuerySpec(intent="list", order_by="ALERT_PRIORITY",
+                          descending=False, limit=30))
+    check("ascending ordinal sort reverses the severity order",
+          asc["rows"][0]["ALERT_PRIORITY"] == "MEDIUM",
+          "got %s" % asc["rows"][0]["ALERT_PRIORITY"])
+    fatf = e.run(QuerySpec(intent="list", order_by="DEST_FATF_STATUS", limit=10))
+    check("FATF ordinal follows ExposureRanker.FATF_WEIGHT, not alphabetical",
+          fatf["rows"][0]["DEST_FATF_STATUS"] == "BLACK_LIST",
+          "got %s" % fatf["rows"][0]["DEST_FATF_STATUS"])
+    grp = e.run(QuerySpec(intent="aggregate", group_by=["ALERT_PRIORITY"],
+                          metrics=["count"], limit=10))
+    check("grouped ordinal dimension reports in severity order, not by count",
+          [r["ALERT_PRIORITY"] for r in grp["rows"]] == order,
+          str([r["ALERT_PRIORITY"] for r in grp["rows"]]))
+
+    # -- denominators -----------------------------------------------------
+    print("\ndenominators")
+    both = e.run(QuerySpec(
+        intent="aggregate",
+        filters=[Filter(field="CLIENT_REGION_CODE", op="eq", value="EMEA")],
+        group_by=["ALERT_PRIORITY"],
+        metrics=["count", "pct_of_backlog", "pct_of_matched"], limit=10))
+    check("pct_of_matched sums to ~100 under a filter",
+          abs(sum(r["pct_of_matched"] for r in both["rows"]) - 100) < 0.5)
+    check("pct_of_backlog does NOT sum to 100 under a filter (different question)",
+          abs(sum(r["pct_of_backlog"] for r in both["rows"]) - 100) > 10,
+          "sums to %.1f%%" % sum(r["pct_of_backlog"] for r in both["rows"]))
+
     # -- empty result -----------------------------------------------------
     print("\nedge cases")
     none = e.run(QuerySpec(intent="list",
@@ -157,7 +203,7 @@ def main() -> int:
     rejects("invented operator",
             filters=[{"field": "exposure", "op": "regex", "value": ".*"}])
     rejects("invented metric", intent="aggregate", metrics=["avg_profit"])
-    rejects("order by a non-measure", order_by="ALERT_PRIORITY")
+    rejects("order by an unordered categorical", order_by="ALERT_TYPE")
     rejects("group by a measure", intent="aggregate", group_by=["exposure"])
     rejects("group_by on a list query", intent="list", group_by=["ALERT_TYPE"])
     rejects("limit above the cap", limit=100000)
@@ -196,6 +242,18 @@ def main() -> int:
         ("oldest alerts on the grey list",
          dict(intent="list", order_by="age_days", descending=True,
               filters=[("DEST_FATF_STATUS", "eq", "GREY_LIST")])),
+        # Regression: a bare "by" used to force intent=aggregate, turning a
+        # request for cases into a three-row breakdown.
+        ("Give me the cases with the highest priority in EMEA by alert priority",
+         dict(intent="list", order_by="ALERT_PRIORITY", group_by=[],
+              filters=[("CLIENT_REGION_CODE", "eq", "EMEA")])),
+        ("show me alerts sorted by amount in APAC",
+         dict(intent="list", order_by="AMOUNT_USD",
+              filters=[("CLIENT_REGION_CODE", "eq", "APAC")])),
+        ("list cases by FATF status",
+         dict(intent="list", order_by="DEST_FATF_STATUS", group_by=[])),
+        ("how many cases by region", dict(intent="aggregate",
+                                          group_by=["CLIENT_REGION_CODE"])),
     ]
     for q, want in cases:
         got = rule_spec(q).spec

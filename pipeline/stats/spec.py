@@ -51,6 +51,12 @@ class FieldDef:
     values: tuple[str, ...] = ()          # closed domain, if there is one
     aliases: tuple[str, ...] = ()         # words a user might say instead
     value_aliases: dict = dc_field(default_factory=dict)
+    #: Severity order, worst first. A categorical with an ordinal is sortable,
+    #: so "order by alert priority" is expressible instead of being silently
+    #: reinterpreted as something else. Ties inside a level break by exposure -
+    #: 194 alerts share the label CRITICAL, so the label alone does not order
+    #: them and pretending otherwise would return an arbitrary 20 of them.
+    ordinal: tuple[str, ...] = ()
 
 
 #: Dimensions - filterable and groupable.
@@ -63,6 +69,7 @@ DIMENSIONS: dict[str, FieldDef] = {
         aliases=("priority label", "severity", "alert priority", "criticality"),
         value_aliases={"critical": "CRITICAL", "high": "HIGH", "medium": "MEDIUM",
                        "med": "MEDIUM", "urgent": "CRITICAL"},
+        ordinal=("CRITICAL", "HIGH", "MEDIUM"),
     ),
     "ALERT_TYPE": FieldDef(
         "ALERT_TYPE", "categorical", "What tripped the alert.",
@@ -119,10 +126,17 @@ DIMENSIONS: dict[str, FieldDef] = {
                        "blacklisted": "BLACK_LIST", "grey list": "GREY_LIST",
                        "greylist": "GREY_LIST", "gray list": "GREY_LIST",
                        "non compliant": "NON_COMPLIANT", "member": "MEMBER"},
+        # Matches ExposureRanker.FATF_WEIGHT ordering (1.00/0.80/0.60/0.15),
+        # not alphabetical and not the order they appear in the source table.
+        ordinal=("BLACK_LIST", "NON_COMPLIANT", "GREY_LIST", "MEMBER"),
     ),
     "DEST_RISK_TIER": FieldDef("DEST_RISK_TIER", "categorical",
                                "Internal risk tier of the destination country.",
-                               aliases=("risk tier", "tier")),
+                               values=("HIGH", "MEDIUM", "LOW"),
+                               aliases=("risk tier", "tier"),
+                               value_aliases={"high": "HIGH", "medium": "MEDIUM",
+                                              "low": "LOW"},
+                               ordinal=("HIGH", "MEDIUM", "LOW")),
     "band": FieldDef(
         "band", "categorical",
         "Ageing band used for capacity allocation.",
@@ -130,6 +144,7 @@ DIMENSIONS: dict[str, FieldDef] = {
         aliases=("age band", "ageing band", "aging band", "vintage"),
         value_aliases={"new": "NEW (<=30d)", "current": "CURRENT (31-365d)",
                        "aged": "AGED (>1yr)", "old": "AGED (>1yr)"},
+        ordinal=("AGED (>1yr)", "CURRENT (31-365d)", "NEW (<=30d)"),
     ),
     "ASSIGNED_TO": FieldDef("ASSIGNED_TO", "categorical",
                             "Analyst the alert is assigned to; null = unassigned.",
@@ -165,14 +180,20 @@ MEASURES: dict[str, FieldDef] = {
 
 FILTERABLE = {**DIMENSIONS, **MEASURES}
 GROUPABLE = set(DIMENSIONS)
-ORDERABLE = set(MEASURES)
 
-DimensionName = Literal[tuple(DIMENSIONS)]          # type: ignore[valid-type]
-FilterField = Literal[tuple(FILTERABLE)]            # type: ignore[valid-type]
-OrderField = Literal[tuple(MEASURES)]               # type: ignore[valid-type]
+#: Ordered categoricals are sortable. Without this, "order by alert priority"
+#: has no valid spec and the extractor is pushed into reinterpreting the request
+#: as something it can express - which is precisely the failure mode the spec
+#: exists to prevent. An unexpressible request should clarify, never mutate.
+ORDINAL_DIMENSIONS = {n: f for n, f in DIMENSIONS.items() if f.ordinal}
+ORDERABLE = set(MEASURES) | set(ORDINAL_DIMENSIONS)
+
+DimensionName = Literal[tuple(DIMENSIONS)]                  # type: ignore[valid-type]
+FilterField = Literal[tuple(FILTERABLE)]                    # type: ignore[valid-type]
+OrderField = Literal[tuple(sorted(ORDERABLE))]              # type: ignore[valid-type]
 
 Metric = Literal[
-    "count", "pct_of_backlog",
+    "count", "pct_of_backlog", "pct_of_matched",
     "avg_exposure", "max_exposure", "sum_exposure",
     "avg_age_days", "median_age_days", "max_age_days",
     "sum_amount_usd", "avg_amount_usd", "median_amount_usd",
@@ -311,9 +332,16 @@ class QuerySpec(BaseModel):
         if self.intent == "aggregate":
             by = (" by " + ", ".join(self.group_by)) if self.group_by else ""
             return "%s of %s%s" % (", ".join(self.metrics), where, by)
-        how = ("banded capacity allocation across ageing bands"
-               if self.allocation == "banded" else
-               "%s %s" % (self.order_by, "descending" if self.descending else "ascending"))
+        if self.allocation == "banded":
+            how = "banded capacity allocation across ageing bands"
+        elif self.order_by in ORDINAL_DIMENSIONS:
+            how = "%s (%s), ties broken by exposure" % (
+                self.order_by,
+                " > ".join(ORDINAL_DIMENSIONS[self.order_by].ordinal)
+                if self.descending else
+                " < ".join(ORDINAL_DIMENSIONS[self.order_by].ordinal))
+        else:
+            how = "%s %s" % (self.order_by, "descending" if self.descending else "ascending")
         return "top %d of %s, ordered by %s" % (self.limit, where, how)
 
 
