@@ -14,6 +14,7 @@ from contextlib import asynccontextmanager
 
 import networkx as nx
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from pipeline.ingestion.hana_source import get_connection
@@ -53,6 +54,18 @@ app = FastAPI(
                 "behind one base URL, with /chat routing between them.",
     version="1.1.0",
     lifespan=lifespan,
+)
+
+# The demo site (demo/) is static HTML served from its own port (see
+# `python main.py serve` and `python -m http.server` in demo/) -- a different
+# origin than this API, so the browser needs CORS to call /chat from it.
+# Regex rather than a fixed origin list because the static server's port is
+# whatever the demo happens to be served on.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?",
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
 )
 
 # Stage 5a: /chat, /stats/query, /stats/summary, /stats/fields

@@ -261,6 +261,28 @@ class StatsEngine:
             "provenance": self.provenance(),
         }
 
+    # -- single-record lookup ----------------------------------------------
+    def alert(self, alert_id: int) -> dict | None:
+        """One alert by ALERT_ID, or None if it is not in the unresolved
+        backlog. Bypasses the QuerySpec/Filter surface on purpose - ALERT_ID
+        is deliberately not a registered filterable field (spec.py), since
+        this stage answers questions OVER the backlog, not per-record key
+        lookups. A dedicated method keeps that boundary intact while still
+        giving a UI a fast, deterministic "look up this case" path with no
+        LLM involved.
+        """
+        df = self.frame()
+        match = df[df["ALERT_ID"] == alert_id]
+        if match.empty:
+            return None
+        cols = [c for c in DISPLAY_COLS if c in match.columns]
+        row = match[cols].replace({np.nan: None}).to_dict("records")[0]
+        if isinstance(row.get("CREATED_AT"), pd.Timestamp):
+            row["CREATED_AT"] = row["CREATED_AT"].isoformat()
+        if row.get("exposure") is not None:
+            row["exposure"] = _round(row["exposure"])
+        return row
+
     def _aggregate(self, df: pd.DataFrame, spec: QuerySpec, total: int,
                    matched: int) -> list[dict]:
         if not spec.group_by:

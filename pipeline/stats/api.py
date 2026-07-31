@@ -64,6 +64,8 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     route: str                       # 'analytical' | 'explanatory' | 'clarify'
     answer: str
+    recommended_action: str | None = None
+    expected_effect: str | None = None
     spec: dict | None = None
     spec_english: str | None = None
     assumptions: list[str] = []
@@ -94,6 +96,22 @@ def stats_fields() -> dict:
 @router.get("/stats/summary")
 def stats_summary() -> dict:
     return get_engine().summary()
+
+
+@router.get("/stats/alert/{alert_id}")
+def stats_alert(alert_id: int) -> dict:
+    """Direct case-number lookup, no LLM involved - powers the demo console's
+    "look up this case" path. 404 is the correct, honest answer for a resolved
+    or nonexistent alert; this stage only ever sees the unresolved backlog."""
+    e = get_engine()
+    row = e.alert(alert_id)
+    if row is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Alert %d is not in the unresolved backlog (%d alerts, "
+                   "RESOLUTION_CODE is null). It may already be resolved, or "
+                   "the number does not exist." % (alert_id, len(e.frame())))
+    return {"alert": row, "provenance": e.provenance()}
 
 
 @router.post("/stats/query", response_model=QueryResponse)
@@ -138,15 +156,17 @@ def chat(req: ChatRequest) -> ChatResponse:
 
     if req.narrate:
         try:
-            answer = nl.narrate(req.message, result, ext.assumptions) if req.use_llm \
+            narration = nl.narrate(req.message, result, ext.assumptions) if req.use_llm \
                 else nl.narrate_fallback(result, ext.assumptions)
         except Exception:
-            answer = nl.narrate_fallback(result, ext.assumptions)
+            narration = nl.narrate_fallback(result, ext.assumptions)
     else:
-        answer = nl.narrate_fallback(result, ext.assumptions)
+        narration = nl.narrate_fallback(result, ext.assumptions)
 
     return ChatResponse(
-        route="analytical", answer=answer,
+        route="analytical", answer=narration.summary,
+        recommended_action=narration.recommended_action,
+        expected_effect=narration.expected_effect,
         spec=result["spec"], spec_english=result["spec_english"],
         assumptions=ext.assumptions, extraction_method=ext.method,
         n_matched=result["n_matched"], rows=result["rows"],

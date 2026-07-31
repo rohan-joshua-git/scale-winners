@@ -408,18 +408,169 @@ def extract_spec(message: str, use_llm: bool = True) -> Extraction:
 # narration
 # --------------------------------------------------------------------------
 
-_NARRATE_SYSTEM = """You are a compliance analytics assistant. You will be given \
-a question, the query that was run, and the RESULT ROWS already computed by a \
-deterministic engine.
-
-State the answer in at most four sentences of plain English. Use ONLY numbers \
-present in the result payload - never estimate, extrapolate or recompute. If \
-assumptions are listed, state the relevant one plainly. If n_matched is 0, say \
-nothing matched and suggest a nearby filter to relax. Do not add caveats about \
-AI or data quality."""
+@dataclass
+class Narration:
+    summary: str
+    recommended_action: str | None = None
+    expected_effect: str | None = None
 
 
-def narrate(message: str, result: dict, assumptions: list[str]) -> str:
+_NARRATE_SYSTEM = """You are a compliance analytics assistant briefing AML \
+leadership. You will be given a question, the query that was run, and the RESULT \
+ROWS already computed by a deterministic engine.
+
+The individual result rows are already displayed to the user in a table directly \
+below your answer - do NOT restate, list, or number them one by one in "summary".
+
+Return ONLY a JSON object, no prose, no code fence, with this shape:
+{
+  "summary": <1-3 sentences: the headline number and one notable pattern or caveat>,
+  "recommended_action": <1-2 sentences, executive-summary style: a specific, \
+decisive next step naming who should act and on which named cohort/segment \
+(not "these alerts"), or null if n_matched is 0>,
+  "expected_effect": <1-2 sentences, executive-summary style: the concrete \
+coverage or impact of taking that action, stated with confidence, or null if \
+n_matched is 0>
+}
+
+Voice for "recommended_action" and "expected_effect": write like a confident \
+briefing to a decision-maker, not a hedge. Use decisive verbs (escalate, \
+reassign, freeze, close out, route) rather than passive ones (consider, may \
+want to, should perhaps). Name the specific cohort by its filter, segment, or \
+top case, not a vague "these alerts".
+
+Rules for all three fields:
+- Plain prose only. No bullet points, no numbered lists, no markdown, no headers, \
+no line breaks.
+- Confidence is in the delivery, not in invented precision. Use ONLY numbers \
+present in the result payload - never estimate, extrapolate, forecast or \
+recompute. "expected_effect" must restate a quantity already in the payload (a \
+count, a percentage, an exposure figure) as what the action would cover - it \
+must NOT invent a projected outcome, a percentage improvement, or a timeline \
+that is not already in the data.
+- NEVER state a combined, total, or aggregate dollar figure across multiple \
+rows/alerts unless that exact total is already a field in the payload (e.g. a \
+"sum_amount_usd" metric). Rows are per-alert or per-group figures; summing \
+AMOUNT_USD (or any field) across rows yourself is recomputing, which is \
+forbidden even though the inputs are real. Cite one row's own value, or a \
+count/percentage already computed, instead.
+- If assumptions are listed, state the relevant one plainly in "summary".
+- If n_matched is 0, "summary" should say nothing matched and suggest a nearby \
+filter to relax; "recommended_action" and "expected_effect" must be null.
+- Do not add caveats about AI or data quality."""
+
+
+def _fallback_action_effect(result: dict) -> tuple[str | None, str | None]:
+    """The deterministic recommended_action/expected_effect pair - built once
+    here so narrate_fallback() and narrate()'s verification fallback (below)
+    share the exact same, fully-grounded phrasing.
+
+    Rows are sorted by `order_by` (exposure by default, for both intents) -
+    rows[0] is the highest-exposure row/segment, NOT necessarily the largest
+    by count. Earlier drafts of this function called it "the largest cohort"
+    regardless, which was true by accident for the cases tested and wrong in
+    general (a 34-alert BLACK_LIST segment outranked a 535-alert MEMBER one on
+    exposure, and got mislabeled "largest").
+    """
+    n = result["n_matched"]
+    if n == 0:
+        return None, None
+    rows = result["rows"]
+    intent = result["spec"]["intent"]
+
+    if intent == "list" and rows:
+        top = rows[0]
+        top_id, top_exp = top.get("ALERT_ID"), top.get("exposure", 0)
+        n_shown = result["n_returned"]
+        action = ("Escalate the %d highest-exposure alert%s above to the review "
+                  "queue today, led by alert %s at an exposure score of %.3f."
+                  % (n_shown, "" if n_shown == 1 else "s", top_id, top_exp))
+        effect = ("Closing out this cohort resolves %d of the %d matched alerts "
+                  "(%.1f%% of this filter) - the highest-exposure segment "
+                  "currently open." % (n_shown, n, 100.0 * n_shown / n))
+        return action, effect
+
+    if intent == "aggregate" and rows:
+        top = rows[0]
+        group_field = (result["spec"].get("group_by") or [None])[0]
+        top_label = top.get(group_field) if group_field else None
+        top_count = top.get("count")
+        if top_count:
+            label_txt = str(top_label) if top_label is not None else "the top group"
+            action = ("Direct review capacity to the %s segment first - it has "
+                      "the highest average exposure in this breakdown, spanning "
+                      "%s alerts." % (label_txt, format(int(top_count), ",")))
+            pct = top.get("pct_of_matched", top.get("pct_of_backlog"))
+            effect = ("Closing out this segment resolves %s of the %d matched "
+                      "alerts%s." % (format(int(top_count), ","), n,
+                                     (" (%.1f%%)" % pct) if pct is not None else ""))
+            return action, effect
+
+    return None, None
+
+
+def _payload_numbers(payload: dict) -> set[str]:
+    """Every number legitimately present in the payload handed to the LLM, in
+    the string forms it might turn up in generated prose. Same governance
+    pattern as src/risk_drivers.py's verify_narrative()/_source_numbers(),
+    applied here to catch the LLM inventing a figure (a summed dollar amount,
+    a made-up percentage) instead of just restating one it was given.
+    """
+    vals: set[str] = set()
+
+    def add(v):
+        try:
+            f = float(v)
+        except (TypeError, ValueError):
+            return
+        if f != f:  # NaN
+            return
+        for s in ("%.0f" % f, "%.1f" % f, "%.2f" % f, "%.3f" % f,
+                  format(f, ",.0f"), format(f, ",.2f")):
+            vals.add(s.replace(",", ""))
+
+    add(payload.get("n_matched"))
+    for row in payload.get("rows") or []:
+        for v in row.values():
+            add(v)
+    for v in (payload.get("exposure_weights") or {}).values():
+        add(v)
+    return vals
+
+
+#: Both fabrications caught during testing used this framing - "combined
+#: exposure of $X million" - to imply a sum across rows that list-intent
+#: queries never compute. A pure number-presence check can miss this: the
+#: invented figure can coincidentally match some unrelated real field (an
+#: alert's age_days, say) even though the SENTENCE is still inventing an
+#: aggregate. Treat the phrasing itself as disqualifying, not just the digits.
+_AGGREGATION_WORDS = re.compile(r"\b(combined|aggregate[d]?|cumulative|in total)\b", re.I)
+
+
+def _has_unverified_number(text: str | None, allowed: set[str]) -> bool:
+    """True if `text` invents a summed figure (by phrasing or by digits) that
+    the payload does not actually contain - i.e. the model estimated, summed,
+    or otherwise invented a figure rather than restating a computed one."""
+    if not text:
+        return False
+    if _AGGREGATION_WORDS.search(text):
+        return True
+    for tok in re.findall(r"\d[\d,]*\.?\d*", text):
+        norm = tok.replace(",", "")
+        if norm in allowed:
+            continue
+        try:
+            f = float(norm)
+        except ValueError:
+            return True
+        candidates = {"%.0f" % f, "%.1f" % f, "%.2f" % f, "%.3f" % f}
+        if candidates & allowed:
+            continue
+        return True
+    return False
+
+
+def narrate(message: str, result: dict, assumptions: list[str]) -> Narration:
     from pipeline.rag import ai_core_client
 
     payload = {"question": message, "query": result["spec_english"],
@@ -428,19 +579,40 @@ def narrate(message: str, result: dict, assumptions: list[str]) -> str:
                "exposure_weights": result["provenance"]["exposure_weights"]}
     msgs = [{"role": "system", "content": _NARRATE_SYSTEM},
             {"role": "user", "content": json.dumps(payload, default=str)}]
-    return ai_core_client.complete(msgs, max_tokens=300, temperature=0.0).content.strip()
+    raw = ai_core_client.complete(msgs, max_tokens=450, temperature=0.0).content
+    body = _parse(raw)
+
+    action = (str(body["recommended_action"]).strip()
+             if body.get("recommended_action") else None)
+    effect = (str(body["expected_effect"]).strip()
+             if body.get("expected_effect") else None)
+
+    # The model was told to use only payload numbers; check it, rather than
+    # trust it. Any unverifiable figure in either field swaps BOTH for the
+    # deterministic pair, so action and effect stay narratively consistent
+    # with each other instead of mixing a model sentence with a code one.
+    allowed = _payload_numbers(payload)
+    if _has_unverified_number(action, allowed) or _has_unverified_number(effect, allowed):
+        action, effect = _fallback_action_effect(result)
+
+    return Narration(summary=str(body.get("summary", "")).strip(),
+                     recommended_action=action, expected_effect=effect)
 
 
-def narrate_fallback(result: dict, assumptions: list[str]) -> str:
-    """Deterministic answer sentence, used when AI Core is unavailable.
+def narrate_fallback(result: dict, assumptions: list[str]) -> Narration:
+    """Deterministic answer, used when AI Core is unavailable.
 
     Not a degraded mode anyone should be embarrassed by - it says exactly what
-    was matched and on what basis.
+    was matched and on what basis, and the action/effect below are built the
+    same way narrate()'s are meant to be: restating numbers already computed,
+    never a new estimate.
     """
     n = result["n_matched"]
     if n == 0:
-        return ("No unresolved alerts match %s. Try relaxing one filter."
-                % result["spec_english"])
+        return Narration(
+            summary=("No unresolved alerts match %s. Try relaxing one filter."
+                     % result["spec_english"]))
+
     head = "%d unresolved alert%s match %s; showing %d." % (
         n, "" if n == 1 else "s", result["spec_english"], result["n_returned"])
     rows = result["rows"]
@@ -452,4 +624,6 @@ def narrate_fallback(result: dict, assumptions: list[str]) -> str:
                     top.get("age_days")))
     if assumptions:
         head += " " + " ".join(assumptions)
-    return head
+
+    action, effect = _fallback_action_effect(result)
+    return Narration(summary=head, recommended_action=action, expected_effect=effect)

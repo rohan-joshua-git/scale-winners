@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Query Console — TrustSphere</title>
+<meta name="description" content="Ask TrustSphere's explainability layer about a transaction, corridor, or typology and get the same scored, RAG-grounded rationale the dashboard shows, in plain English." />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/query.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <span class="wordmark">TrustSphere</span>
+    <nav class="site-nav" aria-label="Primary">
+      <a class="site-nav__link" href="index.html">Overview</a>
+      <a class="site-nav__link" href="query.html" aria-current="page">Query console</a>
+    </nav>
+    <span class="site-header__tag">Risk Intelligence · TEAM 07</span>
+  </div>
+</header>
+
+<main id="main">
+  <section class="query-hero" aria-labelledby="query-heading">
+    <div class="wrap query-hero__intro">
+      <p class="eyebrow">Phase 6 — explainability, in your own words</p>
+      <h1 id="query-heading" class="query-hero__heading">Ask the pipeline directly.</h1>
+      <p class="query-hero__lede">
+        Same score, factors, and RAG-grounded rationale the dashboard shows —
+        just reachable as a question instead of a dial. Ask about a
+        transaction, a corridor, or a typology.
+      </p>
+    </div>
+
+    <div class="wrap query-console" data-console>
+      <div class="chat-status" data-chat-status data-state="checking">
+        <span class="chat-status__dot" aria-hidden="true"></span>
+        <span data-chat-status-text>Checking the live backlog analytics service…</span>
+      </div>
+
+      <div
+        class="chat-log"
+        data-chat-log
+        role="log"
+        aria-live="polite"
+        aria-relevant="additions"
+        aria-label="Conversation with the TrustSphere query console"
+      ></div>
+
+      <div class="chat-suggestions">
+        <p class="chat-suggestions__label">Try asking</p>
+        <div class="chat-suggestions__list" data-chat-suggestions-list></div>
+      </div>
+
+      <form class="chat-composer" data-chat-form novalidate>
+        <label class="visually-hidden" for="chat-input">Ask about a transaction, corridor, or typology</label>
+        <input
+          class="chat-composer__input"
+          id="chat-input"
+          type="text"
+          name="query"
+          placeholder="e.g. “Why was the BVI transfer flagged Critical?”"
+          autocomplete="off"
+          data-chat-input
+        />
+        <button class="btn btn--primary chat-composer__submit" type="submit" data-chat-submit>
+          Send
+        </button>
+      </form>
+
+      <p class="chat-console__note">
+        Backlog questions ("how many", "highest priority", "by region") call the
+        live Stage 5a service at <code>localhost:8010</code> when it's reachable —
+        <code>python main.py serve</code> starts it. Case explanations stay mocked
+        against the same three cases as the dashboard either way. See
+        <code>js/query.js</code>.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <span class="wordmark wordmark--small">TrustSphere</span>
+    <p class="site-footer__note">
+      Team 07 · SAP hackathon prototype. A real console would call
+      <code>POST /query</code> against the RAG + Joule explainability service;
+      this page mocks that response from the same case data as the dashboard.
+    </p>
+  </div>
+</footer>
+
+<script src="vendor/gsap/gsap.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/gauge.js"></script>
+<script src="js/query.js"></script>
+</body>
+</html>
