@@ -96,8 +96,9 @@
         Eight phases, one auditable path from raw ledger to a human decision.
       </h2>
       <p class="pipeline-section__lede">
-        Every score traces back through the same pipeline — nothing skips a step,
-        and nothing downstream of Phase 6 is allowed to decide on its own.
+        Every driver traces back to a source row, and every severity is policy-set —
+        nothing here is fitted against outcomes, and nothing decides without an
+        analyst signing off.
       </p>
     </div>
 
@@ -112,10 +113,12 @@
             <span class="pipeline-step__num">1</span>
           </div>
           <div class="pipeline-step__body">
-            <p class="pipeline-step__title">Raw data ingestion</p>
+            <span class="pipeline-step__tag">HANA Cloud</span>
+            <p class="pipeline-step__title">Ingestion</p>
             <p class="pipeline-step__detail">
-              Synthetic transactions and a KYC/case-note corpus, seeded with the
-              outliers and patterns the demo needs to find — nothing is left to chance.
+              16 tables — transactions, companies, beneficial owners, risk scores,
+              alerts, cases — pulled from the real TEAM_07 schema. Seed data from the
+              case organizers, not synthetic, landing in a local cache.
             </p>
           </div>
         </li>
@@ -125,10 +128,11 @@
             <span class="pipeline-step__num">2</span>
           </div>
           <div class="pipeline-step__body">
-            <p class="pipeline-step__title">Data quality checks</p>
+            <p class="pipeline-step__title">Evidence pack</p>
             <p class="pipeline-step__detail">
-              NaN, duplicate, and reporting-gap audits run before any scoring —
-              a missing field or a suspicious gap is itself a signal, not noise to discard.
+              Pushed-down SQL assembles one provenance-carrying record per alert.
+              Every join is a LEFT JOIN, so a missing dimension row never silently
+              drops an alert from the queue.
             </p>
           </div>
         </li>
@@ -138,11 +142,13 @@
             <span class="pipeline-step__num">3</span>
           </div>
           <div class="pipeline-step__body">
-            <span class="pipeline-step__tag">SAP Datasphere</span>
-            <p class="pipeline-step__title">Federation</p>
+            <span class="pipeline-step__tag">31 policy-set rules</span>
+            <p class="pipeline-step__title">Risk drivers</p>
             <p class="pipeline-step__detail">
-              NA, EU, and APAC sources unify into one queryable layer — a semantic
-              layer over each region's existing core banking system, not a migration.
+              Each rule's severity is set by policy, never fitted against outcomes —
+              that keeps this rule-based prioritisation, not a model influencing
+              customer decisions. Drivers decompose the existing risk score and
+              report how often each rule fires, so an investigator can calibrate.
             </p>
           </div>
         </li>
@@ -152,11 +158,11 @@
             <span class="pipeline-step__num">4</span>
           </div>
           <div class="pipeline-step__body">
-            <span class="pipeline-step__tag">SAP BTP</span>
-            <p class="pipeline-step__title">Scoring &amp; risk tiering</p>
+            <p class="pipeline-step__title">Backlog ranking</p>
             <p class="pipeline-step__detail">
-              An AHP-weighted rule score blends with Isolation Forest, EWMA, and GARCH
-              signals; typology tagging and the severity matrix decide the final tier.
+              The unresolved queue is ranked by regulatory consequence of leaving an
+              alert unresolved — deterministic, policy-weighted, stress-tested. It
+              ranks exposure, not the odds an alert resolves as a true positive.
             </p>
           </div>
         </li>
@@ -166,10 +172,12 @@
             <span class="pipeline-step__num">5</span>
           </div>
           <div class="pipeline-step__body">
-            <p class="pipeline-step__title">Context retrieval (RAG)</p>
+            <span class="pipeline-step__tag">SAP AI Core</span>
+            <p class="pipeline-step__title">GraphRAG ingestion</p>
             <p class="pipeline-step__detail">
-              Vector search over KYC and policy documents, plus beneficial-ownership
-              graph traversal for shell-company cases, surfaces the context behind a flag.
+              FATF, OFAC, EU AML, Wolfsberg, and MAS text is chunked, embedded, and
+              LLM-extracted into a regulatory graph in HANA; a separate deterministic
+              pass adds clients, beneficial owners, and alerts from the same source tables.
             </p>
           </div>
         </li>
@@ -179,11 +187,12 @@
             <span class="pipeline-step__num">6</span>
           </div>
           <div class="pipeline-step__body">
-            <span class="pipeline-step__tag">Joule</span>
-            <p class="pipeline-step__title">Explainability</p>
+            <p class="pipeline-step__title">GraphRAG retrieval</p>
             <p class="pipeline-step__detail">
-              Score, factors, and retrieved context become a two-to-three sentence
-              rationale a compliance officer can act on. Joule explains — it never decides.
+              Native HANA vector search over regulatory text runs alongside
+              degree-capped graph traversal, surfacing both the clause behind a flag
+              and the connected entities — shared owners, prior alerts — vector
+              search alone can't reach.
             </p>
           </div>
         </li>
@@ -193,10 +202,12 @@
             <span class="pipeline-step__num">7</span>
           </div>
           <div class="pipeline-step__body">
-            <p class="pipeline-step__title">Outputs &amp; dashboards</p>
+            <span class="pipeline-step__tag">FastAPI</span>
+            <p class="pipeline-step__title">Grounding API</p>
             <p class="pipeline-step__detail">
-              An investigator case screen surfaces the score, tier, factors, and
-              rationale; leadership KPIs — false-positive rate, cost-per-case — roll up separately.
+              <code>POST /ground-risk-driver</code> wires retrieval up for anything
+              downstream that needs it, returning vector matches and graph context
+              together, ranked and capped for readability.
             </p>
           </div>
         </li>
@@ -206,10 +217,11 @@
             <span class="pipeline-step__num">8</span>
           </div>
           <div class="pipeline-step__body">
-            <p class="pipeline-step__title">Human review</p>
+            <p class="pipeline-step__title">Narrative &amp; human review</p>
             <p class="pipeline-step__detail">
-              An analyst accepts or overrides the tier with a mandatory reason,
-              logged to an append-only audit trail. No score is final without it.
+              Structured drivers become prose by template, not by a model
+              paraphrasing freely — every number is checked against its source field
+              first. An analyst reads it and is the one who accepts or overrides the tier.
             </p>
           </div>
         </li>

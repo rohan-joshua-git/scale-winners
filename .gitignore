@@ -1,3 +1,8 @@
+# Remotion demo video (video/)
+video/node_modules/
+video/out/
+video/.remotion/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
